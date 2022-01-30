@@ -1,1 +1,0 @@
-# krunalbad.github.io
