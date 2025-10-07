@@ -5,130 +5,330 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Krunal Badami — Senior React Native Developer</title>
 
-  <!-- Ubuntu font -->
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-
+  <!-- Montserrat font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="hero">
-        <h1 id="name">KRUNAL BADAMI</h1>
-        <p class="role">Senior React Native Developer • TV App Developer • Team Lead</p>
-        <div class="meta">
-          <a href="mailto:krunalbadami@outlook.com" class="chip">krunalbadami@outlook.com</a>
-          <a href="https://linkedin.com/in/krunalbadami" target="_blank" rel="noopener" class="chip">linkedin.com/in/krunalbadami</a>
-          <span class="chip">Surat, Gujarat, India</span>
-          <span class="chip" id="yearsExperience">Experience: —</span>
-        </div>
-      </div>
-
-      <div class="actions">
-        <a id="downloadPdf" class="btn outline" download>Download PDF</a>
-        <button id="toggleTheme" class="btn">Toggle Theme</button>
-      </div>
+  <header class="header">
+    <h1>KRUNAL BADAMI</h1>
+    <p class="subtitle">Senior React Native Developer • TV App Developer • Team Lead</p>
+    <div class="contact">
+      <a href="mailto:krunalbadami@outlook.com">krunalbadami@outlook.com</a> |
+      <a href="https://linkedin.com/in/krunalbadami" target="_blank">linkedin.com/in/krunalbadami</a> |
+      Surat, Gujarat, India
     </div>
+    <table class="meta-table">
+      <tr><td>Overall Experience:</td><td><span id="overallExp"></span></td></tr>
+      <tr><td>React Native Experience:</td><td><span id="rnExp"></span></td></tr>
+      <tr><td>Full Stack Experience:</td><td><span id="fsExp"></span></td></tr>
+      <tr><td>TV App Development (Apple TV, Android TV, Roku):</td><td><span id="tvExp"></span></td></tr>
+    </table>
   </header>
 
-  <main class="container main-grid">
-    <section class="panel about">
+  <main class="content">
+    <section>
       <h2>Summary</h2>
-      <p id="summary">
-        An effective communicator who delivers the right information at the right time. I focus on performant, maintainable React Native apps and build TV experiences for Roku / Android TV / Apple TV.
+      <p>
+        As a Senior React Native Developer with over <span id="summaryYears"></span> years of experience in Android and iOS mobile application development, I specialize in designing and implementing cross-platform applications. My expertise extends to developing TV applications for Android TV, Apple TV, and ROKU devices, leveraging BrightScript and React Native to create engaging and seamless user experiences. I have 4+ years of experience in project management, client communication, and team leadership, ensuring successful project delivery and stakeholder satisfaction.
       </p>
-
-      <h3>Key pointers</h3>
-      <ul id="keyPointers">
-        <li>UI Design Excellence — innovative theming & user-focused interfaces</li>
-        <li>Performance Optimization — reduced load times and improved UX</li>
-        <li>Apps Success — led, developed & launched 15+ apps with strong ratings</li>
-      </ul>
-
-      <h3>Tools & Technologies</h3>
-      <div class="chips" id="skills">
-        <!-- filled by JS -->
-      </div>
     </section>
 
-    <section class="panel experience">
-      <h2>Experience</h2>
+    <section>
+      <h2>Key Highlights</h2>
+      <ul>
+        <li>UI Design Excellence — innovative theming & user-focused interfaces.</li>
+        <li>Performance Optimization — improved load time & user retention.</li>
+        <li>Apps Success — led, developed & launched <strong id="appsCount">15+</strong> apps with excellent ratings.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><span id="skills-link" title="https://github.com/krunalbad">Skills</span> & Technologies</h2>
+      <div class="tooltip" id="skills-tooltip">GitHub: https://github.com/krunalbad</div>
+      <p>As a React Native developer, I build Android and iOS mobile apps, and also create apps for Apple tvOS and Android TV using React Native. Additionally, I code using BrightScript to build apps for Roku devices.</p>
+      <ul class="skills-list">
+        <li data-skill="React Native" tabindex="0">React Native</li>
+        <li data-skill="JavaScript" tabindex="0">JavaScript</li>
+        <li data-skill="TypeScript" tabindex="0">TypeScript</li>
+        <li data-skill="Redux / MobX" tabindex="0">Redux / MobX</li>
+        <li data-skill="React Query" tabindex="0">React Query</li>
+        <li data-skill="GraphQL" tabindex="0">GraphQL</li>
+        <li data-skill="Firebase" tabindex="0">Firebase</li>
+        <li data-skill="Roku / react-native-tvos" tabindex="0">Roku / react-native-tvos</li>
+        <li data-skill="BrightScript" tabindex="0">BrightScript</li>
+        <li data-skill="REST APIs" tabindex="0">REST APIs</li>
+        <li data-skill="UI / Theming" tabindex="0">UI / Theming</li>
+        <li data-skill="Performance Optimization" tabindex="0">Performance Optimization</li>
+        <li data-skill="Team Leadership" tabindex="0">Team Leadership</li>
+        <li data-skill="Manual Testing" tabindex="0">Manual Testing</li>
+        <li data-skill="Client Communication" tabindex="0">Client Communication</li>
+        <li data-skill="Project Management" tabindex="0">Project Management</li>
+        <li data-skill="Agile" tabindex="0">Agile</li>
+        <li data-skill="Scrum" tabindex="0">Scrum</li>
+      </ul>
+      <div id="skill-tooltip" class="skill-tooltip"></div>
+      <h3>Tools</h3>
+      <ul class="tools-list">
+        <li data-skill="Git" tabindex="0">Git</li>
+        <li data-skill="Shell scripting" tabindex="0">Shell scripting</li>
+        <li data-skill="VS Code" tabindex="0">VS Code</li>
+        <li data-skill="Xcode" tabindex="0">Xcode</li>
+        <li data-skill="Android Studio" tabindex="0">Android Studio</li>
+        <li data-skill="Postman" tabindex="0">Postman</li>
+        <li data-skill="Figma" tabindex="0">Figma</li>
+        <li data-skill="Jira" tabindex="0">Jira</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Experience <span id="totalExpHeader"></span></h2>
 
       <article class="job">
         <h3>Senior JavaScript & React Native Developer — LOGICWIND</h3>
-        <div class="job-meta">
-          <span>Surat, Gujarat, India</span>
-          <span>10 Aug 2020 — <strong id="presentLabel">Present</strong></span>
-        </div>
-        <p>
-          Oversaw and developed multiple projects with on-time delivery and strong focus on functional performance.
-        </p>
+        <p class="duration">Aug 2020 — <span id="logicwindDuration">Present</span> • Surat, Gujarat</p>
         <ul>
-          <li>Built mobile apps with live streaming, media player integrations (Google Cast & AirPlay) and offline-capable API handling.</li>
-          <li>Implemented analytics & crash detection; contributed fixes to open-source libraries.</li>
-          <li>Created scripts for env switching, AAB verification, version bump and CI friendliness.</li>
-          <li>Trained interns and mentored junior developers; worked on ROKU projects as well.</li>
+          <li>Demonstrated extensive experience as a skilled React Native Developer, achieving results through collaborative teamwork and fostering growth in cross-functional teams.</li>
+          <li>Led development of high-impact projects for over 1 million users, managing 50+ feature branches and parallel sprints with GIT.</li>
+          <li>Integrated Firebase, analytics, and Sentry for data-driven performance improvements.</li>
+          <li>Crafted responsive, pixel-perfect interfaces for large-scale mobile applications across platforms.</li>
+          <li>Developed social media platforms with live streaming, integrating Google Cast and AirPlay.</li>
+          <li>Proficient in TypeScript with detailed JSDoc and annotations for code clarity.</li>
+          <li>Handled REST/GraphQL APIs, sockets, and subscriptions for seamless backend communication.</li>
+          <li>Optimized code for performance and security, developed SH scripts for automation.</li>
+          <li>Oversaw projects focusing on timely delivery, performance, and cost efficiency.</li>
+          <li>Gained expertise in tvOS, Android TV, and Roku development, building custom UI for remote navigation.</li>
+          <li>Implemented voice search and deep linking for TV platforms.</li>
+          <li>Adapted to BrightScript for Roku, maintaining UX consistency across platforms.</li>
+          <li>Optimized for TV hardware limitations and built reusable cross-platform modules.</li>
+          <li>Built Android and iOS mobile apps using React Native.</li>
+          <li>Developed apps for Apple tvOS and Android TV platforms.</li>
+          <li>Coded in BrightScript to build apps for Roku devices.</li>
         </ul>
       </article>
 
       <article class="job">
         <h3>Full Stack Developer — Leocan Technologies</h3>
-        <div class="job-meta">
-          <span>Surat, Gujarat, India</span>
-          <span>2018 — 2020</span>
-        </div>
+        <p class="duration">May 2019 — Aug 2020 <span id="leocanDuration"></span> • Surat, Gujarat</p>
         <ul>
-          <li>APIs with PHP/Node.js, MySQL; led web projects with CodeIgniter & CorePHP MVC.</li>
-          <li>Led a React Native upgrade and implemented a camera filter for a social app.</li>
+          <li>Created APIs using PHP Slim/Node.js and managed MySQL database.</li>
+          <li>Lead web projects of CodeIgniter 3 and Core PHP MVC.</li>
+          <li>Took lead on React Native projects where I had accomplished tasks like Version Upgrades, Video Player, Photo Viewer, Custom Camera with filters, performance issues, designing, etc.</li>
+          <li>Lead and Handled Angular/React.js Projects where I had completed task of many designing, 3rd party package integration and few APIs in CodeIgniter 3.</li>
         </ul>
       </article>
 
-      <div class="summary-counters">
-        <div class="counter">
-          <strong id="appsCount">15+</strong>
-          <span>Apps launched</span>
-        </div>
-        <div class="counter">
-          <strong id="yearsText">—</strong>
-          <span>Years experience</span>
-        </div>
-      </div>
+      <article class="job">
+        <h3>Internship — Leocan Technologies</h3>
+        <p class="duration">Dec 2018 — Jun 2019 <span id="internshipDuration"></span> • Surat, Gujarat</p>
+        <ul>
+          <li>Gained initial experience in full stack development and React Native projects.</li>
+        </ul>
+      </article>
     </section>
 
-    <section class="panel education">
+    <section>
       <h2>Education</h2>
-      <p><strong>UKA TARSADIA University</strong><br> B.Tech in Computer Engineering (2015 — 2018)</p>
-      <p><strong>Sir J.J. English School</strong><br> SSC & HSC (2000 — 2015)</p>
+      <p><strong>UKA TARSADIA University</strong> — B.Tech in Computer Engineering (2015 – 2018)</p>
+      <p><strong>Sir J.J. English School</strong> — SSC & HSC (2000 – 2015)</p>
     </section>
-
-    <aside class="panel side">
-      <h2>Contact</h2>
-      <ul class="contact-list">
-        <li>Email: <a href="mailto:krunalbadami@outlook.com">krunalbadami@outlook.com</a></li>
-        <li>LinkedIn: <a href="https://linkedin.com/in/krunalbadami" target="_blank" rel="noopener">linkedin.com/in/krunalbadami</a></li>
-      </ul>
-
-      <h3>Highlights</h3>
-      <ul>
-        <li>Dynamic theming & localization experience</li>
-        <li>React Query, GraphQL, REST optimisations</li>
-        <li>TypeScript & reusable component libraries</li>
-      </ul>
-
-      <h3>Quick links</h3>
-      <div class="chips">
-        <a class="chip small" href="#skills">Skills</a>
-        <a class="chip small" href="#summary">Summary</a>
-      </div>
-    </aside>
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>© <span id="currentYear"></span> Krunal Badami — Built with HTML, CSS & JS.</p>
-    </div>
+  <footer class="footer">
+    <div id="footer-images"></div>
+    © <span id="currentYear"></span> Krunal Badami — Built with HTML, CSS & JS.
   </footer>
 
-  <script src="scripts.js"></script>
+  <script>
+    (function () {
+      const startDate = new Date(2019, 6, 1); // May 2019
+      const appsLaunched = "15+";
+
+      // Calculate duration
+      function calcDuration(from, to = new Date()) {
+        let y = to.getFullYear() - from.getFullYear();
+        let m = to.getMonth() - from.getMonth();
+        if (m < 0) {
+          y--;
+          m += 12;
+        }
+        return { years: y, months: m };
+      }
+
+      function human(d) {
+        if (d.years === 0 && d.months === 0) return "Less than a month";
+        if (d.years === 0) return `${d.months} month${d.months > 1 ? "s" : ""}`;
+        return `${d.years} year${d.years > 1 ? "s" : ""} ${d.months} month${
+          d.months > 1 ? "s" : ""
+        }`;
+      }
+
+      const appsCountEl = document.getElementById("appsCount");
+      const yearEl = document.getElementById("currentYear");
+      const toggleThemeBtn = document.getElementById("toggleTheme");
+
+      const dur = calcDuration(startDate);
+      appsCountEl.textContent = appsLaunched;
+
+      // Summary years
+      const summaryYearsEl = document.getElementById("summaryYears");
+      summaryYearsEl.textContent = dur.years + "+";
+
+      // Detailed experiences
+      const overallExpEl = document.getElementById("overallExp");
+      overallExpEl.textContent = human(dur);
+
+      const rnExpEl = document.getElementById("rnExp");
+      rnExpEl.textContent = human(dur);
+
+      const fsExpEl = document.getElementById("fsExp");
+      fsExpEl.textContent = "1 year (2019)";
+
+      const tvStart = new Date(2021, 7, 1); // Aug 2021
+      const tvDur = calcDuration(tvStart);
+      const tvExpEl = document.getElementById("tvExp");
+      tvExpEl.textContent = human(tvDur);
+
+      // Logicwind duration
+      const logicwindStart = new Date(2020, 7, 10); // Aug 10, 2020
+      const logicwindDur = calcDuration(logicwindStart);
+      const logicwindDurationEl = document.getElementById("logicwindDuration");
+      logicwindDurationEl.textContent = `Present (${human(logicwindDur)})`;
+
+      // Leocan duration
+      const leocanStart = new Date(2019, 6, 1); // May 2019
+      const leocanEnd = new Date(2020, 7, 1); // Aug 2020
+      const leocanDur = calcDuration(leocanStart, leocanEnd);
+      const leocanDurationEl = document.getElementById("leocanDuration");
+      leocanDurationEl.textContent = `(${human(leocanDur)})`;
+
+      // Internship duration
+      const internshipStart = new Date(2018, 11, 1); // Dec 2018
+      const internshipEnd = new Date(2019, 5, 1); // Jun 2019
+      const internshipDur = calcDuration(internshipStart, internshipEnd);
+      const internshipDurationEl = document.getElementById("internshipDuration");
+      internshipDurationEl.textContent = `(${human(internshipDur)})`;
+
+      // Total experience header
+      const totalExpHeaderEl = document.getElementById("totalExpHeader");
+      totalExpHeaderEl.textContent = `(${human(dur)})`;
+
+      // Footer year
+      yearEl.textContent = new Date().getFullYear();
+
+      // Skill and tool tooltips
+      const skillDescriptions = {
+        "React Native": "Framework for building native mobile apps using React and JavaScript.",
+        "JavaScript": "Programming language for web development and interactivity.",
+        "TypeScript": "Typed superset of JavaScript for better code quality.",
+        "Redux / MobX": "State management libraries for predictable app state.",
+        "React Query": "Library for data fetching and caching in React apps.",
+        "GraphQL": "Query language for APIs, allowing efficient data retrieval.",
+        "Firebase": "Backend-as-a-Service for authentication, database, and hosting.",
+        "Roku / react-native-tvos": "Tools for developing apps on Roku and Apple TV platforms.",
+        "BrightScript": "Scripting language for Roku device applications.",
+        "REST APIs": "Standard for communication between client and server.",
+        "UI / Theming": "Designing user interfaces and consistent visual themes.",
+        "Performance Optimization": "Techniques to improve app speed and efficiency.",
+        "Team Leadership": "Managing and guiding development teams.",
+        "Manual Testing": "Quality assurance through hands-on testing.",
+        "Client Communication": "Interacting with clients for requirements and feedback.",
+        "Project Management": "Overseeing project timelines, resources, and delivery.",
+        "Agile": "Methodology for flexible and iterative development.",
+        "Scrum": "Framework within Agile for managing complex projects.",
+        "Git": "Version control system for tracking changes in code.",
+        "Shell scripting": "Scripts for automating tasks in command-line environments.",
+        "VS Code": "Code editor with extensions for development.",
+        "Xcode": "Integrated development environment for iOS apps.",
+        "Android Studio": "Official IDE for Android app development.",
+        "Postman": "Tool for testing and developing APIs.",
+        "Figma": "Collaborative interface design tool.",
+        "Jira": "Project management tool for tracking issues and tasks."
+      };
+      const skillTooltip = document.getElementById('skill-tooltip');
+      let tooltipTimeout;
+      document.querySelectorAll('.skills-list li, .tools-list li').forEach(li => {
+        const skill = li.dataset.skill;
+        li.addEventListener('mouseenter', (e) => {
+          clearTimeout(tooltipTimeout);
+          skillTooltip.textContent = skillDescriptions[skill];
+          skillTooltip.style.display = 'block';
+          skillTooltip.style.top = e.pageY + 10 + 'px';
+          skillTooltip.style.left = e.pageX + 10 + 'px';
+          setTimeout(() => skillTooltip.classList.add('show'), 10);
+        });
+        li.addEventListener('mouseleave', () => {
+          tooltipTimeout = setTimeout(() => {
+            skillTooltip.classList.remove('show');
+            setTimeout(() => skillTooltip.style.display = 'none', 300);
+          }, 200);
+        });
+        li.addEventListener('click', (e) => {
+          clearTimeout(tooltipTimeout);
+          li.classList.add('inverted');
+          setTimeout(() => li.classList.remove('inverted'), 500);
+          skillTooltip.textContent = skillDescriptions[skill];
+          skillTooltip.style.display = 'block';
+          skillTooltip.style.top = e.pageY + 10 + 'px';
+          skillTooltip.style.left = e.pageX + 10 + 'px';
+          setTimeout(() => skillTooltip.classList.add('show'), 10);
+          setTimeout(() => {
+            skillTooltip.classList.remove('show');
+            setTimeout(() => skillTooltip.style.display = 'none', 300);
+          }, 3000);
+        });
+      });
+      skillTooltip.addEventListener('mouseenter', () => {
+        clearTimeout(tooltipTimeout);
+      });
+      skillTooltip.addEventListener('mouseleave', () => {
+        tooltipTimeout = setTimeout(() => {
+          skillTooltip.classList.remove('show');
+          setTimeout(() => skillTooltip.style.display = 'none', 300);
+        }, 200);
+      });
+
+      // Footer images: each once, shuffled
+      const imgSources = [
+        'assets/71153271.png',
+        'assets/Amazon_Fire_TV_logo_(New).png',
+        'assets/Android_TV-Logo.wine.png',
+        'assets/AppleTVLogo.svg.png',
+        'assets/google-tv-logo.png',
+        'assets/Microsoft.VisualStudio.Services.Icons.Default.png',
+        'assets/React-icon.svg.png',
+        'assets/roku-logo.png'
+      ];
+      // Shuffle
+      for (let i = imgSources.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [imgSources[i], imgSources[j]] = [imgSources[j], imgSources[i]];
+      }
+      const footerImages = document.getElementById('footer-images');
+      for (let i = 0; i < 8; i++) {
+        const img = document.createElement('img');
+        img.src = imgSources[i];
+        footerImages.appendChild(img);
+      }
+
+      // Skills tooltip
+      const skillsLink = document.getElementById("skills-link");
+      const skillsTooltip = document.getElementById("skills-tooltip");
+      skillsLink.addEventListener("mouseenter", () => {
+        skillsTooltip.style.display = "block";
+      });
+      skillsLink.addEventListener("mouseleave", () => {
+        skillsTooltip.style.display = "none";
+      });
+      skillsLink.addEventListener("click", () => {
+        skillsTooltip.style.display = "block";
+        setTimeout(() => {
+          skillsTooltip.style.display = "none";
+        }, 3000);
+        window.open("https://github.com/krunalbad", "_blank");
+      });
+
+    })();
+  </script>
 </body>
 </html>
