@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Krunal Badami | Senior Software Developer (React Native & Roku)</title>
+    <meta name="description" content="Senior Software Developer & Team Lead specializing in React Native (Mobile/TV) and Roku (BrightScript). High-performance media streaming and OTT applications." />
+    <meta name="keywords" content="Senior React Native Developer, Roku Developer, BrightScript, SceneGraph, TypeScript, OTT Development, HLS, DASH, Surat, India" />
+    <meta name="author" content="Krunal Badami" />
+    <meta property="og:title" content="Krunal Badami | Senior Software Developer" />
+    <meta property="og:description" content="Expert in React Native and Roku development. Delivering hardware-efficient streaming apps and technical leadership." />
+    <meta property="og:type" content="profile" />
+    <meta property="og:url" content="https://krunalbad.github.io/" />
+    <style>
+      :root {
+        --bg-color: #1f2937;
+        --paper-color: #ffffff;
+        --primary-text: #111827;
+        --secondary-text: #4b5563;
+        --accent-color: #2563eb;
+        --border-color: #e5e7eb;
+        --font-main: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: var(--bg-color);
+        font-family: var(--font-main);
+        color: var(--primary-text);
+        line-height: 1.5;
+        padding: 40px 20px;
+      }
+      .resume-page {
+        background: var(--paper-color);
+        max-width: 850px;
+        margin: 0 auto;
+        padding: 50px 60px;
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+        border-radius: 4px;
+        position: relative;
+      }
+      header {
+        border-bottom: 2px solid var(--accent-color);
+        padding-bottom: 20px;
+        margin-bottom: 25px;
+      }
+      .header-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 12px;
+      }
+      h1 {
+        font-size: 2.2rem;
+        font-weight: 800;
+        letter-spacing: -0.025em;
+        text-transform: uppercase;
+        color: #000;
+      }
+      .tagline {
+        font-size: 1.1rem;
+        color: var(--accent-color);
+        font-weight: 600;
+        margin-top: 5px;
+      }
+      .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-top: 15px;
+        font-size: 0.9rem;
+        color: var(--secondary-text);
+      }
+      .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        text-decoration: none;
+        color: inherit;
+      }
+      #experience-years {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 10px;
+        background: #f1f7ff;
+        border: 1px solid #e6f0ff;
+        padding: 6px 10px;
+        border-radius: 999px;
+        font-weight: 700;
+        color: var(--accent-color);
+        font-size: 0.9rem;
+      }
+      .pill-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 8px;
+      }
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        padding: 4px 10px;
+        border: 1px solid #e6f0ff;
+        background: #f7fbff;
+        border-radius: 999px;
+        color: var(--accent-color);
+        font-weight: 700;
+        font-size: 0.85rem;
+      }
+      section {
+        margin-bottom: 25px;
+      }
+      h2 {
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: var(--accent-color);
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 5px;
+        margin-bottom: 12px;
+      }
+      .summary-text {
+        font-size: 0.95rem;
+        color: var(--secondary-text);
+        text-align: justify;
+      }
+      .experience-item {
+        margin-bottom: 20px;
+      }
+      .exp-header {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 700;
+        font-size: 1rem;
+      }
+      .exp-sub {
+        display: flex;
+        justify-content: space-between;
+        font-style: italic;
+        color: var(--secondary-text);
+        font-size: 0.9rem;
+        margin-bottom: 8px;
+      }
+      ul {
+        margin-left: 18px;
+        font-size: 0.9rem;
+        color: var(--secondary-text);
+      }
+      li {
+        margin-bottom: 4px;
+      }
+      .skills-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+      .skill-group strong {
+        display: block;
+        font-size: 0.85rem;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        color: var(--primary-text);
+      }
+      .skill-tags {
+        font-size: 0.85rem;
+        color: var(--secondary-text);
+      }
+      .floating-controls {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .btn {
+        background: var(--accent-color);
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        border-radius: 50px;
+        font-weight: 700;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        text-decoration: none;
+      }
+      @media print {
+        @page {
+          size: A4;
+          margin: 0;
+        }
+        html, body {
+          background: white;
+          padding: 0;
+        }
+        .resume-page {
+          box-shadow: none;
+          margin: 0;
+          width: 100%;
+          max-width: 100%;
+          padding: 0;
+        }
+        .floating-controls,
+        .no-print {
+          display: none !important;
+        }
+        h1 {
+          color: #000;
+        }
+        a {
+          text-decoration: none;
+          color: black;
+        }
+        section {
+          page-break-inside: avoid;
+        }
+      }
+      .icon {
+        width: 16px;
+        height: 16px;
+        fill: currentColor;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="resume-page" id="resume-root">
+      <header>
+        <div class="header-top">
+          <div>
+            <h1>Krunal Badami</h1>
+            <div class="tagline">Senior Software Developer & Team Lead</div>
+            <div id="experience-years"></div>
+            <div class="pill-row">
+              <span class="pill">Team Lead</span>
+              <span class="pill">Project Manager</span>
+              <span class="pill">React Native</span>
+              <span class="pill">Roku</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-info">
+          <a href="mailto:krunalbadami@outlook.com" class="contact-item">krunalbadami@outlook.com</a>
+          <a href="tel:+918141379017" class="contact-item">+91 81413 79017</a>
+          <span class="contact-item">Surat, Gujarat, India</span>
+          <a href="https://linkedin.com/in/krunalbadami" class="contact-item">LinkedIn</a>
+          <a href="https://github.com/krunalbad" class="contact-item">GitHub</a>
+        </div>
+      </header>
+      <section id="exp-summary">
+        <h2>Experience Summary</h2>
+        <div style="border:1px solid #e6eef8;border-radius:10px;overflow:hidden;background:#fbfdff">
+          <table style="width:100%;border-collapse:collapse;font-size:0.95rem">
+            <tr>
+              <td style="padding:10px 12px;color:var(--secondary-text);font-weight:600;width:62%">Overall Experience</td>
+              <td id="overallExperienceVal" style="padding:10px 12px;text-align:right;font-weight:700;color:var(--accent-color);width:38%"></td>
+            </tr>
+            <tr>
+              <td style="padding:10px 12px;color:var(--secondary-text);font-weight:600">React Native Experience</td>
+              <td id="rnExperienceVal" style="padding:10px 12px;text-align:right;font-weight:700;color:var(--accent-color)"></td>
+            </tr>
+            <tr>
+              <td style="padding:10px 12px;color:var(--secondary-text);font-weight:600">Full Stack Experience</td>
+              <td id="fullstackExperienceVal" style="padding:10px 12px;text-align:right;font-weight:700;color:var(--accent-color)"></td>
+            </tr>
+            <tr>
+              <td style="padding:10px 12px;color:var(--secondary-text);font-weight:600">TV App Development (Apple TV, Android TV, Roku)</td>
+              <td id="tvExperienceVal" style="padding:10px 12px;text-align:right;font-weight:700;color:var(--accent-color)"></td>
+            </tr>
+            <tr>
+              <td style="padding:10px 12px;color:var(--secondary-text);font-weight:600">React.js / Next.js Experience</td>
+              <td id="reactNextExperienceVal" style="padding:10px 12px;text-align:right;font-weight:700;color:var(--accent-color)"></td>
+            </tr>
+            <tr>
+              <td style="padding:10px 12px;color:var(--secondary-text);font-weight:600">Android Native Experience</td>
+              <td id="androidNativeExperienceVal" style="padding:10px 12px;text-align:right;font-weight:700;color:var(--accent-color)"></td>
+            </tr>
+            <tr>
+              <td style="padding:10px 12px;color:var(--secondary-text);font-weight:600">iOS Native Experience</td>
+              <td id="iosNativeExperienceVal" style="padding:10px 12px;text-align:right;font-weight:700;color:var(--accent-color)"></td>
+            </tr>
+            <tr>
+              <td style="padding:10px 12px;color:var(--secondary-text);font-weight:600">Team Lead & Project Manager</td>
+              <td id="leadPmExperienceVal" style="padding:10px 12px;text-align:right;font-weight:700;color:var(--accent-color)"></td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section id="summary">
+        <h2>Professional Summary</h2>
+        <ul>
+          <li class="summary-text">7+ years overall experience across mobile, TV, and backend integrations.</li>
+          <li class="summary-text">React Native specialist for Android/iOS and TV (tvOS, Android TV).</li>
+          <li class="summary-text">Roku development with BrightScript/SceneGraph and custom media flows.</li>
+          <li class="summary-text">HLS/DASH streaming, deep linking, analytics, and Sentry monitoring.</li>
+          <li class="summary-text">Team lead and project manager on multi-track delivery and QA workflows.</li>
+        </ul>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <div class="skill-group">
+            <strong>Languages & Core</strong>
+            <div class="skill-tags">JavaScript (ES6+), TypeScript, BrightScript (Roku)</div>
+          </div>
+          <div class="skill-group">
+            <strong>Frameworks & Libraries</strong>
+            <div class="skill-tags">React Native, React, Redux, Zustand, SceneGraph (Roku UI)</div>
+          </div>
+          <div class="skill-group">
+            <strong>Platforms</strong>
+            <div class="skill-tags">Android, iOS, tvOS, Android TV, Roku, Fire TV</div>
+          </div>
+          <div class="skill-group">
+            <strong>Media & Streaming</strong>
+            <div class="skill-tags">HLS/DASH, Video/Audio Players, Google Cast, AirPlay, DRM basics</div>
+          </div>
+          <div class="skill-group">
+            <strong>Testing & QA</strong>
+            <div class="skill-tags">Manual testing, Functional testing, Regression testing</div>
+          </div>
+          <div class="skill-group">
+            <strong>Leadership & Delivery</strong>
+            <div class="skill-tags">Team leading, Mentoring, Client communication, Technical project management, Design reviews</div>
+          </div>
+        </div>
+      </section>
+      <section id="experience">
+        <h2>Professional Experience</h2>
+        <article class="experience-item">
+          <div class="exp-header">
+            <span>Logicwind Technologies LLP</span>
+            <span>Surat, India</span>
+          </div>
+          <div class="exp-sub">
+            <span>Senior Software Developer & Team Lead</span>
+            <span>Sept 2022 — Present</span>
+          </div>
+          <ul>
+            <li>Delivered high-traffic media platforms with reliable HLS/DASH streaming and playback stability.</li>
+            <li>Optimized TV apps for hardware constraints across Roku, Android TV, and tvOS.</li>
+            <li>Built reusable TypeScript modules to accelerate cross-platform development.</li>
+            <li>Reduced production crashes using Sentry and rigorous manual regression testing.</li>
+            <li>Led delivery for multiple concurrent projects coordinating design, backend, and QA.</li>
+          </ul>
+          <div class="exp-sub" style="margin-top:8px">
+            <span>JavaScript Developer</span>
+            <span>Aug 2020 — Aug 2022</span>
+          </div>
+          <ul>
+            <li>Built cross-platform React Native mobile apps and admin web panels with performance improvements.</li>
+            <li>Implemented adaptive HLS playback, background playback, and platform-specific media optimizations.</li>
+            <li>Supported unit/integration tests and manual QA during releases.</li>
+          </ul>
+        </article>
+        <article class="experience-item">
+          <div class="exp-header">
+            <span>Leocan Technologies LLP</span>
+            <span>Surat, India</span>
+          </div>
+          <div class="exp-sub">
+            <span>Full Stack Developer (React Native)</span>
+            <span>Dec 2018 — Aug 2020</span>
+          </div>
+          <ul>
+            <li>Developed APIs with PHP/Node.js and managed MySQL databases for production workloads.</li>
+            <li>Upgraded React Native codebase from v55 to v59, stabilizing breaking changes.</li>
+            <li>Implemented camera filter features and image pipeline for social media use cases.</li>
+            <li>Collaborated with QA on regression testing and release quality.</li>
+          </ul>
+        </article>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="experience-item">
+          <div class="exp-header">Conservative Media Platform (OTT)</div>
+          <p class="summary-text" style="font-size: 0.9rem; margin-top: 5px">
+            Lead developer for news ecosystem serving ~2M users. Built mobile client and TV channels; implemented live chat, HLS/DASH video, and multi-device AirPlay/Cast support.
+          </p>
+        </div>
+        <div class="experience-item">
+          <div class="exp-header">AppsOnAir (Developer Platform)</div>
+          <p class="summary-text" style="font-size: 0.9rem; margin-top: 5px">
+            Contributed to OTA distribution, deep linking, and instant CodePush workflows; improved upload processes and remote configuration flows.
+          </p>
+        </div>
+        <div class="experience-item">
+          <div class="exp-header">Nonprofit Advocacy Platform</div>
+          <p class="summary-text" style="font-size: 0.9rem; margin-top: 5px">
+            Led mobile platform with media features including news articles, video playback, live streaming, commenting, and live chat; coordinated backend integration and requirements.
+          </p>
+        </div>
+        <div class="experience-item">
+          <div class="exp-header">Music Band Fan Engagement App</div>
+          <p class="summary-text" style="font-size: 0.9rem; margin-top: 5px">
+            Built subscription-based social features with messaging, video calls, and interactive content; managed scalable architecture and cross-team delivery.
+          </p>
+        </div>
+        <div class="experience-item">
+          <div class="exp-header">News Commentary Platform</div>
+          <p class="summary-text" style="font-size: 0.9rem; margin-top: 5px">
+            Implemented extensive media features across mobile; handled client communications and technical leadership for reliable high-performance experience.
+          </p>
+        </div>
+        <div class="experience-item">
+          <div class="exp-header">Cycle-Based Wellness App</div>
+          <p class="summary-text" style="font-size: 0.9rem; margin-top: 5px">
+            Designed wellness tracking with personalized flows and smooth transitions; coordinated backend APIs and ensured data integrity.
+          </p>
+        </div>
+        <div class="experience-item">
+          <div class="exp-header">Car Subscription Service App</div>
+          <p class="summary-text" style="font-size: 0.9rem; margin-top: 5px">
+            Developed vehicle rental app with custom period selection, streamlined booking, and backend integration for instant approvals.
+          </p>
+        </div>
+        <div class="experience-item">
+          <div class="exp-header">Community Advocacy Platform</div>
+          <p class="summary-text" style="font-size: 0.9rem; margin-top: 5px">
+            Built community engagement features with secure profiles and moderation; implemented scalable solutions for regional user growth.
+          </p>
+        </div>
+      </section>
+      <section id="education">
+        <h2>Education</h2>
+        <div class="exp-header" style="font-size: 0.9rem">
+          <span>Uka Tarsadia University — B.Tech in Computer Engineering</span>
+          <span>8.03 CGPA</span>
+        </div>
+        <ul style="margin-top:6px">
+          <li>Built CorePHP systems and PDF tools for campus projects under tight deadlines.</li>
+        </ul>
+      </section>
+      <section id="certs">
+        <h2>Licenses & Certifications</h2>
+        <div class="experience-item">
+          <div class="exp-header">International JavaScript Institute</div>
+          <div class="skill-tags" style="margin-top:5px">JavaScript Certified (JSE 40-01) — Issued Aug 2022</div>
+          <a href="https://www.credly.com/badges/8db1c5bc-1dda-433b-a176-767b998ab614/whatsapp" target="_blank" rel="noopener">View Credential</a>
+        </div>
+        <div class="experience-item">
+          <div class="exp-header">Udemy</div>
+          <div class="skill-tags" style="margin-top:5px">Introduction to JavaScript (Level 1) — Issued Jun 2021</div>
+          <a href="https://www.udemy.com/certificate/UC-d0decbe5-0755-4844-a870-beb1588a5256/" target="_blank" rel="noopener">View Credential</a>
+        </div>
+        <div class="experience-item">
+          <div class="exp-header">Microsoft</div>
+          <div class="skill-tags" style="margin-top:5px">Introduction to Programming Using JavaScript (98-382) — Issued Jun 2020</div>
+          <a href="https://www.credly.com/badges/2fe62e88-3c99-425b-ac94-bddc507f95c3" target="_blank" rel="noopener">View Credential</a>
+        </div>
+        <div class="experience-item">
+          <div class="exp-header">TestDome</div>
+          <div class="skill-tags" style="margin-top:5px">JavaScript Assessment — Issued Jun 2020 (Expired Jun 2023)</div>
+          <a href="https://www.testdome.com/certificates/37d9861f69f64c3c85b57c20a5707ae0" target="_blank" rel="noopener">View Credential</a>
+        </div>
+      </section>
+      <section id="contributions">
+        <h2>Open Source Contributions</h2>
+        <ul>
+          <li><a href="https://github.com/netguru/sticky-parallax-header/pulls?q=is%3Apr+author%3Akrunalbad+" target="_blank" rel="noopener">netguru/sticky-parallax-header</a> — Parallax header improvements.</li>
+          <li><a href="https://github.com/react-native-toolkit/react-native-better-image/pulls?q=is%3Apr+author%3Akrunalbad+" target="_blank" rel="noopener">react-native-toolkit/react-native-better-image</a> — Image performance enhancements.</li>
+          <li><a href="https://github.com/tanguyantoine/react-native-music-control/pulls?q=is%3Apr+author%3Akrunalbad+" target="_blank" rel="noopener">tanguyantoine/react-native-music-control</a> — Music control features.</li>
+          <li><a href="https://github.com/gazedash/react-native-airplay-ios/pulls?q=is%3Apr+author%3Akrunalbad+" target="_blank" rel="noopener">gazedash/react-native-airplay-ios</a> — AirPlay support improvements.</li>
+          <li><a href="https://github.com/GeekyAnts/NativeBase/pulls?q=is%3Apr+author%3Akrunalbad+" target="_blank" rel="noopener">GeekyAnts/NativeBase</a> — UI component enhancements.</li>
+          <li><a href="https://github.com/ovr/react-native-status-bar-height/pulls?q=is%3Apr+author%3Akrunalbad+" target="_blank" rel="noopener">ovr/react-native-status-bar-height</a> — Status bar utilities.</li>
+          <li><a href="https://github.com/Gustash/react-native-giphy-keyboard/pulls?q=is%3Abharamalhusen+" target="_blank" rel="noopener">Gustash/react-native-giphy-keyboard</a> — Giphy keyboard integration.</li>
+        </ul>
+      </section>
+      <section id="libraries">
+        <h2>Open Source Libraries</h2>
+        <ul>
+          <li><a href="https://github.com/logicwind/react-native-exit-app" target="_blank" rel="noopener">logicwind/react-native-exit-app</a> — Exit apps programmatically.</li>
+          <li><a href="https://github.com/logicwind/react-native-fold-detection" target="_blank" rel="noopener">logicwind/react-native-fold-detection</a> — Detect foldable device states.</li>
+          <li><a href="https://github.com/logicwind/react-native-matomo-tracker" target="_blank" rel="noopener">logicwind/react-native-matomo-tracker</a> — Matomo analytics integration.</li>
+          <li><a href="https://github.com/logicwind/react-native-status-bar-height" target="_blank" rel="noopener">logicwind/react-native-status-bar-height</a> — Status bar height detection.</li>
+          <li><a href="https://github.com/logicwind/react-native-tvos-keyboard" target="_blank" rel="noopener">logicwind/react-native-tvos-keyboard</a> — tvOS keyboard utilities.</li>
+          <li><a href="https://github.com/logicwind/react-native-rn-in-app-update" target="_blank" rel="noopener">logicwind/react-native-rn-in-app-update</a> — In-app updates.</li>
+          <li><a href="https://github.com/logicwind/react-native-tvos-ssl-pinning" target="_blank" rel="noopener">logicwind/react-native-tvos-ssl-pinning</a> — SSL pinning for tvOS.</li>
+        </ul>
+      </section>
+      <section id="availability">
+        <h2>Availability</h2>
+        <p class="summary-text">
+          Open to senior developer and team-lead roles (React Native — mobile & TV; Roku). Notice period: 60 days.
+        </p>
+      </section>
+      </section>
+    </main>
+    <div class="floating-controls no-print">
+      <button class="btn" onclick="window.print()">Print to PDF</button>
+    </div>
+    <script>
+      (function () {
+        const workPeriods = [
+          { start: new Date(2018, 4, 1), end: new Date(2018, 6, 1) }, // May–Jul (2 months)
+          { start: new Date(2018, 11, 1), end: new Date(2019, 1, 1) }, // Dec–Feb (2 months)
+          { start: new Date(2019, 2, 1), end: new Date(2020, 7, 1) }, // Mar 2019–Aug 2020 (17 months)
+          { start: new Date(2020, 7, 1), end: new Date() } // Aug 2020–Present
+        ];
+        function monthsBetween(start, end) {
+          let months =
+            (end.getFullYear() - start.getFullYear()) * 12 +
+            (end.getMonth() - start.getMonth());
+          if (end.getDate() < start.getDate()) months--;
+          return Math.max(0, months);
+        }
+        function human(months) {
+          const y = Math.floor(months / 12);
+          const m = months % 12;
+          return y + " yr" + (y !== 1 ? "s " : " ") + m + " mo" + (m !== 1 ? "s" : "");
+        }
+        const totalMonths = workPeriods.reduce(
+          (sum, p) => sum + monthsBetween(p.start, p.end),
+          0
+        );
+        var el = document.getElementById("experience-years");
+        if (el) el.textContent = "Overall Experience: " + human(totalMonths);
+      })();
+      (function () {
+        function monthsBetween(start, end) {
+          let months =
+            (end.getFullYear() - start.getFullYear()) * 12 +
+            (end.getMonth() - start.getMonth());
+          if (end.getDate() < start.getDate()) months--;
+          return Math.max(0, months);
+        }
+        function human(months) {
+          const y = Math.floor(months / 12);
+          const m = months % 12;
+          return y + " yr" + (y !== 1 ? "s" : "") + " " + m + " mo" + (m !== 1 ? "s" : "");
+        }
+        function computeAndRender() {
+          var now = new Date();
+          var periods = [
+            { start: new Date(2018, 4, 1), end: new Date(2018, 6, 1) },
+            { start: new Date(2018, 11, 1), end: new Date(2019, 1, 1) },
+            { start: new Date(2019, 2, 1), end: new Date(2020, 7, 1) },
+            { start: new Date(2020, 7, 1), end: now }
+          ];
+          var overallMonths = periods.reduce(function (sum, p) {
+            return sum + monthsBetween(p.start, p.end);
+          }, 0);
+          var rnMonths = overallMonths;
+          var tvMonths = monthsBetween(new Date(2021, 7, 13), now);
+          var fullStackMonths = monthsBetween(new Date(2019, 2, 1), new Date(2020, 7, 1));
+          var reactNextMonths = (function () {
+            var nowRef = new Date();
+            var start = new Date(nowRef.getFullYear() - 4, nowRef.getMonth(), nowRef.getDate());
+            return monthsBetween(start, nowRef);
+          })();
+          var nativeMonths = (function () {
+            var nowRef = new Date();
+            var start = new Date(nowRef.getFullYear() - 2, nowRef.getMonth(), nowRef.getDate());
+            return monthsBetween(start, nowRef);
+          })();
+          var leadPmMonths = (function () {
+            var nowRef = new Date();
+            var start = new Date(nowRef.getFullYear() - 3, nowRef.getMonth(), nowRef.getDate());
+            return monthsBetween(start, nowRef);
+          })();
+          var overallEl = document.getElementById("overallExperienceVal");
+          var rnEl = document.getElementById("rnExperienceVal");
+          var fsEl = document.getElementById("fullstackExperienceVal");
+          var tvEl = document.getElementById("tvExperienceVal");
+          var reactNextEl = document.getElementById("reactNextExperienceVal");
+          var androidNativeEl = document.getElementById("androidNativeExperienceVal");
+          var iosNativeEl = document.getElementById("iosNativeExperienceVal");
+          var leadPmEl = document.getElementById("leadPmExperienceVal");
+          if (overallEl) overallEl.textContent = human(overallMonths);
+          if (rnEl) rnEl.textContent = human(rnMonths);
+          if (fsEl) fsEl.textContent = human(fullStackMonths);
+          if (tvEl) tvEl.textContent = human(tvMonths);
+          if (reactNextEl) reactNextEl.textContent = human(reactNextMonths);
+          if (androidNativeEl) androidNativeEl.textContent = human(nativeMonths);
+          if (iosNativeEl) iosNativeEl.textContent = human(nativeMonths);
+          if (leadPmEl) leadPmEl.textContent = human(leadPmMonths);
+        }
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", computeAndRender);
+        } else {
+          computeAndRender();
+        }
+      })();
+    </script>
+  </body>
+</html>
