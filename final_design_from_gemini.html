@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Krunal Badami | Senior Software Developer (React Native & Roku)
+    </title>
+
+    <meta
+      name="description"
+      content="Senior Software Developer and Team Lead specializing in React Native (Mobile/TV) and Roku (BrightScript). 6+ years experience in high-performance media streaming and OTT applications."
+    />
+    <meta
+      name="keywords"
+      content="Senior React Native Developer, Roku Developer, BrightScript, SceneGraph, TypeScript, OTT Development, HLS, DASH, Surat, India"
+    />
+    <meta name="author" content="Krunal Badami" />
+
+    <meta
+      property="og:title"
+      content="Krunal Badami | Senior Software Developer"
+    />
+    <meta
+      property="og:description"
+      content="Expert in React Native and Roku development. Delivering hardware-efficient streaming apps and technical leadership."
+    />
+    <meta property="og:type" content="profile" />
+    <meta property="og:url" content="https://krunalbad.github.io/" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Krunal Badami",
+        "jobTitle": "Senior Software Developer & Team Lead",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Surat",
+          "addressRegion": "Gujarat",
+          "addressCountry": "India"
+        },
+        "url": "https://krunalbad.github.io/",
+        "sameAs": [
+          "https://www.linkedin.com/in/krunalbadami/",
+          "https://github.com/krunalbad"
+        ],
+        "knowsAbout": [
+          "React Native",
+          "Roku",
+          "BrightScript",
+          "SceneGraph",
+          "TypeScript",
+          "HLS/DASH",
+          "OTT Streaming"
+        ]
+      }
+    </script>
+
+    <style>
+      :root {
+        --bg-color: #f3f4f6;
+        --paper-color: #ffffff;
+        --primary-text: #111827;
+        --secondary-text: #4b5563;
+        --accent-color: #2563eb;
+        --border-color: #e5e7eb;
+        --font-main: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #1f2937; /* Dark grey for the "viewer" effect */
+        font-family: var(--font-main);
+        color: var(--primary-text);
+        line-height: 1.5;
+        padding: 40px 20px;
+      }
+
+      /* Floating Page Simulation */
+      .resume-page {
+        background: var(--paper-color);
+        max-width: 850px;
+        margin: 0 auto;
+        padding: 50px 60px;
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+        border-radius: 4px;
+        position: relative;
+      }
+
+      header {
+        border-bottom: 2px solid var(--accent-color);
+        padding-bottom: 20px;
+        margin-bottom: 25px;
+      }
+
+      .header-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+      }
+
+      h1 {
+        font-size: 2.2rem;
+        font-weight: 800;
+        letter-spacing: -0.025em;
+        text-transform: uppercase;
+        color: #000;
+      }
+      .tagline {
+        font-size: 1.1rem;
+        color: var(--accent-color);
+        font-weight: 600;
+        margin-top: 5px;
+      }
+
+      .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-top: 15px;
+        font-size: 0.85rem;
+        color: var(--secondary-text);
+      }
+
+      .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        color: inherit;
+      }
+      .contact-item:hover {
+        color: var(--accent-color);
+      }
+
+      section {
+        margin-bottom: 25px;
+      }
+      h2 {
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: var(--accent-color);
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 5px;
+        margin-bottom: 12px;
+      }
+
+      .summary-text {
+        font-size: 0.95rem;
+        color: var(--secondary-text);
+        text-align: justify;
+      }
+
+      /* Experience Items */
+      .experience-item {
+        margin-bottom: 20px;
+      }
+      .exp-header {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 700;
+        font-size: 1rem;
+      }
+      .exp-sub {
+        display: flex;
+        justify-content: space-between;
+        font-style: italic;
+        color: var(--secondary-text);
+        font-size: 0.9rem;
+        margin-bottom: 8px;
+      }
+
+      ul {
+        margin-left: 18px;
+        font-size: 0.9rem;
+        color: var(--secondary-text);
+      }
+      li {
+        margin-bottom: 4px;
+      }
+
+      /* Skills Grid */
+      .skills-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+      .skill-group strong {
+        display: block;
+        font-size: 0.85rem;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        color: var(--primary-text);
+      }
+      .skill-tags {
+        font-size: 0.85rem;
+        color: var(--secondary-text);
+      }
+
+      /* Controls */
+      .floating-controls {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .btn {
+        background: var(--accent-color);
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        border-radius: 50px;
+        font-weight: 600;
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        text-decoration: none;
+      }
+      .btn:hover {
+        transform: translateY(-2px);
+        background: #1d4ed8;
+      }
+
+      /* Print Styles */
+      @media print {
+        body {
+          background: white;
+          padding: 0;
+        }
+        .resume-page {
+          box-shadow: none;
+          margin: 0;
+          width: 100%;
+          max-width: 100%;
+          padding: 0;
+        }
+        .floating-controls,
+        .no-print {
+          display: none !important;
+        }
+        h1 {
+          color: #000;
+        }
+        a {
+          text-decoration: none;
+          color: black;
+        }
+        section {
+          page-break-inside: avoid;
+        }
+      }
+
+      /* SVG Icons */
+      .icon {
+        width: 16px;
+        height: 16px;
+        fill: currentColor;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="resume-page" id="printable-area">
+      <header>
+        <div class="header-top">
+          <div>
+            <h1>Krunal Badami</h1>
+            <div class="tagline">Senior Software Developer & Team Lead</div>
+          </div>
+        </div>
+
+        <div class="contact-info">
+          <span
+            class="contact-item"
+            onclick="copyToClipboard('krunalbadami@outlook.com', this)"
+          >
+            <svg class="icon" viewBox="0 0 20 20">
+              <path
+                d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+              />
+              <path
+                d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
+              />
+            </svg>
+            krunalbadami@outlook.com
+          </span>
+          <a href="tel:+918141379017" class="contact-item">
+            <svg class="icon" viewBox="0 0 20 20">
+              <path
+                d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 005.474 5.474l.772-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
+              />
+            </svg>
+            +91 81413 79017
+          </a>
+          <span class="contact-item">
+            <svg class="icon" viewBox="0 0 20 20">
+              <path
+                fill-rule="evenodd"
+                d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            Surat, Gujarat, India
+          </span>
+          <a href="https://linkedin.com/in/krunalbadami" class="contact-item">
+            <svg class="icon" viewBox="0 0 24 24">
+              <path
+                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+              />
+            </svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/krunalbad" class="contact-item">
+            <svg class="icon" viewBox="0 0 24 24">
+              <path
+                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.041-1.416-4.041-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.841 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+              />
+            </svg>
+            GitHub
+          </a>
+        </div>
+      </header>
+
+      <section id="summary">
+        <h2>Professional Summary</h2>
+        <p class="summary-text">
+          Senior Software Engineer & Team Lead with over 6 years of experience
+          architecting high-performance mobile and TV ecosystems. Specialist in
+          <strong>React Native</strong> and
+          <strong>Roku (BrightScript/SceneGraph)</strong>, delivering
+          production-grade media applications for 2M+ active users. Proven track
+          record in optimizing hardware-efficient code for low-power TV devices
+          and managing the full SDLC from technical design to manual QA and
+          deployment.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2>Technical Architecture</h2>
+        <div class="skills-container">
+          <div class="skill-group">
+            <strong>Mobile & TV Ecosystems</strong>
+            <div class="skill-tags">
+              React Native, Roku (BrightScript/SceneGraph), Android TV, tvOS,
+              Fire TV, iOS/Android.
+            </div>
+          </div>
+          <div class="skill-group">
+            <strong>State & Architecture</strong>
+            <div class="skill-tags">
+              TypeScript, Redux, Zustand, Context API, Hooks, React Query,
+              GraphQL, REST APIs.
+            </div>
+          </div>
+          <div class="skill-group">
+            <strong>Media & Performance</strong>
+            <div class="skill-tags">
+              HLS/DASH Streaming, Video Node, Deep Linking, Firebase, Sentry,
+              Memory Profiling.
+            </div>
+          </div>
+          <div class="skill-group">
+            <strong>Leadership & Tools</strong>
+            <div class="skill-tags">
+              Technical Project Management, Mentoring, Manual Testing, CI/CD,
+              JSDoc, Git.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience">
+        <h2>Professional Experience</h2>
+
+        <article class="experience-item">
+          <div class="exp-header">
+            <span>Logicwind Technologies LLP</span>
+            <span>Surat, India</span>
+          </div>
+          <div class="exp-sub">
+            <span>Senior Software Developer & Team Lead</span>
+            <span>Sept 2022 — Present</span>
+          </div>
+          <ul>
+            <li>
+              <strong>Architected</strong> and delivered high-traffic media
+              platforms (~2M MAU), ensuring 99.9% playback reliability using
+              HLS/DASH adaptive streaming.
+            </li>
+            <li>
+              <strong>Optimized</strong> TV applications for hardware
+              limitations (memory management, remote navigation UX) on Roku,
+              Android TV, and tvOS.
+            </li>
+            <li>
+              <strong>Engineered</strong> reusable cross-platform media modules
+              in TypeScript, reducing development cycles by 30% across mobile
+              and TV channels.
+            </li>
+            <li>
+              <strong>Reduced</strong> production crashes by 50% through the
+              implementation of Sentry error monitoring and rigorous manual
+              regression testing protocols.
+            </li>
+            <li>
+              <strong>Managed</strong> technical delivery for 8+ concurrent
+              projects, coordinating between design, backend, and QA teams.
+            </li>
+          </ul>
+        </article>
+
+        <article class="experience-item">
+          <div class="exp-header">
+            <span>Logicwind Technologies LLP</span>
+            <span>Surat, India</span>
+          </div>
+          <div class="exp-sub">
+            <span>JavaScript Developer</span>
+            <span>Aug 2020 — Aug 2022</span>
+          </div>
+          <ul>
+            <li>
+              Developed feature-rich React Native apps featuring offline
+              caching, background sync, and native module integrations.
+            </li>
+            <li>
+              Implemented custom SceneGraph components for Roku channels,
+              providing a seamless user experience on low-power devices.
+            </li>
+          </ul>
+        </article>
+
+        <article class="experience-item">
+          <div class="exp-header">
+            <span>Leocan Technologies LLP</span>
+            <span>Surat, India</span>
+          </div>
+          <div class="exp-sub">
+            <span>Full Stack Developer (React Native)</span>
+            <span>Dec 2018 — Aug 2020</span>
+          </div>
+          <ul>
+            <li>
+              <strong>Upgraded</strong> legacy React Native codebases (v55 to
+              v59), resolving critical breaking changes and stabilizing the
+              build pipeline.
+            </li>
+            <li>
+              <strong>Engineered</strong> social media features including image
+              processing shaders and real-time API integrations using
+              PHP/Node.js.
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="projects">
+        <h2>Key Projects</h2>
+        <div class="experience-item">
+          <div class="exp-header">Conservative Media Platform (OTT)</div>
+          <p class="summary-text" style="font-size: 0.9rem; margin-top: 5px">
+            Lead Developer for a news ecosystem serving 2M users. Built the
+            mobile client (React Native) and TV channels (Roku, Android TV,
+            Apple TV). Implemented live-chat, HLS video, and multi-device
+            AirPlay/Cast support.
+          </p>
+        </div>
+        <div class="experience-item">
+          <div class="exp-header">AppsOnAir (Dev Tool)</div>
+          <p class="summary-text" style="font-size: 0.9rem; margin-top: 5px">
+            Contributed to a developer platform for OTA distribution and instant
+            CodePush management, optimizing deep-linking logic and APK/IPA
+            upload workflows.
+          </p>
+        </div>
+      </section>
+
+      <section id="education">
+        <h2>Education & Certs</h2>
+        <div class="exp-header" style="font-size: 0.9rem">
+          <span>Uka Tarsadia University | B.Tech in Computer Engineering</span>
+          <span>8.03 CGPA</span>
+        </div>
+        <div class="skill-tags" style="margin-top: 5px">
+          Certifications: International JavaScript Institute (JSE 40-01),
+          Microsoft (98-382), Udemy JS Level 1.
+        </div>
+      </section>
+    </main>
+
+    <div class="floating-controls no-print">
+      <button class="btn" onclick="window.print()">
+        <svg class="icon" viewBox="0 0 20 20">
+          <path
+            fill-rule="evenodd"
+            d="M6 2a2 2 0 00-2 2v1H2v2h1v9a2 2 0 002 2h10a2 2 0 002-2V7h1V5h-2V4a2 2 0 00-2-2H6zm4 2H6v1h8V4h-4zm5 3H5v9h10V7z"
+            clip-rule="evenodd"
+          />
+        </svg>
+        Print to PDF
+      </button>
+    </div>
+
+    <script>
+      function copyToClipboard(text, el) {
+        navigator.clipboard.writeText(text).then(() => {
+          const originalText = el.innerHTML;
+          el.innerHTML = "Copied!";
+          setTimeout(() => {
+            el.innerHTML = originalText;
+          }, 2000);
+        });
+      }
+
+      // Professional Console Signature
+      console.log(
+        "%cKrunal Badami - Senior Software Engineer",
+        "color: #2563eb; font-size: 20px; font-weight: bold;"
+      );
+      console.log(
+        "Looking for high-performance React Native or Roku development? Let's connect."
+      );
+    </script>
+  </body>
+</html>
