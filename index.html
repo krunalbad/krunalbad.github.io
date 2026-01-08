@@ -11,7 +11,7 @@
 
     <meta
       name="description"
-      content="Krunal Badami — Senior Software Developer & Team Lead specializing in React Native (mobile & TV) and Roku development. Expert in media streaming, HLS/DASH, manual testing, and technical project management. 6+ years experience. Available for senior roles in India and remote."
+      content="Krunal Badami — Senior Software Developer & Team Lead specializing in React Native (mobile & TV) and Roku development. Expert in media streaming, HLS/DASH, manual testing, and technical project management. 7+ years experience. Available for senior roles in India and remote."
     />
     <meta
       name="keywords"
@@ -39,6 +39,67 @@
       property="og:image"
       content="https://krunalbad.github.io/krunal.png"
     />
+    <meta
+      property="og:image"
+      content="https://krunalbad.github.io/krunal_gemini.jpeg"
+    />
+    <meta
+      property="og:image"
+      content="https://krunalbad.github.io/krunal_indian.jpeg"
+    />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Krunal Badami — Senior Software Developer & Team Lead"
+    />
+    <meta
+      name="twitter:description"
+      content="Senior Software Developer & Team Lead specializing in React Native (mobile & TV) and Roku development. Expert in media streaming, HLS/DASH, manual testing, and technical project management. Available for senior roles in India and remote."
+    />
+    <meta
+      name="twitter:image"
+      content="https://krunalbad.github.io/krunal.png"
+    />
+    <meta name="twitter:url" content="https://krunalbad.github.io/" />
+
+    <!-- Additional SEO Meta Tags for Search Engines and Job Platforms -->
+    <meta name="googlebot" content="index,follow" />
+    <meta name="bingbot" content="index,follow" />
+    <meta name="slurp" content="index,follow" />
+    <!-- Yahoo -->
+    <meta
+      name="robots"
+      content="index,follow,max-snippet:160,max-image-preview:large,max-video-preview:-1"
+    />
+    <meta name="language" content="English" />
+    <meta name="geo.region" content="IN-GJ" />
+    <meta name="geo.placename" content="Surat" />
+    <meta name="geo.position" content="21.1702;72.8311" />
+    <meta name="ICBM" content="21.1702, 72.8311" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="distribution" content="global" />
+    <meta name="rating" content="general" />
+    <meta name="target" content="all" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="MobileOptimized" content="width" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Krunal Badami Resume" />
+    <meta name="msapplication-TileColor" content="#0b5cff" />
+    <meta name="msapplication-TileImage" content="krunal.png" />
+    <meta name="application-name" content="Krunal Badami Resume" />
+
+    <!-- Job-Specific Meta Tags for Recruiter Platforms -->
+    <meta name="job:location" content="Surat, Gujarat, India" />
+    <meta name="job:type" content="full-time, remote" />
+    <meta
+      name="job:skills"
+      content="React Native, Roku, BrightScript, TypeScript, HLS, DASH, Mobile App Development, TV App Development"
+    />
+    <meta name="job:experience" content="7+ years" />
+    <meta name="job:title" content="Senior Software Developer & Team Lead" />
 
     <script type="application/ld+json">
       {
@@ -492,6 +553,43 @@
           margin-top: 20px !important;
         }
       }
+
+      /* Professional Color Palette */
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-weight: 500;
+        color: white;
+        transition: opacity 0.2s ease;
+      }
+      .btn:hover {
+        opacity: 0.85;
+      }
+      .icon {
+        width: 18px;
+        height: 18px;
+        margin-right: 8px;
+        fill: currentColor;
+      }
+
+      /* Color Assignments */
+      .btn-print {
+        background-color: #475569;
+      } /* Slate Gray */
+      .btn-secondary {
+        background-color: #64748b;
+      } /* Light Slate */
+      .btn-primary {
+        background-color: #4f46e5;
+      } /* Indigo */
+      .btn-success {
+        background-color: #16a34a;
+      } /* Emerald Green */
     </style>
   </head>
   <body>
@@ -581,6 +679,10 @@
             <td><span id="overallExp"></span></td>
           </tr>
           <tr>
+            <td>JavaScript / TypeScript:</td>
+            <td><span id="overallExp1"></span></td>
+          </tr>
+          <tr>
             <td>React Native Experience:</td>
             <td><span id="rnExp"></span></td>
           </tr>
@@ -595,13 +697,9 @@
           <tr>
             <td>React.js / Next.js Experience:</td>
             <td><span id="reactNextExp"></span></td>
-          </tr>
+          </tr>          </tr>
           <tr>
-            <td>Android Native Experience:</td>
-            <td><span id="androidNativeExp"></span></td>
-          </tr>
-          <tr>
-            <td>iOS Native Experience:</td>
+            <td>Android / iOS Native Experience:</td>
             <td><span id="iosNativeExp"></span></td>
           </tr>
           <tr>
@@ -614,13 +712,16 @@
         <h2>Professional Summary</h2>
         <p class="summary-text">
           As a Senior React Native Developer with over 7+ years of experience in
-          Android and iOS mobile application development, I specialize in
-          designing and implementing cross-platform applications. My expertise
-          extends to developing TV applications for Android TV, Apple TV, and
-          ROKU devices, leveraging BrightScript and React Native to create
-          engaging and seamless user experiences. I have 4+ years of experience
-          in project management, client communication, and team leadership,
-          ensuring successful project delivery and stakeholder satisfaction.
+          Android and iOS mobile application development, I excel at
+          collaborating with cross-functional teams to design and implement
+          cross-platform applications. My expertise extends to developing TV
+          applications for Android TV, Apple TV, and ROKU devices, working
+          closely with backend engineers and designers to leverage BrightScript
+          and React Native for creating engaging and seamless user experiences.
+          With 4+ years of experience in project management, client
+          communication, and team leadership, I ensure successful project
+          delivery and stakeholder satisfaction through effective collaboration
+          and communication.
         </p>
       </section>
       <section id="experience">
@@ -634,6 +735,9 @@
 
           <div class="role-row">
             <span class="role-name">Senior React Native Developer</span>
+            <span class="date-range"
+              >August 2020 - February 2026 (5 years 7 months)</span
+            >
           </div>
 
           <ul>
@@ -700,6 +804,9 @@
 
           <div class="role-row">
             <span class="role-name">Full Stack Developer</span>
+            <span class="date-range"
+              >December 2018 - August 2020 (1 year 9 months)</span
+            >
           </div>
 
           <ul>
@@ -744,6 +851,7 @@
 
           <div class="role-row">
             <span class="role-name">JavaScript Intern</span>
+            <span class="date-range">May 2018 - July 2018 (3 months)</span>
           </div>
 
           <ul>
@@ -937,6 +1045,19 @@
               <span class="tag">Redux</span>
               <span class="tag">React Query</span>
               <span class="tag">SceneGraph</span>
+            </div>
+          </div>
+
+          <div class="skill-cat">
+            <span class="skill-cat-title">Third-Party Libraries</span>
+            <div class="skill-tags">
+              <span class="tag">React Navigation</span>
+              <span class="tag">Axios</span>
+              <span class="tag">AsyncStorage</span>
+              <span class="tag">React Native Vector Icons</span>
+              <span class="tag">React Native Gesture Handler</span>
+              <span class="tag">React Native Reanimated</span>
+              <span class="tag">React Native Paper</span>
             </div>
           </div>
 
@@ -1222,14 +1343,39 @@
       </section>
 
       <section id="availability">
-        <h2 style="border: none">Availability</h2>
-        <p style="font-size: 12px">
-          <strong>Serving Notice Period:</strong> Last working date is 27th Feb
-          2026. Seeking Senior Developer / Team Lead roles.
-        </p>
+        <h2>Availability</h2>
+        <ul style="font-size: 12px; padding-left: 20px">
+          <li>
+            <strong>Serving Notice Period:</strong> Last working date is 27th
+            Feb 2026. Seeking Senior Developer / Team Lead roles.
+          </li>
+          <li>
+            I can join around 9th March (under
+            <span id="days-until-join"></span> days buffer).
+          </li>
+          <li>
+            Also, if it works from then, I am open to negotiate compensation
+            around my current compensation.
+          </li>
+        </ul>
       </section>
 
       <footer class="footer">
+        <!-- Hidden profile images for Google Image Search indexing -->
+        <div style="display: none">
+          <img
+            src="krunal.png"
+            alt="Krunal Badami professional profile photo - Senior Software Developer and Team Lead specializing in React Native and Roku development"
+          />
+          <img
+            src="krunal_gemini.jpeg"
+            alt="Krunal Badami profile photo - React Native developer with expertise in mobile and TV app development"
+          />
+          <img
+            src="krunal_indian.jpeg"
+            alt="Krunal Badami Indian developer - Senior software engineer from Surat, Gujarat with 7+ years experience"
+          />
+        </div>
         <div id="footer-images"></div>
         © <span id="currentYear"></span> Krunal Badami — Built with HTML, CSS &
         JS.
@@ -1251,7 +1397,7 @@
     </main>
 
     <div class="ui-controls no-print">
-      <button class="btn" onclick="window.print()">
+      <button class="btn btn-print" onclick="window.print()">
         <svg class="icon" viewBox="0 0 20 20">
           <path
             fill-rule="evenodd"
@@ -1261,7 +1407,8 @@
         </svg>
         Print PDF
       </button>
-      <button class="btn" style="background: #111" onclick="copyEmail()">
+
+      <button class="btn btn-secondary" onclick="copyEmail()">
         <svg class="icon" viewBox="0 0 20 20">
           <path
             d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
@@ -1270,9 +1417,62 @@
         </svg>
         Copy Email
       </button>
-    </div>
 
+      <button class="btn btn-primary" onclick="writeEmail()">
+        <svg class="icon" viewBox="0 0 20 20">
+          <path
+            d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+          />
+          <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+        </svg>
+        Write Email
+      </button>
+
+      <button class="btn btn-success" onclick="callNow()">
+        <svg class="icon" viewBox="0 0 20 20">
+          <path
+            d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 005.474 5.474l.772-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
+          />
+        </svg>
+        Call Now
+      </button>
+    </div>
     <script>
+      function copyEmail() {
+        navigator.clipboard.writeText("krunalbadami@outlook.com").then(() => {
+          alert("Email copied to clipboard!");
+        });
+      }
+
+      // Calculate days until join date
+      const joinDate = new Date(2026, 2, 9); // March 9, 2026 (months are 0-based)
+      const today = new Date();
+      const daysUntilJoin = Math.ceil(
+        (joinDate - today) / (1000 * 60 * 60 * 24)
+      );
+      const daysEl = document.getElementById("days-until-join");
+      daysEl.textContent = daysUntilJoin;
+
+      // Write Email function
+      window.writeEmail = function () {
+        const email = "krunalbadami@outlook.com";
+        const subject = encodeURIComponent(
+          "Job Opportunity - Senior React Native Developer"
+        );
+        const body = encodeURIComponent(
+          "Hello Krunal,\n\nI came across your resume and I'm interested in discussing potential opportunities.\n\nPlease let me know your availability for a conversation.\n\nBest regards"
+        );
+        const mailtoLink = `mailto:${email}?subject=${subject}&body=${body}`;
+        window.location.href = mailtoLink;
+      };
+
+      // Call Now function
+      window.callNow = function () {
+        const phone = "+918141379017";
+        const telLink = `tel:${phone}`;
+        window.location.href = telLink;
+      };
+
       (function () {
         /* =====================================================
            SOURCE OF TRUTH — ALL WORKING PERIODS (NO GAPS)
@@ -1338,6 +1538,9 @@
         // Update elements
         const overallExpEl = document.getElementById("overallExp");
         overallExpEl.textContent = human(totalDur);
+                const overallExp1 = document.getElementById("overallExp1");
+        overallExp1.textContent = human(totalDur);
+
 
         const rnExpEl = document.getElementById("rnExp");
         rnExpEl.textContent = human(totalDur);
@@ -1367,9 +1570,7 @@
           nowRef.getMonth() - 9,
           nowRef.getDate()
         );
-        const androidNativeEl = document.getElementById("androidNativeExp");
         const iosNativeEl = document.getElementById("iosNativeExp");
-        androidNativeEl.textContent = human(calcDuration(nativeStart, nowRef));
         iosNativeEl.textContent = human(calcDuration(nativeStart, nowRef));
 
         // Team Lead & Project Manager: 4 years 3 months back from today
@@ -1522,6 +1723,18 @@
           "assets/React-icon.svg.png",
           "assets/roku-logo.png",
         ];
+        const imgDescriptions = {
+          "assets/71153271.png": "React Native framework logo",
+          "assets/Amazon_Fire_TV_logo_(New).png":
+            "Amazon Fire TV platform logo",
+          "assets/Android_TV-Logo.wine.png": "Android TV platform logo",
+          "assets/AppleTVLogo.svg.png": "Apple TV platform logo",
+          "assets/google-tv-logo.png": "Google TV platform logo",
+          "assets/Microsoft.VisualStudio.Services.Icons.Default.png":
+            "Visual Studio Code editor logo",
+          "assets/React-icon.svg.png": "React JavaScript library logo",
+          "assets/roku-logo.png": "Roku streaming device logo",
+        };
         // Shuffle
         for (let i = imgSources.length - 1; i > 0; i--) {
           const j = Math.floor(Math.random() * (i + 1));
@@ -1531,26 +1744,9 @@
         for (let i = 0; i < 8; i++) {
           const img = document.createElement("img");
           img.src = imgSources[i];
+          img.alt = imgDescriptions[imgSources[i]];
           footerImages.appendChild(img);
         }
-
-        // Copy Email function with fallback
-        window.copyEmail = function () {
-          const email = "krunalbadami@outlook.com";
-          if (navigator.clipboard && navigator.clipboard.writeText) {
-            navigator.clipboard
-              .writeText(email)
-              .then(() => {
-                showCopyFeedback("Email copied to clipboard!");
-              })
-              .catch((err) => {
-                console.error("Failed to copy: ", err);
-                fallbackCopyTextToClipboard(email);
-              });
-          } else {
-            fallbackCopyTextToClipboard(email);
-          }
-        };
 
         function fallbackCopyTextToClipboard(text) {
           const textArea = document.createElement("textarea");
@@ -1580,27 +1776,7 @@
         }
 
         function showCopyFeedback(message) {
-          // Try alert first
-          try {
-            alert(message);
-          } catch (e) {
-            // If alert is blocked, show a temporary notification
-            const notification = document.createElement("div");
-            notification.textContent = message;
-            notification.style.position = "fixed";
-            notification.style.top = "20px";
-            notification.style.right = "20px";
-            notification.style.background = "#0b5cff";
-            notification.style.color = "#fff";
-            notification.style.padding = "10px 20px";
-            notification.style.borderRadius = "5px";
-            notification.style.zIndex = "10000";
-            notification.style.fontSize = "14px";
-            document.body.appendChild(notification);
-            setTimeout(() => {
-              document.body.removeChild(notification);
-            }, 3000);
-          }
+          alert(message);
         }
 
         // Skills tooltip
