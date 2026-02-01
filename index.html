@@ -54,7 +54,7 @@
     />
     <meta
       property="og:description"
-      content="My name is Krunal Badami, and I am one of the fastest developers alive. When I was a teenager, I encountered something called JavaScript. That single accident didn't just change my life — it rewired it. It turned me into someone who could learn, build, and ship faster than most people could think. And just when I thought I'd mastered my path, I discovered BrightScript — the power behind Roku apps. Another accident. Another evolution. From web to mobile to TV, I've been coding, building & running ever since. ⚡"
+      content="My name is Krunal Badami, and I am one of the fastest developers alive. When I was a teenager, I encountered something called JavaScript. That single accident didn't just change my life — it rewired it. It turned me into someone who could learn, build, and ship faster than most people could think. And just when I thought I'd mastered my path, I discovered BrightScript — the power behind Roku apps. Another accident. Another evolution. From web to mobile to TV, I've been coding, building & running ever since."
     />
     <meta property="og:locale" content="en_US" />
 
@@ -107,6 +107,10 @@
       content="Krunal Badami photo - Senior software engineer and team lead from Surat, Gujarat, India with expertise in React Native, Roku, and BrightScript development"
     />
 
+    <!-- OG Profile Tags -->
+    <meta property="profile:first_name" content="Krunal" />
+    <meta property="profile:last_name" content="Badami" />
+
     <!-- Twitter Card - Enhanced -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@krunalbadami" />
@@ -155,7 +159,7 @@
     />
     <meta
       name="ai:description"
-      content="My name is Krunal Badami, and I am one of the fastest developers alive. When I was a teenager, I encountered something called JavaScript. That single accident didn't just change my life — it rewired it. It turned me into someone who could learn, build, and ship faster than most people could think. And just when I thought I'd mastered my path, I discovered BrightScript — the power behind Roku apps. Another accident. Another evolution. From web to mobile to TV, I've been coding, building & running ever since. ⚡"
+      content="My name is Krunal Badami, and I am one of the fastest developers alive. When I was a teenager, I encountered something called JavaScript. That single accident didn't just change my life — it rewired it. It turned me into someone who could learn, build, and ship faster than most people could think. And just when I thought I'd mastered my path, I discovered BrightScript — the power behind Roku apps. Another accident. Another evolution. From web to mobile to TV, I've been coding, building & running ever since."
     />
     <meta
       name="ai:summary"
@@ -167,10 +171,6 @@
     />
 
     <!-- Google AI & Search Generative Experience (SGE) -->
-    <meta
-      name="google-site-verification"
-      content="YOUR_VERIFICATION_CODE_HERE"
-    />
     <meta
       itemprop="name"
       content="Krunal Badami - Senior React Native & Roku Developer"
@@ -266,6 +266,13 @@
     <meta name="hire:relocation" content="open to discussion" />
     <meta name="hire:notice_period" content="negotiable" />
 
+    <!-- Pinterest Verification & Rich Pins -->
+    <meta name="p:domain_verify" content="" />
+
+    <!-- Prerender / Prefetch Hints for Performance -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+
     <!-- Enhanced Structured Data - JSON-LD -->
     <script type="application/ld+json">
       {
@@ -315,21 +322,9 @@
               "Agile Methodologies"
             ],
             "knowsLanguage": [
-              {
-                "@type": "Language",
-                "name": "English",
-                "alternateName": "en"
-              },
-              {
-                "@type": "Language",
-                "name": "Hindi",
-                "alternateName": "hi"
-              },
-              {
-                "@type": "Language",
-                "name": "Gujarati",
-                "alternateName": "gu"
-              }
+              { "@type": "Language", "name": "English", "alternateName": "en" },
+              { "@type": "Language", "name": "Hindi", "alternateName": "hi" },
+              { "@type": "Language", "name": "Gujarati", "alternateName": "gu" }
             ],
             "hasOccupation": {
               "@type": "Occupation",
@@ -449,7 +444,7 @@
               "@id": "https://krunalbad.github.io/krunal.png"
             },
             "datePublished": "2024-01-01T00:00:00+00:00",
-            "dateModified": "2026-01-08T00:00:00+00:00",
+            "dateModified": "2026-01-30T00:00:00+00:00",
             "inLanguage": "en-US"
           },
           {
@@ -521,652 +516,660 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
     <style>
-      /* --- System & Layout Variables --- */
-      :root {
-        --bg-viewer: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
-        --paper: #ffffff;
-        --text-primary: #1a202c;
-        --text-secondary: #4a5568;
-        --accent: #1e40af;
-        --accent-light: #dbeafe;
-        --accent-hover: #1d4ed8;
-        --border: #cbd5e0;
-        --border-light: #edf2f7;
-        --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-          0 2px 4px -1px rgba(0, 0, 0, 0.06);
-        --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-          0 4px 6px -2px rgba(0, 0, 0, 0.05);
-        --font-stack: "Montserrat", "Inter", system-ui, -apple-system,
-          sans-serif;
-        --page-width: 210mm;
-        --page-padding: 15mm;
-      }
-
       * {
         box-sizing: border-box;
         margin: 0;
         padding: 0;
       }
 
+      :root {
+        --heading-font: "EB Garamond", "Georgia", "Times New Roman", serif;
+        --body-font: "Inter", "Helvetica Neue", Arial, sans-serif;
+        --black: #1a1a1a;
+        --dark: #333333;
+        --mid: #555555;
+        --light-text: #666666;
+        --section-bg: #f0f0f0;
+        --border: #cccccc;
+        --white: #ffffff;
+        --page-w: 210mm;
+        --page-pad: 14mm 16mm;
+      }
+
       body {
-        background-color: var(--bg-viewer);
-        font-family: var(--font-stack);
-        color: var(--text-primary);
-        line-height: 1.4;
+        font-family: var(--body-font);
+        color: var(--dark);
+        background: #b0b0b0;
         display: flex;
         justify-content: center;
-        padding: 40px 20px;
-        min-height: 100vh;
+        padding: 24px 16px;
+        line-height: 1.35;
+        -webkit-font-smoothing: antialiased;
       }
 
-      /* --- The "Paper" Resume --- */
-      .resume-paper {
-        background: var(--paper);
+      .resume {
+        background: var(--white);
         width: 100%;
-        max-width: var(--page-width);
-        padding: var(--page-padding);
-        box-shadow: var(--shadow-lg);
-        border-radius: 8px;
-        position: relative;
-        border: 1px solid var(--border-light);
-        margin-bottom: 350px;
+        max-width: var(--page-w);
+        padding: var(--page-pad);
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
+        margin-bottom: 280px;
       }
 
-      /* --- Header Section --- */
-      header {
-        margin-bottom: 20px;
-        /* border-bottom: 2px solid var(--accent); */
-        padding-bottom: 15px;
+      /* ===== HEADER ===== */
+      .header {
+        text-align: center;
+        padding-bottom: 10px;
+        border-bottom: 1px solid var(--border);
+        margin-bottom: 10px;
       }
-      .header-top {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        padding-top: 15px;
-      }
-      h1 {
-        font-size: 28px;
-        font-weight: 800;
+      .header h1 {
+        font-family: var(--heading-font);
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: 3px;
         text-transform: uppercase;
-        letter-spacing: -0.02em;
-        color: var(--text-primary);
-        line-height: 1.1;
-        background: linear-gradient(
-          135deg,
-          var(--accent) 0%,
-          var(--accent-hover) 100%
-        );
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
+        color: var(--black);
+        margin-bottom: 2px;
       }
-      .role-title {
+      .header .subtitle {
+        font-family: var(--heading-font);
         font-size: 14px;
-        color: var(--accent);
-        font-weight: 700;
-        margin-top: 6px;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-      }
-
-      .years-pill {
-        display: inline-block;
-        background: var(--accent-light);
-        color: var(--accent);
-        font-size: 11px;
-        font-weight: 700;
-        padding: 4px 10px;
-        border-radius: 4px;
-        margin-top: 10px;
-      }
-
-      .contact-bar {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 18px;
-        margin-top: 18px;
-        font-size: 13px;
-        color: var(--text-secondary);
-      }
-      .contact-link {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        color: inherit;
-        text-decoration: none;
         font-weight: 500;
-        padding: 6px 12px;
-        border-radius: 6px;
-        transition: all 0.2s ease;
-        border: 1px solid transparent;
-        margin-bottom: 15px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: var(--mid);
+        margin-bottom: 8px;
       }
-      .contact-link:hover {
-        background: var(--accent-light);
-        border-color: var(--accent);
-        color: var(--accent);
+      .header .contact-row {
+        font-size: 11px;
+        color: var(--dark);
+        line-height: 1.6;
       }
-      .icon {
-        width: 14px;
-        height: 14px;
-        fill: currentColor;
+      .header .contact-row a {
+        color: var(--dark);
+        text-decoration: none;
+      }
+      .header .contact-row .sep {
+        margin: 0 6px;
+        color: var(--border);
+      }
+      .header .notice-badge {
+        display: inline-block;
+        margin-top: 6px;
+        background: var(--black);
+        color: var(--white);
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        padding: 3px 12px;
+        border-radius: 2px;
       }
 
-      /* --- PRINT FLOW FIXES --- */
-      section {
-        margin-bottom: 24px;
-        /* Prevent section from starting at the very bottom of a page */
+      /* ===== SECTIONS ===== */
+      .section {
+        margin-bottom: 10px;
         break-inside: auto;
       }
-
-      h2 {
-        font-size: 14px;
-        font-weight: 800;
+      .section-title {
+        font-family: var(--heading-font);
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 2.5px;
         text-transform: uppercase;
-        letter-spacing: 1.5px;
-        color: var(--accent);
-        border-bottom: 2px solid var(--accent);
-        padding-bottom: 6px;
-        margin-bottom: 16px;
-        /* FIX: Ensure header never stays alone at the bottom of a page */
+        color: var(--black);
+        background: var(--section-bg);
+        padding: 5px 10px;
+        margin-bottom: 8px;
+        border-left: 3px solid var(--black);
         break-after: avoid;
         page-break-after: avoid;
       }
 
-      article {
-        margin-bottom: 18px;
-        /* FIX: Keeps job/project blocks together so they don't split mid-sentence */
+      /* ===== OVERVIEW TABLE ===== */
+      .overview-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 11px;
+        margin-bottom: 2px;
+      }
+      .overview-table td {
+        padding: 2px 0;
+        vertical-align: top;
+      }
+      .overview-table td:first-child {
+        font-weight: 600;
+        color: var(--dark);
+        width: 62%;
+      }
+      .overview-table td:last-child {
+        text-align: right;
+        font-weight: 700;
+        color: var(--black);
+      }
+
+      /* ===== SUMMARY ===== */
+      .summary-text {
+        font-size: 11.5px;
+        line-height: 1.55;
+        color: var(--dark);
+        text-align: justify;
+      }
+
+      /* ===== JOBS ===== */
+      .job {
+        margin-bottom: 10px;
         break-inside: avoid;
         page-break-inside: avoid;
       }
-
-      .summary-text {
-        text-align: justify;
-        color: var(--text-secondary);
-        line-height: 1.5;
-        font-size: 13px;
-      }
-
-      .exp-header {
+      .job-header {
         display: flex;
         justify-content: space-between;
         align-items: baseline;
-        margin-bottom: 2px;
+        margin-bottom: 1px;
       }
-      .company {
+      .job-company {
+        font-family: var(--heading-font);
+        font-size: 14px;
         font-weight: 700;
-        font-size: 15px;
-        color: var(--text-primary);
-        background: linear-gradient(
-          135deg,
-          var(--text-primary) 0%,
-          #374151 100%
-        );
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
+        color: var(--black);
       }
-      .location {
-        font-size: 11px;
-        color: var(--text-secondary);
-      }
-
-      .role-row {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 4px;
-      }
-      .role-name {
-        font-weight: 600;
-        font-size: 13px;
-        color: var(--accent);
-      }
-      .date-range {
-        font-size: 11px;
-        font-weight: 600;
-        color: var(--text-secondary);
-        font-family: monospace;
-      }
-
-      ul {
-        list-style: none;
-        padding-left: 0;
-        margin-top: 6px;
-      }
-      li {
-        position: relative;
-        padding-left: 14px;
-        margin-bottom: 3px;
-        font-size: 12.5px;
-        line-height: 1.4;
-        color: var(--text-secondary);
-      }
-      li::before {
-        content: "•";
-        position: absolute;
-        left: 0;
-        color: var(--accent);
-        font-weight: bold;
-      }
-
-      .project-meta {
-        font-size: 11px;
-        color: #6b7280;
-        margin-bottom: 4px;
+      .job-location {
+        font-size: 10px;
+        color: var(--light-text);
         font-style: italic;
       }
-
-      .platform-block {
-        background: linear-gradient(
-          135deg,
-          var(--accent-light) 0%,
-          rgba(30, 64, 175, 0.05) 100%
-        );
-        border-left: 4px solid var(--accent);
-        padding: 12px 16px;
-        margin-top: 10px;
-        border-radius: 0 8px 8px 0;
-        break-inside: avoid;
-        box-shadow: var(--shadow);
+      .job-role-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 3px;
       }
-      .platform-title {
+      .job-role {
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--mid);
+        font-style: italic;
+      }
+      .job-date {
+        font-size: 10px;
+        color: var(--light-text);
+      }
+      .job ul {
+        list-style: disc;
+        padding-left: 18px;
+        margin-top: 2px;
+      }
+      .job li {
+        font-size: 11px;
+        line-height: 1.45;
+        color: var(--dark);
+        margin-bottom: 1.5px;
+      }
+
+      /* ===== PROJECTS ===== */
+      .projects-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6px;
+      }
+      .project-card {
+        border: 1px solid #e0e0e0;
+        padding: 6px 8px;
+        break-inside: avoid;
+        page-break-inside: avoid;
+      }
+      .project-name {
+        font-family: var(--heading-font);
         font-size: 12px;
         font-weight: 700;
-        color: var(--text-primary);
-        margin-bottom: 4px;
+        color: var(--black);
       }
-      .platform-desc {
-        font-size: 12px;
-        color: var(--text-secondary);
-        margin-bottom: 4px;
-        line-height: 1.5;
+      .project-meta {
+        font-size: 9px;
+        color: var(--light-text);
+        font-style: italic;
+        margin-bottom: 2px;
+      }
+      .project-desc {
+        font-size: 10px;
+        line-height: 1.4;
+        color: var(--dark);
       }
 
+      /* ===== SKILLS ===== */
       .skills-grid {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 12px;
+        grid-template-columns: 1fr 1fr;
+        gap: 4px 16px;
       }
-      .skill-cat {
+      .skill-group {
         break-inside: avoid;
-        margin-bottom: 5px;
       }
-      .skill-cat-title {
-        font-size: 11px;
-        font-weight: 800;
+      .skill-label {
+        font-size: 10px;
+        font-weight: 700;
         text-transform: uppercase;
-        color: #000;
-        display: block;
-        margin-bottom: 4px;
+        letter-spacing: 0.5px;
+        color: var(--black);
+        display: inline;
       }
-      .skill-tags {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 5px;
-      }
-      .tag {
-        background: linear-gradient(135deg, #f3f4f6 0%, #e2e8f0 100%);
-        padding: 4px 8px;
-        border-radius: 6px;
-        font-size: 11px;
-        color: #374151;
-        border: 1px solid var(--border);
-        font-weight: 500;
-        transition: all 0.2s ease;
-      }
-      .tag:hover {
-        background: linear-gradient(
-          135deg,
-          var(--accent-light) 0%,
-          rgba(30, 64, 175, 0.1) 100%
-        );
-        color: var(--accent);
-        border-color: var(--accent);
+      .skill-values {
+        font-size: 10.5px;
+        color: var(--dark);
+        display: inline;
       }
 
-      .link-list a {
-        font-weight: 600;
-        color: var(--accent);
+      /* ===== OPEN SOURCE ===== */
+      .os-list {
+        list-style: disc;
+        padding-left: 18px;
+      }
+      .os-list li {
+        font-size: 10px;
+        line-height: 1.4;
+        color: var(--dark);
+        margin-bottom: 1px;
+      }
+      .os-list a {
+        color: var(--black);
         text-decoration: none;
-        font-size: 11px;
+        font-weight: 600;
       }
 
-      /* AI hyperlinks in footer */
-      .footer a {
-        color: #0000ff !important;
-        text-decoration: underline !important;
+      /* ===== EDUCATION & CERTS ===== */
+      .edu-item {
+        margin-bottom: 4px;
+        break-inside: avoid;
       }
-      .footer a:visited {
-        color: #0000ff !important;
-        text-decoration: underline !important;
+      .edu-school {
+        font-family: var(--heading-font);
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--black);
       }
-      .footer a:hover {
-        color: #0000ff !important;
-        text-decoration: underline !important;
-      }
-      .footer a:active {
-        color: #0000ff !important;
-        text-decoration: underline !important;
+      .edu-detail {
+        font-size: 10.5px;
+        color: var(--light-text);
+        font-style: italic;
       }
       .cert-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 8px;
+        gap: 4px;
       }
-      .cert-item {
-        border: 1px solid var(--border);
-        padding: 6px 10px;
-        border-radius: 4px;
+      .cert-card {
+        border: 1px solid #e0e0e0;
+        padding: 5px 8px;
         break-inside: avoid;
       }
-
-      .meta-table {
-        font-size: 12px;
-        color: var(--text-secondary);
-        border-collapse: collapse;
-        width: 100%;
-      }
-      .meta-table td {
-        padding: 4px 0;
-        border: none;
-      }
-      .meta-table td:first-child {
-        font-weight: 600;
-        width: 70%;
-        text-align: left;
-      }
-      .meta-table td:last-child {
-        text-align: right;
-      }
-      .footer {
-        margin-top: 40px;
-        text-align: center;
-        font-size: 11px;
-        color: var(--text-secondary);
-        border-top: 2px solid var(--accent);
-        padding-top: 20px;
-        background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
-        padding: 20px;
-        border-radius: 8px;
-        margin: 40px -15px 0 -15px;
-      }
-      .footer img {
-        width: 28px;
-        height: 28px;
-        margin: 0 8px;
-        opacity: 0.8;
-        transition: opacity 0.2s ease;
-      }
-      .footer img:hover {
-        opacity: 1;
-      }
       .cert-name {
+        font-size: 10.5px;
         font-weight: 700;
-        font-size: 11px;
-        display: block;
+        color: var(--black);
       }
       .cert-issuer {
-        font-size: 10px;
-        color: var(--text-secondary);
+        font-size: 9px;
+        color: var(--light-text);
+      }
+      .cert-desc {
+        font-size: 9.5px;
+        color: var(--dark);
+        line-height: 1.4;
+        margin-top: 2px;
+      }
+      .cert-link {
+        font-size: 9px;
+        color: var(--mid);
+        text-decoration: underline;
       }
 
-      /* --- UI Controls --- */
+      /* ===== AVAILABILITY ===== */
+      .avail-list {
+        list-style: disc;
+        padding-left: 18px;
+      }
+      .avail-list li {
+        font-size: 11px;
+        line-height: 1.45;
+        color: var(--dark);
+        margin-bottom: 1px;
+      }
+
+      /* ===== FOOTER ===== */
+      .footer {
+        margin-top: 14px;
+        padding-top: 8px;
+        border-top: 1px solid var(--border);
+        text-align: center;
+        font-size: 9px;
+        color: var(--light-text);
+      }
+      .footer a {
+        color: var(--mid);
+        text-decoration: underline;
+      }
+
+      /* ===== UI CONTROLS ===== */
       .ui-controls {
         position: fixed;
-        bottom: 30px;
-        right: 24px;
-        /* transform: translateY(-50%); */
+        bottom: 24px;
+        right: 20px;
         display: flex;
         flex-direction: column;
-        gap: 12px;
+        gap: 6px;
         z-index: 100;
       }
-
-      /* Base Button */
       .btn {
-        margin-top: 10px;
-        min-width: 140px;
-        padding: 10px 16px;
-        border-radius: 8px;
-        font-size: 13px;
+        min-width: 120px;
+        padding: 9px 14px;
+        border-radius: 4px;
+        font-size: 11px;
         font-weight: 600;
         border: none;
         cursor: pointer;
-        display: flex;
+        color: #fff;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        transition: opacity 0.2s;
+      }
+      .btn:hover {
+        opacity: 0.9;
+      }
+      .btn-dark {
+        background: #1a1a1a;
+      }
+      .btn-gray {
+        background: #555;
+      }
+      .btn-blue {
+        background: #2563eb;
+      }
+      .btn-green {
+        background: #059669;
+      }
+      .btn-linkedin {
+        background: #0a66c2;
+      }
+      .btn-github {
+        background: #24292e;
+      }
+
+      /* ===== MODAL ===== */
+      .modal-overlay {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.55);
+        z-index: 1000;
         justify-content: center;
         align-items: center;
-        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
-        transition: all 0.2s ease;
+        backdrop-filter: blur(3px);
       }
-
-      .btn:hover {
-        transform: translateY(-1px);
-        box-shadow: 0 10px 22px rgba(0, 0, 0, 0.15);
+      .modal-overlay.active {
+        display: flex;
       }
-
-      .btn:active {
-        transform: translateY(0);
+      .modal-box {
+        background: #fff;
+        border-radius: 8px;
+        padding: 28px 32px;
+        max-width: 440px;
+        width: 90%;
+        box-shadow: 0 16px 48px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        position: relative;
+        animation: fadeUp 0.3s ease;
       }
-
-      /* Individual Button Colors */
-      .btn-print {
-        background: #1f2937; /* Dark Slate */
-        color: #ffffff;
-      }
-
-      .btn-secondary {
-        background: #374151; /* Cool Gray */
-        color: #ffffff;
-      }
-
-      .btn-primary {
-        background: #2563eb; /* Professional Blue */
-        color: #ffffff;
-      }
-
-      .btn-success {
-        background: #059669; /* Muted Green */
-        color: #ffffff;
-      }
-
-      .btn-linkedin {
-        background: #0a66c2; /* LinkedIn Blue */
-        color: #ffffff;
-      }
-
-      .btn-github {
-        background: #24292e; /* GitHub Black */
-        color: #ffffff;
-      }
-
-      /* Print hide */
-      .no-print {
-        display: block;
-      }
-
-      @media print {
-        .no-print {
-          display: none;
+      @keyframes fadeUp {
+        from {
+          transform: translateY(16px);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
         }
       }
+      .modal-close {
+        position: absolute;
+        top: 10px;
+        right: 14px;
+        font-size: 20px;
+        cursor: pointer;
+        color: #999;
+        background: none;
+        border: none;
+      }
+      .modal-badge {
+        display: inline-block;
+        background: #fef3c7;
+        color: #92400e;
+        font-size: 10px;
+        font-weight: 700;
+        padding: 3px 10px;
+        border-radius: 12px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      .modal-name {
+        font-family: var(--heading-font);
+        font-size: 22px;
+        font-weight: 700;
+        color: var(--black);
+        margin-bottom: 6px;
+      }
+      .modal-text {
+        font-size: 12px;
+        color: var(--dark);
+        line-height: 1.6;
+        margin-bottom: 14px;
+      }
+      .modal-highlight {
+        background: #f5f5f5;
+        border-left: 3px solid var(--black);
+        padding: 10px 14px;
+        text-align: left;
+        font-size: 11px;
+        color: var(--dark);
+        margin-bottom: 14px;
+        font-weight: 500;
+        line-height: 1.5;
+      }
+      .modal-cta {
+        display: inline-block;
+        background: var(--black);
+        color: #fff;
+        padding: 9px 22px;
+        border-radius: 3px;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+      }
+      .modal-cta:hover {
+        background: #333;
+      }
 
-      /* --- PRINT OPTIMIZATIONS --- */
+      /* Progress bar */
+      .modal-progress-wrap {
+        width: 100%;
+        height: 4px;
+        background: #e5e5e5;
+        border-radius: 2px;
+        margin-top: 16px;
+        overflow: hidden;
+      }
+      .modal-progress-bar {
+        height: 100%;
+        width: 100%;
+        background: var(--black);
+        border-radius: 2px;
+        animation: shrinkBar 20s linear forwards;
+      }
+      @keyframes shrinkBar {
+        from {
+          width: 100%;
+        }
+        to {
+          width: 0%;
+        }
+      }
+      .modal-timer-text {
+        font-size: 9px;
+        color: #999;
+        margin-top: 6px;
+      }
+
+      /* ===== PRINT ===== */
       @media print {
         @page {
           size: A4;
-          margin: 12mm; /* Standard professional margin */
+          margin: 6mm 8mm;
         }
         body {
           background: #fff;
-          display: block;
           padding: 0;
           margin: 0;
           -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
         }
-        .resume-paper {
-          width: 100% !important;
+        .resume {
           max-width: none !important;
+          width: 100% !important;
           box-shadow: none !important;
           padding: 0 !important;
           margin: 0 !important;
         }
         .ui-controls,
-        .no-print {
+        .no-print,
+        .modal-overlay {
           display: none !important;
         }
-
-        /* Ensure text contrast is high for printers */
-        .summary-text,
-        li,
-        .platform-desc {
-          color: #333 !important;
+        .section {
+          margin-bottom: 2px !important;
+          break-inside: auto;
         }
-        h1,
-        h2,
-        .company,
-        .role-name {
-          color: #000 !important;
-        }
-
-        /* Fix spacing on the second page if content overflows */
-        section:first-of-type {
-          margin-top: 0;
-        }
-
-        /* Prevent content from breaking awkwardly */
-        p,
-        ul,
-        li,
-        .summary-text,
-        .platform-desc {
+        .job {
+          margin-bottom: 4px !important;
           break-inside: avoid;
           page-break-inside: avoid;
         }
-
-        /* Make grids single column in print to prevent uneven breaks */
-        #projects > div,
+        .section-title {
+          margin-bottom: 3px !important;
+          padding: 3px 8px !important;
+        }
+        .header {
+          margin-bottom: 4px !important;
+          padding-bottom: 4px !important;
+        }
+        .header h1 {
+          margin-bottom: 1px !important;
+        }
+        .header .subtitle {
+          margin-bottom: 4px !important;
+        }
+        .footer {
+          margin-top: 4px !important;
+          padding-top: 4px !important;
+        }
+        .overview-table td {
+          padding: 1px 0 !important;
+        }
+        .projects-grid,
         .cert-grid {
-          display: block !important;
+          gap: 3px !important;
         }
-        .cert-item {
-          margin-bottom: 12px;
+        .skills-grid {
+          gap: 2px 12px !important;
         }
-
-        /* Reduce margins to fit more content and minimize white space */
-        section {
-          margin-bottom: 15px !important;
+        .job ul {
+          margin-top: 1px !important;
         }
-        article {
-          margin-bottom: 10px !important;
+        .job li {
+          margin-bottom: 1px !important;
         }
-        footer {
-          margin-top: 20px !important;
+        .edu-item {
+          margin-bottom: 2px !important;
+        }
+        .project-card {
+          padding: 4px 6px !important;
+        }
+        .cert-card {
+          padding: 4px 6px !important;
+        }
+        p,
+        ul,
+        li {
+          break-inside: avoid;
+          page-break-inside: avoid;
+        }
+        a[href]::after {
+          content: none;
         }
       }
 
-      /* Professional Color Palette */
-      .btn-print {
-        background: linear-gradient(135deg, #475569 0%, #334155 100%);
-      }
-      .btn-secondary {
-        background: linear-gradient(135deg, #64748b 0%, #475569 100%);
-      }
-      .btn-primary {
-        background: linear-gradient(135deg, #4f46e5 0%, #3730a3 100%);
-      }
-      .btn-success {
-        background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
-      }
-
-      /* Mobile responsiveness */
       @media (max-width: 600px) {
         body {
-          padding: 0 0 250px 0;
+          padding: 0 0 200px 0;
         }
-        .resume-paper {
-          padding: 20px;
+        .resume {
+          padding: 14px;
+        }
+        .projects-grid,
+        .cert-grid,
+        .skills-grid {
+          grid-template-columns: 1fr;
         }
       }
     </style>
   </head>
   <body>
-    <main class="resume-paper" id="resume-content">
-      <header>
-        <div class="header-top">
-          <div>
-            <h1>Krunal Badami</h1>
-            <div class="role-title">
-              Senior Software Developer & Team Lead — React Native & Roku
-            </div>
-            <div id="experience-years" class="years-pill">
-              Calculating Experience...
-            </div>
-            <div class="years-pill">Serving Notice Period</div>
-          </div>
-          <div
-            style="
-              text-align: right;
-              font-size: 11px;
-              color: var(--text-secondary);
-            "
+    <main class="resume" id="resume-content">
+      <!-- HEADER -->
+      <div class="header">
+        <h1>Krunal Badami</h1>
+        <div class="subtitle">
+          Senior Software Developer & Team Lead — React Native & Roku
+        </div>
+        <div class="contact-row">
+          <a href="tel:+918141379017">+91 81413 79017</a>
+          <span class="sep">|</span>
+          <a href="mailto:krunalbadami@outlook.com">krunalbadami@outlook.com</a>
+          <span class="sep">|</span>
+          Surat, Gujarat, India
+        </div>
+        <div class="contact-row">
+          <a href="https://www.linkedin.com/in/krunalbadami" target="_blank"
+            >https://www.linkedin.com/in/krunalbadami</a
           >
-            <strong style="color: var(--accent)">Open to Senior Roles</strong
-            ><br />
-            Remote & India
-          </div>
+          <span class="sep">|</span>
+          <a href="https://github.com/krunalbad" target="_blank"
+            >https://github.com/krunalbad</a
+          >
         </div>
-
-        <div class="contact-bar">
-          <span class="contact-link">
-            <svg class="icon" viewBox="0 0 20 20">
-              <path
-                fill-rule="evenodd"
-                d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
-                clip-rule="evenodd"
-              />
-            </svg>
-            Surat, India
-          </span>
-          <a href="tel:+918141379017" class="contact-link">
-            <svg class="icon" viewBox="0 0 20 20">
-              <path
-                d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 005.474 5.474l.772-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
-              />
-            </svg>
-            +91 81413 79017
-          </a>
-          <a href="mailto:krunalbadami@outlook.com" class="contact-link">
-            <svg class="icon" viewBox="0 0 20 20">
-              <path
-                d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
-              />
-              <path
-                d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
-              />
-            </svg>
-            krunalbadami@outlook.com
-          </a>
+        <div class="notice-badge">
+          Serving Notice Period &mdash; Available from 3rd March 2026
         </div>
+      </div>
 
-        <h2>Experience Overview</h2>
-
-        <table class="meta-table">
+      <!-- EXPERIENCE OVERVIEW -->
+      <div class="section">
+        <div class="section-title">Experience Overview</div>
+        <table class="overview-table">
           <tr>
             <td>Overall IT Industry Experience (Tech/Non-Tech):</td>
             <td><span id="overallExp"></span></td>
           </tr>
           <tr>
             <td>JavaScript / TypeScript:</td>
-            <td><span id="overallExp1"></span></td>
+            <td><span id="jsExp"></span></td>
           </tr>
           <tr>
             <td>React Native Experience:</td>
@@ -1186,422 +1189,377 @@
           </tr>
           <tr>
             <td>Android / iOS Native Experience:</td>
-            <td><span id="iosNativeExp"></span></td>
+            <td><span id="nativeExp"></span></td>
           </tr>
           <tr>
-            <td>Team Lead & Project Manager:</td>
-            <td><span id="leadPmExp"></span></td>
+            <td>Team Lead &amp; Project Manager:</td>
+            <td><span id="leadExp"></span></td>
           </tr>
         </table>
-      </header>
-      <section id="summary">
-        <h2>Professional Summary</h2>
+      </div>
+
+      <!-- PROFESSIONAL SUMMARY -->
+      <div class="section">
+        <div class="section-title">Professional Summary</div>
         <p class="summary-text">
-          As a Senior React Native Developer with over 7+ years of experience in
-          Android and iOS mobile application development, I excel at
-          collaborating with cross-functional teams to design and implement
-          cross-platform applications. My expertise extends to developing TV
-          applications for Android TV, Apple TV, and ROKU devices, working
-          closely with backend engineers and designers to leverage BrightScript
-          and React Native for creating engaging and seamless user experiences.
-          With 4+ years of experience in project management, client
-          communication, and team leadership, I ensure successful project
-          delivery and stakeholder satisfaction through effective collaboration
-          and communication.
+          Senior React Native Developer with
+          <span id="summaryYears"></span> years of experience in Android and iOS
+          mobile application development. Skilled at collaborating with
+          cross-functional teams to design and implement cross-platform
+          applications. Experience extends to developing TV applications for
+          Android TV, Apple TV, and Roku devices using BrightScript and React
+          Native to create reliable and user-friendly experiences. Proficient in
+          HLS and DASH streaming protocols, video player implementation, Google
+          Cast, and AirPlay integration. With 4+ years of experience in project
+          management, client communication, and team leadership, consistently
+          delivering projects on time while maintaining quality standards.
+          Experienced in scalable app architecture, performance optimization,
+          and code quality practices.
         </p>
-      </section>
-      <section id="experience">
-        <h2>Work Experience</h2>
+      </div>
 
-        <article>
-          <div class="exp-header">
-            <span class="company">LOGICWIND</span>
-            <span class="location">Surat, Gujarat</span>
-          </div>
-
-          <div class="role-row">
-            <span class="role-name">Senior React Native Developer</span>
-            <span class="date-range"
-              >August 2020 - February 2026 (5 years 7 months)</span
+      <!-- TECHNICAL SKILLS -->
+      <div class="section">
+        <div class="section-title">Technical Skills</div>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <span class="skill-label">Languages: </span>
+            <span class="skill-values"
+              >JavaScript (ES6+), TypeScript, BrightScript, HTML5, CSS3</span
             >
           </div>
+          <div class="skill-group">
+            <span class="skill-label">Frameworks: </span>
+            <span class="skill-values"
+              >React Native, React.js, Redux, React Query, Next.js, SceneGraph
+              (Roku)</span
+            >
+          </div>
+          <div class="skill-group">
+            <span class="skill-label">TV &amp; Media: </span>
+            <span class="skill-values"
+              >Apple TV (tvOS), Android TV, Fire TV, Roku, HLS/DASH, Google
+              Cast, AirPlay</span
+            >
+          </div>
+          <div class="skill-group">
+            <span class="skill-label">Libraries: </span>
+            <span class="skill-values"
+              >React Navigation, Axios, AsyncStorage, React Native Reanimated,
+              React Native Gesture Handler, React Native Paper, React Native
+              Vector Icons</span
+            >
+          </div>
+          <div class="skill-group">
+            <span class="skill-label">Tools &amp; DevOps: </span>
+            <span class="skill-values"
+              >Firebase, Sentry, Git, Jira, Shell Scripting, Manual Testing,
+              Regression Testing</span
+            >
+          </div>
+          <div class="skill-group">
+            <span class="skill-label">Backend: </span>
+            <span class="skill-values"
+              >Node.js, PHP (Slim, CodeIgniter), MySQL, REST APIs, GraphQL</span
+            >
+          </div>
+        </div>
+      </div>
 
+      <!-- WORK EXPERIENCE -->
+      <div class="section">
+        <div class="section-title">Work Experience</div>
+
+        <div class="job">
+          <div class="job-header">
+            <span class="job-company">Logicwind</span>
+            <span class="job-location">Surat, Gujarat</span>
+          </div>
+          <div class="job-role-row">
+            <span class="job-role">Senior React Native Developer</span>
+            <span class="job-date"
+              >August 2020 &ndash; February 2026 (5 years 7 months)</span
+            >
+          </div>
           <ul>
             <li>
               Oversaw delivery of multiple projects with focus on timely
-              delivery, functional performance, and cost efficiency, learning to
-              balance client expectations and business goals.
+              delivery, functional performance, and cost efficiency, balancing
+              client expectations and business goals.
             </li>
             <li>
               Built and maintained React Native apps for mobile and TV
-              platforms, handling store submissions and ensuring reliable
-              playback with HLS/DASH and error monitoring.
+              platforms, handling store submissions for iOS App Store and Google
+              Play Store, and ensuring reliable playback with HLS/DASH streaming
+              and error monitoring.
             </li>
             <li>
               Integrated Firebase, analytics, and Sentry for performance
-              monitoring and data-driven improvements.
+              monitoring, crash reporting, and data-driven improvements.
             </li>
             <li>
-              Developed social media platforms with live streaming, implementing
-              Google Cast and AirPlay support for seamless multi-device
+              Developed social media platforms with live streaming capabilities,
+              implementing Google Cast and AirPlay support for multi-device
               experiences.
             </li>
             <li>
-              Gained experience in tvOS and Android TV development, building
-              video players and custom layouts optimized for remote navigation.
+              Gained hands-on experience in tvOS and Android TV development,
+              building video players and custom layouts optimized for remote
+              navigation and large-screen displays.
             </li>
             <li>
               Worked on Roku TV development with BrightScript, creating apps
-              with SceneGraph components and custom video playback.
+              with SceneGraph components and custom video playback
+              functionality.
             </li>
             <li>
               Built reusable cross-platform media modules and maintained
-              TypeScript documentation to ensure code clarity and team
+              TypeScript documentation to ensure code clarity and smooth team
               onboarding.
             </li>
             <li>
-              Managed REST/GraphQL APIs with React Query and custom libraries
-              for offline caching and resilient app functionality.
+              Managed REST and GraphQL APIs with React Query and custom
+              libraries for offline caching and resilient app functionality.
             </li>
             <li>
               Automated workflows with shell scripts for environment switching,
-              version bumping, and AAB verification to streamline productivity.
+              version bumping, and AAB verification to improve team
+              productivity.
             </li>
             <li>
               Prioritized code quality, performance, and security through
-              regular analysis and refactoring.
+              regular code analysis and refactoring.
             </li>
             <li>
               Collaborated with cross-functional teams including designers,
-              backend engineers, and QA to deliver polished, user-friendly apps.
+              backend engineers, and QA to deliver polished, user-friendly
+              applications.
             </li>
             <li>
               Experienced in scalable app design, ensuring maintainability as
               features and user bases grow.
             </li>
           </ul>
-        </article>
+        </div>
 
-        <article>
-          <div class="exp-header">
-            <span class="company">Leocan Technologies</span>
-            <span class="location">Surat, Gujarat</span>
+        <div class="job">
+          <div class="job-header">
+            <span class="job-company">Leocan Technologies</span>
+            <span class="job-location">Surat, Gujarat</span>
           </div>
-
-          <div class="role-row">
-            <span class="role-name">Full Stack Developer</span>
-            <span class="date-range"
-              >December 2018 - August 2020 (1 year 9 months)</span
+          <div class="job-role-row">
+            <span class="job-role">Full Stack Developer</span>
+            <span class="job-date"
+              >December 2018 &ndash; August 2020 (1 year 9 months)</span
             >
           </div>
-
           <ul>
             <li>
-              Created APIs using PHP Slim/Node.js and managed MySQL database.
-            </li>
-            <li>Led web projects of CodeIgniter 3 and Core PHP MVC.</li>
-            <li>
-              Took lead on React Native projects where I accomplished tasks like
-              version upgrades, video player, photo viewer, custom camera with
-              filters, performance issues, designing, etc.
+              Created APIs using PHP Slim and Node.js, and managed MySQL
+              databases for multiple client projects.
             </li>
             <li>
-              Led and handled Angular/React.js projects where I completed tasks
-              of designing, 3rd party package integration and few APIs in
-              CodeIgniter 3.
+              Led web projects built on CodeIgniter 3 and Core PHP MVC
+              architecture.
             </li>
             <li>
-              Built APIs in PHP (Slim) and Node.js with MySQL; delivered
-              features end-to-end with simple, reliable code.
+              Took lead on React Native projects, completing tasks such as
+              version upgrades (v55 to v59), video player implementation, photo
+              viewer, custom camera with filters, and performance optimization.
             </li>
             <li>
-              Upgraded a React Native app from v55 → v59; fixed breaking changes
-              and stabilized delivery.
+              Led and handled Angular and React.js projects, including UI design
+              implementation, third-party package integration, and API
+              development in CodeIgniter 3.
             </li>
             <li>
-              Implemented video player, photo viewer and a custom camera with
-              basic filters for a social app.
+              Built APIs in PHP (Slim) and Node.js with MySQL, delivering
+              features end-to-end with reliable code.
             </li>
             <li>
-              Worked with designers and QA; wrote test cases and supported
+              Upgraded a React Native app from version 55 to version 59, fixing
+              breaking changes and stabilizing the delivery pipeline.
+            </li>
+            <li>
+              Implemented video player, photo viewer, and a custom camera with
+              basic filters for a social application.
+            </li>
+            <li>
+              Worked with designers and QA team, wrote test cases, and supported
               regression testing before releases.
             </li>
           </ul>
-        </article>
+        </div>
 
-        <article>
-          <div class="exp-header">
-            <span class="company">HQ INFOSYSTEM</span>
-            <span class="location">Surat, Gujarat</span>
+        <div class="job">
+          <div class="job-header">
+            <span class="job-company">HQ Infosystem</span>
+            <span class="job-location">Surat, Gujarat</span>
           </div>
-
-          <div class="role-row">
-            <span class="role-name">JavaScript Intern</span>
-            <span class="date-range">May 2018 - July 2018 (3 months)</span>
+          <div class="job-role-row">
+            <span class="job-role">JavaScript Intern</span>
+            <span class="job-date">May 2018 &ndash; July 2018 (3 months)</span>
           </div>
-
           <ul>
             <li>
-              As an intern, I had learned to design responsive websites for
-              different browsers and platform to have the consistent design.
+              Learned to design responsive websites for different browsers and
+              platforms to maintain consistent design.
             </li>
-            <li>Learned HTML5 tags and attributes.</li>
-            <li>Learned React & React Native.</li>
-            <li>Learned CSS and Bootstrap design tricks and media queries.</li>
-            <li>Basics on how to write JavaScript and arrow functions.</li>
-            <li>Basics on how to bind and manipulate data using Core PHP.</li>
+            <li>
+              Learned HTML5 tags and attributes, CSS, and Bootstrap design
+              techniques including media queries.
+            </li>
+            <li>Learned React and React Native fundamentals.</li>
+            <li>
+              Learned JavaScript basics including arrow functions, ES6 syntax,
+              and DOM manipulation.
+            </li>
+            <li>Learned how to bind and manipulate data using Core PHP.</li>
           </ul>
-        </article>
-      </section>
+        </div>
+      </div>
 
-      <section id="projects">
-        <h2>Projects I have worked on so far</h2>
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px">
-          <div class="cert-item">
-            <div class="company" style="font-size: 12px">
-              Conservative Media Platform
-            </div>
+      <!-- KEY PROJECTS -->
+      <div class="section">
+        <div class="section-title">Key Projects</div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-name">Conservative Media Platform</div>
             <div class="project-meta">
-              Domain: Media & News | Type: Mobile Streaming App | Monthly Active
-              Users: ~2M
+              Domain: Media &amp; News | Type: Mobile Streaming App | Monthly
+              Active Users: ~2M
             </div>
-            <p style="font-size: 11px; margin-top: 2px">
-              As lead mobile developer, I spearheaded the development of a media
-              application for a conservative news organization. The technical
-              overview included implementing robust features such as news
-              article readers, video players with HLS/DASH streaming, live
-              streaming capabilities, interactive commenting systems, live chat
-              functionality, and camera-based streaming for user-generated
-              content. I developed TV apps for this platform on Android TV and
-              Apple TV using React Native, and on Roku using BrightScript. I
-              handled client communications, coordinated with cross-functional
-              teams including backend engineers and designers, and ensured
-              timely delivery while maintaining high-quality standards.
-            </p>
+            <div class="project-desc">
+              As lead mobile developer, spearheaded the development of a media
+              application. Implemented news article readers, video players with
+              HLS/DASH streaming, live streaming capabilities, interactive
+              commenting systems, live chat, and camera-based streaming for
+              user-generated content. Developed TV apps for this platform on
+              Android TV and Apple TV using React Native, and on Roku using
+              BrightScript. Handled client communications and coordinated with
+              cross-functional teams.
+            </div>
           </div>
-          <div class="cert-item">
-            <div class="company" style="font-size: 12px">
-              Nonprofit Advocacy Platform
-            </div>
+          <div class="project-card">
+            <div class="project-name">Nonprofit Advocacy Platform</div>
             <div class="project-meta">
-              Domain: Education & Advocacy | Type: Media Streaming App | Monthly
-              Active Users: ~1.5M
+              Domain: Education &amp; Advocacy | Type: Media Streaming App |
+              Monthly Active Users: ~1.5M
             </div>
-            <p style="font-size: 11px; margin-top: 2px">
-              Serving as lead mobile developer for a nonprofit advocacy group, I
-              led the creation of a comprehensive media platform. The project
-              involved developing advanced features like news article readers,
-              video playback systems, live streaming, user commenting, live
-              chat, and camera streaming. My role encompassed technical
-              leadership, client communication to align on requirements, and
-              collaboration with backend teams to integrate APIs and ensure
-              seamless functionality across platforms.
-            </p>
+            <div class="project-desc">
+              Serving as lead mobile developer for a nonprofit advocacy group.
+              Led the creation of a media platform with advanced features
+              including news article readers, video playback systems, live
+              streaming, user commenting, live chat, and camera streaming.
+              Managed technical leadership, client communication, and API
+              integration with backend teams.
+            </div>
           </div>
-          <div class="cert-item">
-            <div class="company" style="font-size: 12px">
-              Music Band Fan Engagement App
-            </div>
+          <div class="project-card">
+            <div class="project-name">Music Band Fan Engagement App</div>
             <div class="project-meta">
-              Domain: Entertainment & Music | Type: Social Media Platform |
+              Domain: Entertainment &amp; Music | Type: Social Media Platform |
               Monthly Active Users: ~300K
             </div>
-            <p style="font-size: 11px; margin-top: 2px">
-              I collaborated on developing an innovative social media app for a
-              popular music boy band, designed to foster direct fan engagement.
-              The technical overview focused on building a premium
-              subscription-based platform with real-time communication features,
+            <div class="project-desc">
+              Collaborated on developing a social media app for a popular music
+              boy band designed to foster direct fan engagement. Built a premium
+              subscription-based platform with real-time communication features
               including direct messaging, video calls, and interactive content
-              sharing. As a key developer, I managed client interactions,
-              coordinated with design and backend teams, and implemented
-              scalable architecture to support growing user bases.
-            </p>
+              sharing. Implemented scalable architecture to support growing user
+              bases.
+            </div>
           </div>
-          <div class="cert-item">
-            <div class="company" style="font-size: 12px">
-              News Commentary Platform
-            </div>
+          <div class="project-card">
+            <div class="project-name">News Commentary Platform</div>
             <div class="project-meta">
-              Domain: Media & News | Type: News Aggregation App | Monthly Active
-              Users: ~1M
+              Domain: Media &amp; News | Type: News Aggregation App | Monthly
+              Active Users: ~1M
             </div>
-            <p style="font-size: 11px; margin-top: 2px">
-              As lead mobile developer for a prominent news and commentary
-              platform, I oversaw the implementation of extensive media
-              features. This included news article readers, video players, live
-              streaming, commenting systems, live chat, and camera streaming
-              capabilities. I facilitated client communications, led technical
-              discussions, and worked closely with backend and QA teams to
-              deliver a reliable, high-performance application.
-            </p>
+            <div class="project-desc">
+              As lead mobile developer, oversaw the implementation of news
+              article readers, video players, live streaming, commenting
+              systems, live chat, and camera streaming capabilities. Facilitated
+              client communications, led technical discussions, and worked with
+              backend and QA teams to deliver a reliable application.
+            </div>
           </div>
-          <div class="cert-item">
-            <div class="company" style="font-size: 12px">
-              Cycle-Based Wellness App
-            </div>
+          <div class="project-card">
+            <div class="project-name">Cycle-Based Wellness App</div>
             <div class="project-meta">
-              Domain: Health & Fitness | Type: Wellness Tracking App | Monthly
-              Active Users: ~150K
+              Domain: Health &amp; Fitness | Type: Wellness Tracking App |
+              Monthly Active Users: ~150K
             </div>
-            <p style="font-size: 11px; margin-top: 2px">
-              I contributed to designing and developing a cycle-based fitness
-              and wellness app, one of the pioneering platforms in this niche.
-              The technical overview involved coordinating with backend teams to
-              integrate personalized cycle tracking, beautiful animations, and
-              transitions for an enhanced user experience. My responsibilities
-              included client communication, ensuring seamless data flow, and
-              optimizing the app for women's health phases.
-            </p>
+            <div class="project-desc">
+              Contributed to designing and developing a cycle-based fitness and
+              wellness app. Coordinated with backend teams to integrate
+              personalized cycle tracking, animations, and transitions for an
+              enhanced user experience. Responsible for client communication,
+              data flow optimization, and UX improvements for women's health
+              phases.
+            </div>
           </div>
-          <div class="cert-item">
-            <div class="company" style="font-size: 12px">
-              Car Subscription Service App
-            </div>
+          <div class="project-card">
+            <div class="project-name">Car Subscription Service App</div>
             <div class="project-meta">
-              Domain: Automotive & Transportation | Type: Vehicle Rental
+              Domain: Automotive &amp; Transportation | Type: Vehicle Rental
               Platform | Monthly Active Users: ~200K
             </div>
-            <p style="font-size: 11px; margin-top: 2px">
-              For a California-based car subscription service, I developed a
-              mobile app enabling hassle-free vehicle rentals at fixed monthly
-              rates. The technical overview included implementing custom period
-              selection, streamlined booking processes, and integration with
-              backend systems for instant approvals. I handled client
-              communications, collaborated on user experience design, and
-              ensured the app's reliability for on-the-go transactions.
-            </p>
+            <div class="project-desc">
+              Developed a mobile app for a California-based car subscription
+              service enabling vehicle rentals at fixed monthly rates.
+              Implemented custom period selection, streamlined booking
+              processes, and integration with backend systems for instant
+              approvals. Ensured app reliability for on-the-go transactions.
+            </div>
           </div>
-          <div class="cert-item">
-            <div class="company" style="font-size: 12px">AppsOnAir</div>
+          <div class="project-card">
+            <div class="project-name">AppsOnAir</div>
             <div class="project-meta">
               Domain: Development Tools | Type: Developer Platform | Monthly
               Active Users: ~25K
             </div>
-            <p style="font-size: 11px; margin-top: 2px">
+            <div class="project-desc">
               AppsOnAir is a developer tool that integrates OTA distribution,
-              reliable deep linking, instant codePush, and powerful remote
-              configuration into a single command center for mobile app
-              management. As a developer, I contributed to building this
-              platform, focusing on technical implementation, client
-              communication for feature requirements, and ensuring robust
-              functionality for APK and IPA uploads, code pushes, and deeplinks.
-            </p>
-          </div>
-          <div class="cert-item">
-            <div class="company" style="font-size: 12px">
-              Community Advocacy Platform
+              reliable deep linking, instant codePush, and remote configuration
+              into a single command center for mobile app management.
+              Contributed to building the platform, focusing on APK and IPA
+              uploads, code pushes, and deeplink functionality.
             </div>
+          </div>
+          <div class="project-card">
+            <div class="project-name">Community Advocacy Platform</div>
             <div class="project-meta">
-              Domain: Social & Religious | Type: Community Engagement App |
+              Domain: Social &amp; Religious | Type: Community Engagement App |
               Monthly Active Users: ~50K
             </div>
-            <p style="font-size: 11px; margin-top: 2px">
-              I developed a social media-style app for a Washington State
-              Christian advocacy organization, aimed at community sharing and
-              issue discussions. The technical overview included creating
-              neighborhood-focused interaction features, secure user profiles,
-              and content moderation systems. My role involved client
-              communications, backend coordination, and implementing scalable
-              solutions to support regional user engagement.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="skills">
-        <h2>Technical Skills</h2>
-
-        <div class="skills-grid">
-          <div class="skill-cat">
-            <span class="skill-cat-title">Languages</span>
-            <div class="skill-tags">
-              <span class="tag">JavaScript (ES6+)</span>
-              <span class="tag">TypeScript</span>
-              <span class="tag">BrightScript</span>
-              <span class="tag">HTML</span>
-              <span class="tag">CSS</span>
-            </div>
-          </div>
-
-          <div class="skill-cat">
-            <span class="skill-cat-title">Frameworks</span>
-            <div class="skill-tags">
-              <span class="tag">React Native</span>
-              <span class="tag">React</span>
-              <span class="tag">Redux</span>
-              <span class="tag">React Query</span>
-              <span class="tag">SceneGraph</span>
-            </div>
-          </div>
-
-          <div class="skill-cat">
-            <span class="skill-cat-title">Third-Party Libraries</span>
-            <div class="skill-tags">
-              <span class="tag">React Navigation</span>
-              <span class="tag">Axios</span>
-              <span class="tag">AsyncStorage</span>
-              <span class="tag">React Native Vector Icons</span>
-              <span class="tag">React Native Gesture Handler</span>
-              <span class="tag">React Native Reanimated</span>
-              <span class="tag">React Native Paper</span>
-            </div>
-          </div>
-
-          <div class="skill-cat">
-            <span class="skill-cat-title">TV & Media</span>
-            <div class="skill-tags">
-              <span class="tag">Apple TV (tvOS)</span>
-              <span class="tag">Android TV</span>
-              <span class="tag">Fire TV</span>
-              <span class="tag">Roku</span>
-              <span class="tag">HLS / DASH</span>
-              <span class="tag">Google Cast</span>
-              <span class="tag">AirPlay</span>
-            </div>
-          </div>
-
-          <div class="skill-cat">
-            <span class="skill-cat-title">Tools & QA</span>
-            <div class="skill-tags">
-              <span class="tag">Firebase</span>
-              <span class="tag">Sentry</span>
-              <span class="tag">Git</span>
-              <span class="tag">Shell Scripting</span>
-              <span class="tag">Manual Testing</span>
-              <span class="tag">Regression Testing</span>
-              <span class="tag">Jira</span>
+            <div class="project-desc">
+              Developed a social media-style app for a Washington State
+              Christian advocacy organization aimed at community sharing and
+              issue discussions. Created neighborhood-focused interaction
+              features, secure user profiles, and content moderation systems.
+              Implemented scalable solutions to support regional user
+              engagement.
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section id="opensource">
-        <h2>Open Source Contributions</h2>
-        <p
-          style="
-            font-size: 11px;
-            margin-bottom: 8px;
-            color: var(--text-secondary);
-          "
-        >
-          I've contributed to various React Native projects with bug fixes,
-          feature improvements, and community support to help make the ecosystem
-          better.
+      <!-- OPEN SOURCE CONTRIBUTIONS -->
+      <div class="section">
+        <div class="section-title">Open Source Contributions</div>
+        <p style="font-size: 10px; margin-bottom: 4px; color: var(--dark)">
+          Contributed to various React Native projects with bug fixes, feature
+          improvements, and community support to help improve the ecosystem.
         </p>
-        <ul
-          style="
-            font-size: 11px;
-            color: var(--text-secondary);
-            margin-bottom: 12px;
-          "
-        >
+        <ul class="os-list">
           <li>
             <a
               href="https://github.com/netguru/sticky-parallax-header"
               target="_blank"
               >netguru/sticky-parallax-header</a
             >
-            — Improved parallax header functionality for React Native.
+            &mdash; Improved parallax header functionality for React Native.
           </li>
           <li>
             <a
@@ -1609,7 +1567,7 @@
               target="_blank"
               >react-native-toolkit/react-native-better-image</a
             >
-            — Enhanced image handling and performance optimizations.
+            &mdash; Enhanced image handling and performance optimizations.
           </li>
           <li>
             <a
@@ -1617,7 +1575,7 @@
               target="_blank"
               >tanguyantoine/react-native-music-control</a
             >
-            — Contributed to music control features for React Native apps.
+            &mdash; Contributed to music control features for React Native apps.
           </li>
           <li>
             <a
@@ -1625,13 +1583,13 @@
               target="_blank"
               >gazedash/react-native-airplay-ios</a
             >
-            — Improved AirPlay support for iOS devices.
+            &mdash; Improved AirPlay support for iOS devices.
           </li>
           <li>
             <a href="https://github.com/GeekyAnts/NativeBase" target="_blank"
               >GeekyAnts/NativeBase</a
             >
-            — UI component library enhancements.
+            &mdash; UI component library enhancements.
           </li>
           <li>
             <a
@@ -1639,7 +1597,7 @@
               target="_blank"
               >ovr/react-native-status-bar-height</a
             >
-            — Status bar height utilities.
+            &mdash; Status bar height utilities.
           </li>
           <li>
             <a
@@ -1647,29 +1605,28 @@
               target="_blank"
               >Gustash/react-native-giphy-keyboard</a
             >
-            — Giphy keyboard integration improvements.
+            &mdash; Giphy keyboard integration improvements.
           </li>
         </ul>
-        <h2>Open Source Libraries</h2>
-        <p
-          style="
-            font-size: 11px;
-            margin-bottom: 8px;
-            color: var(--text-secondary);
-          "
-        >
-          I led the creation of open source libraries in my team to make our
-          internal work easier and provide useful tools for the React Native
-          community.
+      </div>
+
+      <!-- OPEN SOURCE LIBRARIES -->
+      <div class="section">
+        <div class="section-title">
+          Open Source Libraries (Created at Logicwind)
+        </div>
+        <p style="font-size: 10px; margin-bottom: 4px; color: var(--dark)">
+          Led the creation of open source libraries in the team to streamline
+          internal work and provide useful tools for the React Native community.
         </p>
-        <ul style="font-size: 11px; color: var(--text-secondary)">
+        <ul class="os-list">
           <li>
             <a
               href="https://github.com/logicwind/react-native-exit-app"
               target="_blank"
               >logicwind/react-native-exit-app</a
             >
-            — Utility for programmatically exiting React Native apps.
+            &mdash; Utility for programmatically exiting React Native apps.
           </li>
           <li>
             <a
@@ -1677,7 +1634,7 @@
               target="_blank"
               >logicwind/react-native-fold-detection</a
             >
-            — Detect foldable device states for adaptive UI.
+            &mdash; Detect foldable device states for adaptive UI.
           </li>
           <li>
             <a
@@ -1685,7 +1642,7 @@
               target="_blank"
               >logicwind/react-native-matomo-tracker</a
             >
-            — Analytics tracking integration with Matomo.
+            &mdash; Analytics tracking integration with Matomo.
           </li>
           <li>
             <a
@@ -1693,7 +1650,7 @@
               target="_blank"
               >logicwind/react-native-status-bar-height</a
             >
-            — Cross-platform status bar height detection.
+            &mdash; Cross-platform status bar height detection.
           </li>
           <li>
             <a
@@ -1701,7 +1658,7 @@
               target="_blank"
               >logicwind/react-native-tvos-keyboard</a
             >
-            — tvOS keyboard handling utilities.
+            &mdash; tvOS keyboard handling utilities.
           </li>
           <li>
             <a
@@ -1709,7 +1666,7 @@
               target="_blank"
               >logicwind/react-native-rn-in-app-update</a
             >
-            — In-app update functionality for React Native.
+            &mdash; In-app update functionality for React Native.
           </li>
           <li>
             <a
@@ -1717,257 +1674,298 @@
               target="_blank"
               >logicwind/react-native-tvos-ssl-pinning</a
             >
-            — SSL pinning support for tvOS apps.
+            &mdash; SSL pinning support for tvOS apps.
           </li>
         </ul>
-      </section>
+      </div>
 
-      <section id="education">
-        <h2>Education</h2>
-        <article style="margin-bottom: 8px">
-          <div class="exp-header">
-            <span class="company">Uka Tarsadia University</span>
-            <span class="location"></span>
+      <!-- EDUCATION -->
+      <div class="section">
+        <div class="section-title">Education</div>
+        <div class="edu-item">
+          <div class="edu-school">Uka Tarsadia University</div>
+          <div class="edu-detail">
+            Bachelor of Technology &mdash; BTech, Computer Engineering (2015
+            &ndash; 2019)
           </div>
-          <div class="project-meta">
-            Bachelor of Technology - BTech, Computer Engineering (2015 – 2019)
-          </div>
-        </article>
-
-        <article style="margin-bottom: 8px">
-          <div class="exp-header">
-            <span class="company">Sir J J English School</span>
-            <span class="location"></span>
-          </div>
-          <div class="project-meta">
+        </div>
+        <div class="edu-item">
+          <div class="edu-school">Sir J J English School</div>
+          <div class="edu-detail">
             Higher Secondary Certificate, Mathematics and Computer Science (2000
-            – 2015)
+            &ndash; 2015)
           </div>
-        </article>
-      </section>
+        </div>
+      </div>
 
-      <section id="certifications">
-        <h2>Certifications</h2>
+      <!-- CERTIFICATIONS -->
+      <div class="section">
+        <div class="section-title">Certifications</div>
         <div class="cert-grid">
-          <div class="cert-item">
+          <div class="cert-card">
             <div class="cert-name">JavaScript Certified (JSE 40-01)</div>
             <div class="cert-issuer">
-              International JavaScript Institute — Issued Aug 2022
+              International JavaScript Institute &mdash; Issued Aug 2022
             </div>
             <a
+              class="cert-link"
               href="https://www.credly.com/badges/8db1c5bc-1dda-433b-a176-767b998ab614/whatsapp"
               target="_blank"
               rel="noopener"
-              style="font-size: 10px"
               >View Credential</a
             >
-            <p style="margin-top: 8px; font-size: 11px">
-              This certification validates my deep understanding of JavaScript
-              fundamentals, including syntax, asynchronous programming, and
-              modern ES6+ features. It's the foundation for my work in React
-              Native and TypeScript, ensuring I write clean, efficient code that
-              performs well in production apps.
-            </p>
+            <div class="cert-desc">
+              Validates understanding of JavaScript fundamentals including
+              syntax, asynchronous programming, and modern ES6+ features.
+              Foundation for work in React Native and TypeScript.
+            </div>
           </div>
-          <div class="cert-item">
+          <div class="cert-card">
             <div class="cert-name">Introduction to JavaScript (Level 1)</div>
-            <div class="cert-issuer">Udemy — Issued Jun 2021</div>
+            <div class="cert-issuer">Udemy &mdash; Issued Jun 2021</div>
             <a
+              class="cert-link"
               href="https://www.udemy.com/certificate/UC-d0decbe5-0755-4844-a870-beb1588a5256/"
               target="_blank"
               rel="noopener"
-              style="font-size: 10px"
               >View Credential</a
             >
-            <p style="margin-top: 8px; font-size: 11px">
-              Hands-on JavaScript training that sharpened my skills in DOM
-              manipulation, ES6+ features, and async programming. This practical
-              knowledge directly applies to building interactive React
-              components and managing complex state flows in mobile and TV apps.
-            </p>
+            <div class="cert-desc">
+              Hands-on JavaScript training covering DOM manipulation, ES6+
+              features, and async programming. Directly applied to building
+              interactive React components and state management.
+            </div>
           </div>
-          <div class="cert-item">
+          <div class="cert-card">
             <div class="cert-name">
               Introduction to Programming Using JavaScript (98-382)
             </div>
-            <div class="cert-issuer">Microsoft — Issued Jun 2020</div>
+            <div class="cert-issuer">Microsoft &mdash; Issued Jun 2020</div>
             <a
+              class="cert-link"
               href="https://www.credly.com/badges/2fe62e88-3c99-425b-ac94-bddc507f95c3"
               target="_blank"
               rel="noopener"
-              style="font-size: 10px"
               >View Credential</a
             >
-            <p style="margin-top: 8px; font-size: 11px">
-              Microsoft's certification in JavaScript fundamentals demonstrates
-              my problem-solving abilities and programming logic. These core
-              skills are essential for designing robust TypeScript interfaces
-              and APIs that power reliable React Native applications.
-            </p>
+            <div class="cert-desc">
+              Microsoft certification in JavaScript fundamentals demonstrating
+              problem-solving abilities and programming logic. Applied to
+              designing TypeScript interfaces and APIs for React Native
+              applications.
+            </div>
           </div>
-          <div class="cert-item">
+          <div class="cert-card">
             <div class="cert-name">JavaScript Assessment</div>
             <div class="cert-issuer">
-              TestDome — Issued Jun 2020 (Expired Jun 2023)
+              TestDome &mdash; Issued Jun 2020 (Expired Jun 2023)
             </div>
             <a
+              class="cert-link"
               href="https://www.testdome.com/certificates/37d9861f69f64c3c85b57c20a5707ae0"
               target="_blank"
               rel="noopener"
-              style="font-size: 10px"
               >View Credential</a
             >
-            <p style="margin-top: 8px; font-size: 11px">
-              This assessment tested my ability to code under pressure, solving
-              real-world JavaScript problems quickly and accurately. It reflects
-              my debugging skills and quick problem resolution — crucial for
-              maintaining app stability during releases and handling urgent
-              client issues.
-            </p>
+            <div class="cert-desc">
+              Assessment testing ability to solve real-world JavaScript problems
+              under time constraints. Reflects debugging skills and quick
+              problem resolution during releases and urgent issues.
+            </div>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section id="availability">
-        <h2>Availability</h2>
-        <ul style="font-size: 12px; padding-left: 20px">
+      <!-- AVAILABILITY -->
+      <div class="section">
+        <div class="section-title">Availability</div>
+        <ul class="avail-list">
           <li>
             <strong>Serving Notice Period:</strong> Last working date is 27th
             Feb 2026. Seeking Senior Developer / Team Lead roles.
           </li>
           <li>
-            I can join around 9th March (under
-            <span id="days-until-join"></span> days buffer).
+            Available to join around <strong>3rd March 2026</strong> (<span
+              id="days-until-join"
+            ></span>
+            days from today).
           </li>
-          <li>
-            Also, if it works from then, I am open to negotiate compensation
-            around my current compensation.
-          </li>
+          <li>Open to negotiate compensation around current compensation.</li>
         </ul>
-      </section>
+      </div>
 
-      <footer class="footer">
-        <!-- Hidden profile images for Google Image Search indexing -->
+      <!-- FOOTER -->
+      <div class="footer">
         <div style="display: none">
           <img
             src="krunal.png"
-            alt="Krunal Badami professional profile photo - Senior Software Developer and Team Lead specializing in React Native and Roku development"
+            alt="Krunal Badami - Senior Software Developer"
             width="1024"
             height="1024"
           />
           <img
             src="krunal_gemini.jpeg"
-            alt="Krunal Badami profile photo - React Native developer with expertise in mobile and TV app development"
+            alt="Krunal Badami - Developer"
             width="1280"
             height="1280"
           />
           <img
             src="krunal_indian.jpeg"
-            alt="Krunal Badami Indian developer - Senior software engineer from Surat, Gujarat with 7+ years experience"
+            alt="Krunal Badami"
             width="200"
             height="200"
           />
         </div>
-        <div id="footer-images"></div>
-        © <span id="currentYear"></span> Krunal Badami — Built with HTML, CSS &
-        JS.
-        <p
-          style="
-            font-size: 10px;
-            margin-top: 10px;
-            color: var(--text-secondary);
-            text-align: center;
-          "
+        &copy; <span id="currentYear"></span> Krunal Badami &mdash; Built with
+        HTML, CSS &amp; JS. Thanks to
+        <a href="https://chat.openai.com/" target="_blank">ChatGPT</a>,
+        <a href="https://claude.ai/" target="_blank">Claude</a>,
+        <a href="https://grok.x.ai/" target="_blank">Grok</a>,
+        <a href="https://www.perplexity.ai/" target="_blank">Perplexity</a>,
+        <a href="https://github.com/features/copilot" target="_blank"
+          >GitHub Copilot</a
         >
-          Thanks to a lot many AIs free available tools to make this web resume
-          which will ultimately promote you to create more business and help me
-          find jobs.<br /><br />
-          Thanks to
-          <a href="https://chat.openai.com/" target="_blank">OpenAI ChatGPT</a>,
-          <a href="https://kilocode.ai/" target="_blank">Kilo Code AI</a>,
-          <a href="https://claude.ai/" target="_blank">Claude</a>,
-          <a href="https://grok.x.ai/" target="_blank">xGrok</a>,
-          <a href="https://trae.ai/" target="_blank">TRAE</a>,
-          <a href="https://www.perplexity.ai/" target="_blank">Perplexity</a>,
-          <a href="https://github.com/features/copilot" target="_blank"
-            >GitHub Copilot</a
-          >, and
-          <a href="https://gemini.google.com/" target="_blank">Gemini</a>.
-        </p>
-      </footer>
+        &amp; <a href="https://gemini.google.com/" target="_blank">Gemini</a>.
+      </div>
     </main>
 
+    <!-- NOTICE PERIOD MODAL -->
+    <div class="modal-overlay" id="noticeModal">
+      <div class="modal-box">
+        <button class="modal-close" onclick="closeModal()">&times;</button>
+        <div class="modal-badge">Currently Serving Notice Period</div>
+        <div class="modal-name">Krunal Badami</div>
+        <p class="modal-text">
+          Senior React Native Developer and Team Lead with
+          <strong>7+ years</strong> of experience in JavaScript, TypeScript,
+          React Native, React.js, Apple TV, Android TV, and Roku TV development.
+        </p>
+        <div class="modal-highlight">
+          Available to join around <strong>3rd March 2026</strong><br />
+          Currently serving notice period. Open to Senior Developer and Team
+          Lead roles.
+        </div>
+        <a
+          class="modal-cta"
+          href="mailto:krunalbadami@outlook.com?subject=Job%20Opportunity%20-%20Senior%20React%20Native%20Developer"
+        >
+          Contact Me
+        </a>
+        <div class="modal-progress-wrap">
+          <div class="modal-progress-bar" id="modalProgressBar"></div>
+        </div>
+        <div class="modal-timer-text">
+          Auto-closing in <span id="modalCountdown">20</span>s
+        </div>
+      </div>
+    </div>
+
+    <!-- UI CONTROLS -->
     <div class="ui-controls no-print">
-      <button class="btn btn-print" onclick="setPrintTitle(); window.print()">
+      <button class="btn btn-dark" onclick="setPrintTitle(); window.print();">
         Print PDF
       </button>
-
-      <button class="btn btn-secondary" onclick="copyEmail()">
-        Copy Email
-      </button>
-
-      <button class="btn btn-primary" onclick="writeEmail()">
-        Write Email
-      </button>
-
-      <button class="btn btn-success" onclick="callNow()">Call Now</button>
-
+      <button class="btn btn-gray" onclick="copyEmail()">Copy Email</button>
+      <button class="btn btn-blue" onclick="writeEmail()">Write Email</button>
+      <button class="btn btn-green" onclick="callNow()">Call Now</button>
       <button
         class="btn btn-linkedin"
-        onclick="window.open('https://www.linkedin.com/in/krunalbadami', '_blank')"
+        onclick="window.open('https://www.linkedin.com/in/krunalbadami','_blank')"
       >
         LinkedIn
       </button>
-
       <button
         class="btn btn-github"
-        onclick="window.open('https://github.com/krunalbad', '_blank')"
+        onclick="window.open('https://github.com/krunalbad','_blank')"
       >
         GitHub
       </button>
     </div>
 
     <script>
-      function copyEmail() {
-        navigator.clipboard.writeText("krunalbadami@outlook.com").then(() => {
-          alert("Email copied to clipboard!");
-        });
+      /* === Modal with progress bar and auto-close === */
+      var modalTimer = null;
+      var countdownTimer = null;
+      var countdownValue = 20;
+
+      function openModal() {
+        document.getElementById("noticeModal").classList.add("active");
+        countdownValue = 20;
+        document.getElementById("modalCountdown").textContent = countdownValue;
+        // Reset progress bar animation
+        var bar = document.getElementById("modalProgressBar");
+        bar.style.animation = "none";
+        bar.offsetHeight; // trigger reflow
+        bar.style.animation = "shrinkBar 20s linear forwards";
+
+        // Countdown timer
+        countdownTimer = setInterval(function () {
+          countdownValue--;
+          if (countdownValue <= 0) {
+            clearInterval(countdownTimer);
+            closeModal();
+          } else {
+            document.getElementById("modalCountdown").textContent =
+              countdownValue;
+          }
+        }, 1000);
+
+        // Auto-close after 20s (backup)
+        modalTimer = setTimeout(function () {
+          closeModal();
+        }, 20000);
       }
 
-      // Calculate days until join date
-      const joinDate = new Date(2026, 2, 9); // March 9, 2026 (months are 0-based)
-      const today = new Date();
-      const daysUntilJoin = Math.ceil(
-        (joinDate - today) / (1000 * 60 * 60 * 24)
-      );
-      const daysEl = document.getElementById("days-until-join");
-      daysEl.textContent = daysUntilJoin;
+      function closeModal() {
+        document.getElementById("noticeModal").classList.remove("active");
+        if (modalTimer) {
+          clearTimeout(modalTimer);
+          modalTimer = null;
+        }
+        if (countdownTimer) {
+          clearInterval(countdownTimer);
+          countdownTimer = null;
+        }
+      }
 
-      // Write Email function
-      window.writeEmail = function () {
-        const email = "krunalbadami@outlook.com";
-        const subject = encodeURIComponent(
-          "Job Opportunity - Senior React Native Developer"
-        );
-        const body = encodeURIComponent(
-          "Hello Krunal,\n\nI came across your resume and I'm interested in discussing potential opportunities.\n\nPlease let me know your availability for a conversation.\n\nBest regards"
-        );
-        const mailtoLink = `mailto:${email}?subject=${subject}&body=${body}`;
-        window.location.href = mailtoLink;
-      };
+      // Open modal after 5 seconds
+      setTimeout(openModal, 5000);
 
-      // Call Now function
-      window.callNow = function () {
-        const phone = "+918141379017";
-        const telLink = `tel:${phone}`;
-        window.location.href = telLink;
-      };
+      // Close on overlay click
+      document
+        .getElementById("noticeModal")
+        .addEventListener("click", function (e) {
+          if (e.target === this) closeModal();
+        });
 
-      // Set Print Title function
-      window.setPrintTitle = function () {
-        const now = new Date();
-        const day = String(now.getDate()).padStart(2, "0");
-        const monthNames = [
+      /* === Utilities === */
+      function copyEmail() {
+        navigator.clipboard
+          .writeText("krunalbadami@outlook.com")
+          .then(function () {
+            alert("Email copied!");
+          });
+      }
+
+      function writeEmail() {
+        window.location.href =
+          "mailto:krunalbadami@outlook.com?subject=" +
+          encodeURIComponent(
+            "Job Opportunity - Senior React Native Developer"
+          ) +
+          "&body=" +
+          encodeURIComponent(
+            "Hello Krunal,\n\nI came across your resume and I'm interested in discussing potential opportunities.\n\nPlease let me know your availability for a conversation.\n\nBest regards"
+          );
+      }
+
+      function callNow() {
+        window.location.href = "tel:+918141379017";
+      }
+
+      function setPrintTitle() {
+        var d = new Date();
+        var m = [
           "JAN",
           "FEB",
           "MAR",
@@ -1981,164 +1979,94 @@
           "NOV",
           "DEC",
         ];
-        const month = monthNames[now.getMonth()];
-        const year = now.getFullYear();
-        const formattedDate = `${day}_${month}_${year}`;
-        document.title = `KRUNAL_BADAMI_REACT_ROKU_${formattedDate}`;
-      };
+        document.title =
+          "KRUNAL_BADAMI_REACT_ROKU_" +
+          String(d.getDate()).padStart(2, "0") +
+          "_" +
+          m[d.getMonth()] +
+          "_" +
+          d.getFullYear();
+      }
 
+      /* === Days until join === */
+      var joinDate = new Date(2026, 2, 3);
+      var today = new Date();
+      document.getElementById("days-until-join").textContent = Math.max(
+        0,
+        Math.ceil((joinDate - today) / 86400000)
+      );
+
+      /* === Experience Calculation === */
       (function () {
-        /* =====================================================
-           SOURCE OF TRUTH — ALL WORKING PERIODS (NO GAPS)
-        ====================================================== */
+        var now = new Date();
 
-        const workPeriods = [
-          // HQ INFOSYSTEM Internship
-          { start: new Date(2018, 4, 1), end: new Date(2018, 6, 1) }, // May–Jul 2018
-
-          // Leocan PHP Developer
-          { start: new Date(2018, 11, 1), end: new Date(2019, 1, 1) }, // Dec 2018–Feb 2019
-
-          // Full-time developer (Leocan)
-          { start: new Date(2019, 2, 1), end: new Date(2020, 7, 1) }, // Mar 2019–Aug 2020
-
-          // Logicwind (current)
-          { start: new Date(2020, 7, 1), end: new Date() }, // Aug 2020–Present
-        ];
-
-        /* =====================================================
-           SPECIALIZED EXPERIENCE STARTS
-        ====================================================== */
-
-        const reactNativeStart = new Date(2019, 2, 1); // Mar 2019
-        const tvStart = new Date(2021, 7, 1); // Aug 2021
-        const fullStackStart = new Date(2019, 2, 1);
-        const fullStackEnd = new Date(2020, 7, 1);
-
-        /* =====================================================
-           HELPERS
-        ====================================================== */
-
-        function calcDuration(from, to = new Date()) {
-          let y = to.getFullYear() - from.getFullYear();
-          let m = to.getMonth() - from.getMonth();
-          if (m < 0) {
-            y--;
-            m += 12;
-          }
-          return { years: y, months: m };
+        function mb(from, to) {
+          return (
+            (to.getFullYear() - from.getFullYear()) * 12 +
+            (to.getMonth() - from.getMonth())
+          );
         }
 
-        function human(d) {
-          if (d.years === 0 && d.months === 0) return "Less than a month";
-          if (d.years === 0)
-            return `${d.months} month${d.months > 1 ? "s" : ""}`;
-          return `${d.years} year${d.years > 1 ? "s" : ""} ${d.months} month${
-            d.months > 1 ? "s" : ""
-          }`;
+        function fmt(months) {
+          var y = Math.floor(months / 12),
+            m = months % 12;
+          if (y === 0) return m + " month" + (m > 1 ? "s" : "");
+          return (
+            y +
+            " year" +
+            (y > 1 ? "s" : "") +
+            " " +
+            m +
+            " month" +
+            (m > 1 ? "s" : "")
+          );
         }
 
-        // Calculate total experience
-        let totalMonths = 0;
-        workPeriods.forEach((period) => {
-          const dur = calcDuration(period.start, period.end);
-          totalMonths += dur.years * 12 + dur.months;
-        });
-        const totalDur = {
-          years: Math.floor(totalMonths / 12),
-          months: totalMonths % 12,
-        };
+        // End date: use Feb 2026 or now, whichever is later
+        var end = new Date(2026, 1, 1);
+        if (now > end) end = now;
 
-        // Update elements
-        const overallExpEl = document.getElementById("overallExp");
-        overallExpEl.textContent = human(totalDur);
-        const overallExp1 = document.getElementById("overallExp1");
-        overallExp1.textContent = human(totalDur);
+        // Work periods (non-overlapping, gaps excluded)
+        // Internship: May 2018 - Jul 2018 = 2 months
+        // Leocan: Dec 2018 - Aug 2020 = 20 months
+        // Logicwind: Aug 2020 - Feb 2026 (or now) = dynamic
+        var intern = mb(new Date(2018, 4, 1), new Date(2018, 6, 1)); // 2
+        var leocan = mb(new Date(2018, 11, 1), new Date(2020, 7, 1)); // 20
+        var logicwind = mb(new Date(2020, 7, 1), end); // dynamic
 
-        const rnExpEl = document.getElementById("rnExp");
-        rnExpEl.textContent = human(totalDur);
+        var total = intern + leocan + logicwind;
 
-        const fsExpEl = document.getElementById("fsExp");
-        fsExpEl.textContent = human(calcDuration(fullStackStart, fullStackEnd));
+        document.getElementById("overallExp").textContent = fmt(total);
+        document.getElementById("jsExp").textContent = fmt(total);
+        document.getElementById("rnExp").textContent = fmt(total);
 
-        const tvExpEl = document.getElementById("tvExp");
-        tvExpEl.textContent = human(calcDuration(tvStart));
+        // Full Stack: Dec 2018 - Aug 2020
+        document.getElementById("fsExp").textContent = fmt(leocan);
 
-        // Header pill
-        const headerYearsEl = document.getElementById("experience-years");
-        if (headerYearsEl)
-          headerYearsEl.textContent = "Experience: " + human(totalDur);
-
-        const nowRef = new Date();
-        const reactNextStart = new Date(
-          nowRef.getFullYear() - 3,
-          nowRef.getMonth() - 9,
-          nowRef.getDate()
+        // TV: Aug 2021 onwards
+        document.getElementById("tvExp").textContent = fmt(
+          mb(new Date(2021, 7, 1), end)
         );
-        const reactNextEl = document.getElementById("reactNextExp");
-        reactNextEl.textContent = human(calcDuration(reactNextStart, nowRef));
 
-        const nativeStart = new Date(
-          nowRef.getFullYear() - 1,
-          nowRef.getMonth() - 5,
-          nowRef.getDate()
+        // React.js/Next.js: May 2022 onwards
+        document.getElementById("reactNextExp").textContent = fmt(
+          mb(new Date(2022, 4, 1), end)
         );
-        const iosNativeEl = document.getElementById("iosNativeExp");
-        iosNativeEl.textContent = human(calcDuration(nativeStart, nowRef));
 
-        // Team Lead & Project Manager: 4 years 3 months back from today
-        const leadPmStart = new Date(
-          nowRef.getFullYear() - 4,
-          nowRef.getMonth() - 3,
-          nowRef.getDate()
+        // Native iOS/Android: fixed at 1 year 5 months
+        document.getElementById("nativeExp").textContent = fmt(17);
+
+        // Team Lead: Nov 2021 onwards
+        document.getElementById("leadExp").textContent = fmt(
+          mb(new Date(2021, 10, 1), end)
         );
-        const leadPmEl = document.getElementById("leadPmExp");
-        leadPmEl.textContent = human(calcDuration(leadPmStart, nowRef));
 
         // Summary years
-        const summaryYearsEl = document.getElementById("summaryYears");
-        summaryYearsEl.textContent = totalDur.years + "+";
-
-        // Other calculations as before
-        const logicwindStart = new Date(2018, 6, 1); // Jul 1, 2018 (to make 5 years 6 months)
-        const logicwindDur = calcDuration(logicwindStart);
-        const logicwindDurationEl =
-          document.getElementById("logicwindDuration");
-        logicwindDurationEl.textContent = `Present (${human(logicwindDur)})`;
-
-        const seniorRnStart = new Date(2022, 8, 1); // Sep 2022
-        const seniorRnDur = calcDuration(seniorRnStart);
-        const seniorRnDurationEl = document.getElementById("seniorRnDuration");
-        seniorRnDurationEl.textContent = `(${human(seniorRnDur)})`;
-
-        const rnStart = new Date(2020, 7, 1); // Aug 2020
-        const rnEnd = new Date(2022, 7, 1); // Aug 2022
-        const rnDur = calcDuration(rnStart, rnEnd);
-        const rnDurationEl = document.getElementById("rnDuration");
-        rnDurationEl.textContent = `(${human(rnDur)})`;
-
-        const leocanStart = new Date(2019, 6, 1); // May 2019
-        const leocanEnd = new Date(2020, 7, 1); // Aug 2020
-        const leocanDur = calcDuration(leocanStart, leocanEnd);
-        const leocanDurationEl = document.getElementById("leocanDuration");
-        leocanDurationEl.textContent = `(${human(leocanDur)})`;
-
-        const internshipStart = new Date(2018, 4, 1); // May 2018
-        const internshipEnd = new Date(2018, 6, 1); // Jul 2018
-        const internshipDur = calcDuration(internshipStart, internshipEnd);
-        const internshipDurationEl =
-          document.getElementById("internshipDuration");
-        internshipDurationEl.textContent = `(${human(internshipDur)})`;
-
-        const internshipExpEl = document.getElementById("internshipExp");
-        internshipExpEl.textContent = human(internshipDur);
-
-        const totalExpHeaderEl = document.getElementById("totalExpHeader");
-        totalExpHeaderEl.textContent = `(${human(totalDur)})`;
+        document.getElementById("summaryYears").textContent =
+          Math.floor(total / 12) + "+";
 
         // Footer year
-        const yearEl = document.getElementById("currentYear");
-        yearEl.textContent = new Date().getFullYear();
+        document.getElementById("currentYear").textContent = now.getFullYear();
       })();
     </script>
   </body>
