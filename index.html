@@ -1907,6 +1907,9 @@
       >
         GitHub
       </button>
+      <button class="btn btn-dark" onclick="downloadPhoto()">
+        Download Photo
+      </button>
     </div>
 
     <script>
@@ -1988,6 +1991,16 @@
 
       function callNow() {
         window.location.href = "tel:+918141379017";
+      }
+
+      function downloadPhoto() {
+        var link = document.createElement("a");
+        link.href = "krunal.png";
+        link.download = "Krunal_Badami_Staff_Software_Frontend_Engineer.png";
+        link.target = "_blank";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
       }
 
       function setPrintTitle() {
@@ -2079,7 +2092,7 @@
         document.getElementById("reactNextExp").textContent = fmt(total);
 
         // Native iOS/Android: fixed at 1 year 5 months
-        document.getElementById("nativeExp").textContent = fmt(17);
+        document.getElementById("nativeExp").textContent = fmt(total - 56);
 
         // Team Lead: Nov 2021 onwards
         document.getElementById("leadExp").textContent = fmt(
