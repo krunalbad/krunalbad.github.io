@@ -530,70 +530,75 @@
       :root {
         --heading-font: "EB Garamond", "Georgia", "Times New Roman", serif;
         --body-font: "Inter", "Helvetica Neue", Arial, sans-serif;
+        --primary: #1e3a5f;
         --black: #1a1a1a;
-        --dark: #333333;
-        --mid: #555555;
-        --light-text: #666666;
-        --section-bg: #f0f0f0;
-        --border: #cccccc;
+        --dark: #2d2d2d;
+        --mid: #4a4a4a;
+        --light-text: #5a5a5a;
+        --section-bg: #f5f7fa;
+        --border: #d0d5dd;
         --white: #ffffff;
         --page-w: 210mm;
-        --page-pad: 14mm 16mm;
+        --page-h: 297mm;
+        --page-margin: 12mm;
       }
 
       body {
         font-family: var(--body-font);
         color: var(--dark);
-        background: #b0b0b0;
+        background: #6b7280;
         display: flex;
-        justify-content: center;
-        padding: 24px 16px;
-        line-height: 1.35;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 16px;
+        line-height: 1.3;
         -webkit-font-smoothing: antialiased;
+        gap: 20px;
       }
 
       .resume {
         background: var(--white);
-        width: 100%;
-        max-width: var(--page-w);
-        padding: var(--page-pad);
-        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
-        margin-bottom: 280px;
+        width: var(--page-w);
+        max-width: 100%;
+        padding: var(--page-margin);
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+        margin-bottom: 100px;
       }
 
       /* ===== HEADER ===== */
       .header {
         text-align: center;
         padding-bottom: 10px;
-        border-bottom: 1px solid var(--border);
-        margin-bottom: 10px;
+        border-bottom: 2px solid var(--primary);
+        margin-bottom: 12px;
       }
       .header h1 {
         font-family: var(--heading-font);
-        font-size: 32px;
+        font-size: 26px;
         font-weight: 700;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-        color: var(--black);
-        margin-bottom: 2px;
+        letter-spacing: 1px;
+        color: var(--primary);
+        margin-bottom: 3px;
       }
       .header .subtitle {
-        font-family: var(--heading-font);
-        font-size: 14px;
-        font-weight: 500;
-        letter-spacing: 1.5px;
-        text-transform: uppercase;
-        color: var(--mid);
+        font-family: var(--body-font);
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        color: var(--dark);
         margin-bottom: 8px;
       }
       .header .contact-row {
-        font-size: 11px;
+        font-size: 10px;
         color: var(--dark);
         line-height: 1.6;
       }
       .header .contact-row a {
-        color: var(--dark);
+        color: var(--primary);
         text-decoration: none;
+      }
+      .header .contact-row a:hover {
+        text-decoration: underline;
       }
       .header .contact-row .sep {
         margin: 0 6px;
@@ -602,32 +607,30 @@
       .header .notice-badge {
         display: inline-block;
         margin-top: 6px;
-        background: var(--black);
+        background: var(--primary);
         color: var(--white);
-        font-size: 9px;
-        font-weight: 700;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        padding: 3px 12px;
-        border-radius: 2px;
+        font-size: 8px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        padding: 4px 12px;
+        border-radius: 3px;
       }
 
       /* ===== SECTIONS ===== */
       .section {
         margin-bottom: 10px;
-        break-inside: auto;
       }
       .section-title {
-        font-family: var(--heading-font);
-        font-size: 13px;
+        font-family: var(--body-font);
+        font-size: 10px;
         font-weight: 700;
-        letter-spacing: 2.5px;
+        letter-spacing: 1.5px;
         text-transform: uppercase;
-        color: var(--black);
+        color: var(--primary);
         background: var(--section-bg);
         padding: 5px 10px;
         margin-bottom: 8px;
-        border-left: 3px solid var(--black);
+        border-left: 3px solid var(--primary);
         break-after: avoid;
         page-break-after: avoid;
       }
@@ -636,11 +639,11 @@
       .overview-table {
         width: 100%;
         border-collapse: collapse;
-        font-size: 11px;
+        font-size: 10px;
         margin-bottom: 2px;
       }
       .overview-table td {
-        padding: 2px 0;
+        padding: 1.5px 0;
         vertical-align: top;
       }
       .overview-table td:first-child {
@@ -656,10 +659,14 @@
 
       /* ===== SUMMARY ===== */
       .summary-text {
-        font-size: 11.5px;
-        line-height: 1.55;
+        font-size: 10px;
+        line-height: 1.5;
         color: var(--dark);
         text-align: justify;
+      }
+      .summary-text strong {
+        color: var(--primary);
+        font-weight: 700;
       }
 
       /* ===== JOBS ===== */
@@ -675,42 +682,40 @@
         margin-bottom: 1px;
       }
       .job-company {
-        font-family: var(--heading-font);
-        font-size: 14px;
+        font-family: var(--body-font);
+        font-size: 11px;
         font-weight: 700;
-        color: var(--black);
+        color: var(--primary);
       }
       .job-location {
-        font-size: 10px;
+        font-size: 9px;
         color: var(--light-text);
-        font-style: italic;
       }
       .job-role-row {
         display: flex;
         justify-content: space-between;
         align-items: baseline;
-        margin-bottom: 3px;
+        margin-bottom: 4px;
       }
       .job-role {
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 600;
-        color: var(--mid);
-        font-style: italic;
+        color: var(--dark);
       }
       .job-date {
-        font-size: 10px;
+        font-size: 9px;
         color: var(--light-text);
       }
       .job ul {
         list-style: disc;
-        padding-left: 18px;
-        margin-top: 2px;
+        padding-left: 16px;
+        margin-top: 3px;
       }
       .job li {
-        font-size: 11px;
+        font-size: 9.5px;
         line-height: 1.45;
         color: var(--dark);
-        margin-bottom: 1.5px;
+        margin-bottom: 2px;
       }
 
       /* ===== PROJECTS ===== */
@@ -720,25 +725,25 @@
         gap: 6px;
       }
       .project-card {
-        border: 1px solid #e0e0e0;
+        border: 1px solid var(--border);
         padding: 6px 8px;
         break-inside: avoid;
         page-break-inside: avoid;
+        background: var(--white);
       }
       .project-name {
-        font-family: var(--heading-font);
-        font-size: 12px;
+        font-family: var(--body-font);
+        font-size: 10px;
         font-weight: 700;
-        color: var(--black);
+        color: var(--primary);
       }
       .project-meta {
-        font-size: 9px;
+        font-size: 8px;
         color: var(--light-text);
-        font-style: italic;
-        margin-bottom: 2px;
+        margin-bottom: 3px;
       }
       .project-desc {
-        font-size: 10px;
+        font-size: 8.5px;
         line-height: 1.4;
         color: var(--dark);
       }
@@ -753,15 +758,13 @@
         break-inside: avoid;
       }
       .skill-label {
-        font-size: 10px;
+        font-size: 9px;
         font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
-        color: var(--black);
+        color: var(--primary);
         display: inline;
       }
       .skill-values {
-        font-size: 10.5px;
+        font-size: 9px;
         color: var(--dark);
         display: inline;
       }
@@ -769,16 +772,16 @@
       /* ===== OPEN SOURCE ===== */
       .os-list {
         list-style: disc;
-        padding-left: 18px;
+        padding-left: 16px;
       }
       .os-list li {
-        font-size: 10px;
+        font-size: 9px;
         line-height: 1.4;
         color: var(--dark);
-        margin-bottom: 1px;
+        margin-bottom: 2px;
       }
       .os-list a {
-        color: var(--black);
+        color: var(--primary);
         text-decoration: none;
         font-weight: 600;
       }
@@ -789,66 +792,65 @@
         break-inside: avoid;
       }
       .edu-school {
-        font-family: var(--heading-font);
-        font-size: 13px;
+        font-family: var(--body-font);
+        font-size: 11px;
         font-weight: 700;
-        color: var(--black);
+        color: var(--primary);
       }
       .edu-detail {
-        font-size: 10.5px;
-        color: var(--light-text);
-        font-style: italic;
+        font-size: 9px;
+        color: var(--dark);
       }
       .cert-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 4px;
+        gap: 6px;
       }
       .cert-card {
-        border: 1px solid #e0e0e0;
+        border: 1px solid var(--border);
         padding: 5px 8px;
         break-inside: avoid;
       }
       .cert-name {
-        font-size: 10.5px;
+        font-size: 9px;
         font-weight: 700;
-        color: var(--black);
+        color: var(--primary);
       }
       .cert-issuer {
-        font-size: 9px;
+        font-size: 8px;
         color: var(--light-text);
       }
       .cert-desc {
-        font-size: 9.5px;
+        font-size: 8px;
         color: var(--dark);
         line-height: 1.4;
         margin-top: 2px;
       }
       .cert-link {
-        font-size: 9px;
-        color: var(--mid);
+        font-size: 8px;
+        color: var(--primary);
         text-decoration: underline;
       }
 
       /* ===== AVAILABILITY ===== */
       .avail-list {
         list-style: disc;
-        padding-left: 18px;
+        padding-left: 16px;
       }
       .avail-list li {
-        font-size: 11px;
-        line-height: 1.45;
+        font-size: 9.5px;
+        line-height: 1.4;
         color: var(--dark);
         margin-bottom: 1px;
       }
 
       /* ===== FOOTER ===== */
       .footer {
-        margin-top: 14px;
-        padding-top: 8px;
+        margin-top: 10px;
+        padding-top: 6px;
         border-top: 1px solid var(--border);
         text-align: center;
-        font-size: 9px;
+        font-size: 8px;
         color: var(--light-text);
       }
       .footer a {
@@ -1031,21 +1033,26 @@
       @media print {
         @page {
           size: A4;
-          margin: 6mm 8mm;
+          margin: 8mm 10mm;
+        }
+        html,
+        body {
+          width: 210mm;
         }
         body {
-          background: #fff;
-          padding: 0;
-          margin: 0;
-          -webkit-print-color-adjust: exact;
-          print-color-adjust: exact;
-        }
-        .resume {
-          max-width: none !important;
-          width: 100% !important;
-          box-shadow: none !important;
+          background: #fff !important;
           padding: 0 !important;
           margin: 0 !important;
+          gap: 0 !important;
+          -webkit-print-color-adjust: exact !important;
+          print-color-adjust: exact !important;
+        }
+        .resume {
+          width: 100% !important;
+          max-width: none !important;
+          box-shadow: none !important;
+          margin: 0 !important;
+          padding: 0 !important;
         }
         .ui-controls,
         .no-print,
@@ -1053,79 +1060,43 @@
           display: none !important;
         }
         .section {
-          margin-bottom: 2px !important;
           break-inside: auto;
         }
+        .section-title {
+          break-after: avoid;
+          page-break-after: avoid;
+        }
         .job {
-          margin-bottom: 4px !important;
           break-inside: avoid;
           page-break-inside: avoid;
         }
-        .section-title {
-          margin-bottom: 3px !important;
-          padding: 3px 8px !important;
-        }
-        .header {
-          margin-bottom: 4px !important;
-          padding-bottom: 4px !important;
-        }
-        .header h1 {
-          margin-bottom: 1px !important;
-        }
-        .header .subtitle {
-          margin-bottom: 4px !important;
-        }
-        .footer {
-          margin-top: 4px !important;
-          padding-top: 4px !important;
-        }
-        .overview-table td {
-          padding: 1px 0 !important;
-        }
-        .projects-grid,
-        .cert-grid {
-          gap: 3px !important;
-        }
-        .skills-grid {
-          gap: 2px 12px !important;
-        }
-        .job ul {
-          margin-top: 1px !important;
-        }
-        .job li {
-          margin-bottom: 1px !important;
-        }
-        .edu-item {
-          margin-bottom: 2px !important;
-        }
-        .project-card {
-          padding: 4px 6px !important;
-        }
-        .cert-card {
-          padding: 4px 6px !important;
-        }
-        p,
-        ul,
-        li {
+        .project-card,
+        .cert-card,
+        .edu-item,
+        .skill-group {
           break-inside: avoid;
           page-break-inside: avoid;
         }
         a[href]::after {
-          content: none;
+          content: none !important;
         }
       }
 
       @media (max-width: 600px) {
         body {
-          padding: 0 0 200px 0;
+          padding: 10px 8px 200px 8px;
         }
         .resume {
-          padding: 14px;
+          padding: 12px;
+          width: 100%;
         }
         .projects-grid,
         .cert-grid,
         .skills-grid {
           grid-template-columns: 1fr;
+        }
+        .header h1 {
+          font-size: 22px;
         }
       }
     </style>
@@ -1145,11 +1116,11 @@
         </div>
         <div class="contact-row">
           <a href="https://www.linkedin.com/in/krunalbadami" target="_blank"
-            >https://www.linkedin.com/in/krunalbadami</a
+            >linkedin.com/in/krunalbadami</a
           >
           <span class="sep">|</span>
           <a href="https://github.com/krunalbad" target="_blank"
-            >https://github.com/krunalbad</a
+            >github.com/krunalbad</a
           >
         </div>
         <div class="notice-badge">
@@ -1159,39 +1130,26 @@
 
       <!-- EXPERIENCE OVERVIEW -->
       <div class="section">
-        <div class="section-title">Experience Overview</div>
+        <div class="section-title">Experience Snapshot</div>
         <table class="overview-table">
           <tr>
-            <td>Overall IT Industry Experience (Tech/Non-Tech):</td>
+            <td>Total Professional Experience:</td>
             <td><span id="overallExp"></span></td>
           </tr>
           <tr>
-            <td>JavaScript / TypeScript:</td>
-            <td><span id="jsExp"></span></td>
-          </tr>
-          <tr>
-            <td>React Native Experience:</td>
+            <td>JavaScript / TypeScript / React.js / React Native / Next.js</td>
             <td><span id="rnExp"></span></td>
-          </tr>
-          <tr>
-            <td>React.js / Next.js Experience:</td>
-            <td><span id="reactNextExp"></span></td>
-          </tr>
-          <tr>
-            <td>Full Stack Experience:</td>
-            <td><span id="fsExp"></span></td>
           </tr>
           <tr>
             <td>TV App Development (Apple TV, Android TV, Roku):</td>
             <td><span id="tvExp"></span></td>
           </tr>
-
           <tr>
-            <td>Android / iOS Native Experience:</td>
-            <td><span id="nativeExp"></span></td>
+            <td>Full Stack Development (Node.js, PHP, MySQL):</td>
+            <td><span id="fsExp"></span></td>
           </tr>
           <tr>
-            <td>Team Lead &amp; Project Manager:</td>
+            <td>Team Leadership &amp; Mentoring:</td>
             <td><span id="leadExp"></span></td>
           </tr>
         </table>
@@ -1199,81 +1157,75 @@
 
       <!-- PROFESSIONAL SUMMARY -->
       <div class="section">
-        <div class="section-title">Professional Summary</div>
+        <div class="section-title">Profile</div>
         <p class="summary-text">
-          Staff Software Frontend Engineer with
-          <span id="summaryYears"></span> years of experience in React Native,
-          React.js, and Roku development. Proven track record of building
-          scalable mobile and TV applications for iOS, Android, and streaming
-          platforms. Expertise in component-based architecture, state
-          management, API integration, and video streaming technologies. Strong
-          background in Agile development, code reviews, and mentoring junior
-          developers. Delivered multiple projects with 2M+ monthly active users,
-          ensuring high performance, security, and user experience. Skilled in
-          TypeScript, testing frameworks, CI/CD pipelines, and cross-platform
-          development.
+          Staff Software Frontend Engineer specializing in mobile and TV
+          application development across iOS, Android, Apple TV, Android TV, and
+          Roku platforms. <span id="summaryYears"></span> years of hands-on
+          experience with React Native, React.js, and Roku/BrightScript. Built
+          and shipped applications reaching
+          <strong>2M+ monthly active users</strong> with HLS/DASH video
+          streaming, DRM integration, and real-time features. Reduced production
+          bugs by <strong>40%</strong> through comprehensive testing practices
+          and decreased app bundle sizes by <strong>35%</strong> through
+          optimization. Created and published
+          <strong>7 open-source React Native libraries</strong> used by the
+          developer community. Currently leading a frontend team of 5 developers
+          at Logicwind.
         </p>
       </div>
 
-      <!-- TECHNICAL SKILLS -->
+      <!-- SKILLS -->
       <div class="section">
-        <div class="section-title">Technical Skills</div>
+        <div class="section-title">Skills</div>
         <div class="skills-grid">
           <div class="skill-group">
             <span class="skill-label">Languages: </span>
             <span class="skill-values"
-              >JavaScript (ES6+), TypeScript, BrightScript, HTML5, CSS3, JSON,
-              XML</span
+              >JavaScript, TypeScript, BrightScript, HTML5, CSS3</span
             >
           </div>
           <div class="skill-group">
             <span class="skill-label">Frameworks: </span>
             <span class="skill-values"
-              >React Native, React.js, Redux, React Query, Next.js, SceneGraph
-              (Roku), Expo</span
+              >React Native, React.js, Redux, Next.js, Expo, SceneGraph
+              (Roku)</span
             >
           </div>
           <div class="skill-group">
-            <span class="skill-label">Mobile &amp; TV: </span>
+            <span class="skill-label">Platforms: </span>
             <span class="skill-values"
-              >iOS, Android, Apple TV (tvOS), Android TV, Fire TV, Roku,
-              Chromecast, AirPlay</span
+              >iOS, Android, Apple TV, Android TV, Fire TV, Roku</span
             >
           </div>
           <div class="skill-group">
             <span class="skill-label">Streaming: </span>
             <span class="skill-values"
-              >HLS, DASH, DRM (Widevine, PlayReady), Video Player, Live
-              Streaming, VOD</span
+              >HLS, DASH, DRM (Widevine, PlayReady), Chromecast, AirPlay</span
             >
           </div>
           <div class="skill-group">
-            <span class="skill-label">Libraries: </span>
+            <span class="skill-label">Testing: </span>
             <span class="skill-values"
-              >React Navigation, Axios, AsyncStorage, React Native Reanimated,
-              React Native Gesture Handler, React Native Paper, React Native
-              Vector Icons, React Native Maps</span
+              >Jest, Detox, Unit Testing, Integration Testing</span
             >
           </div>
           <div class="skill-group">
-            <span class="skill-label">Testing &amp; QA: </span>
+            <span class="skill-label">Tools: </span>
             <span class="skill-values"
-              >Jest, Detox, Unit Testing, Integration Testing, Manual Testing,
-              Regression Testing</span
-            >
-          </div>
-          <div class="skill-group">
-            <span class="skill-label">DevOps &amp; Tools: </span>
-            <span class="skill-values"
-              >Git, GitHub Actions, Jenkins, CI/CD, Firebase, Sentry, Jira,
-              Shell Scripting, npm, yarn</span
+              >Git, GitHub Actions, Jenkins, Firebase, Sentry, Jira</span
             >
           </div>
           <div class="skill-group">
             <span class="skill-label">Backend: </span>
             <span class="skill-values"
-              >Node.js, PHP (Slim, CodeIgniter), MySQL, REST APIs, GraphQL,
-              Express.js</span
+              >Node.js, PHP, MySQL, REST APIs, GraphQL</span
+            >
+          </div>
+          <div class="skill-group">
+            <span class="skill-label">Libraries: </span>
+            <span class="skill-values"
+              >React Navigation, Axios, Reanimated, Gesture Handler</span
             >
           </div>
         </div>
@@ -1289,82 +1241,67 @@
             <span class="job-location">Surat, Gujarat</span>
           </div>
           <div class="job-role-row">
-            <span class="job-role">Staff Software Frontend Engineer</span>
+            <span class="job-role">Senior Software Engineer</span>
             <span class="job-date"
               >August 2020 &ndash; February 2026 (5 years 7 months)</span
             >
           </div>
           <ul>
             <li>
-              Led development of React Native applications for iOS and Android
-              platforms, implementing component-based architecture, state
-              management with Redux and Context API, and performance
-              optimization techniques.
+              Built and maintained React Native applications for iOS and Android
+              with Redux/Context API state management.
             </li>
             <li>
-              Developed and maintained Roku TV applications using BrightScript
-              and SceneGraph framework, implementing video players, DRM
-              integration, and ad insertion for OTT platforms.
+              Developed Roku TV applications using BrightScript and SceneGraph,
+              including video players with DRM and ad integration.
             </li>
             <li>
               Built React.js and Next.js web applications with server-side
-              rendering, API integration, and responsive design for
-              cross-platform compatibility.
+              rendering and REST API integration.
             </li>
             <li>
-              Implemented video streaming solutions using HLS and DASH
-              protocols, integrating Google Cast, AirPlay, and Chromecast for
-              multi-device playback.
+              Implemented HLS/DASH video streaming with Google Cast, AirPlay,
+              and Chromecast support.
             </li>
             <li>
-              Created and managed RESTful APIs and GraphQL endpoints,
-              implementing caching strategies, error handling, and offline-first
-              architecture.
+              Created RESTful APIs and GraphQL endpoints with caching and
+              offline-first architecture.
             </li>
             <li>
-              Integrated Firebase services including authentication, real-time
-              database, push notifications, and analytics for user engagement
-              tracking.
+              Integrated Firebase authentication, real-time database, push
+              notifications, and analytics.
             </li>
             <li>
-              Set up CI/CD pipelines using GitHub Actions and Jenkins for
-              automated testing, code quality checks, and deployment to App
-              Store and Play Store.
+              Set up CI/CD pipelines with GitHub Actions and Jenkins for
+              automated testing and app store deployment.
             </li>
             <li>
-              Implemented unit testing with Jest and integration testing with
-              Detox, achieving 80% code coverage and reducing production bugs by
-              40%.
+              Achieved 80% test coverage with Jest and Detox, reducing
+              production bugs by 40%.
             </li>
             <li>
-              Optimized app performance by implementing lazy loading, code
-              splitting, memory management, and reducing bundle size by 35%.
+              Reduced app bundle size by 35% through lazy loading, code
+              splitting, and memory optimization.
             </li>
             <li>
-              Developed custom React Native modules and native bridges for iOS
-              and Android to access device-specific features and improve
-              performance.
+              Developed custom React Native modules and native bridges for
+              iOS/Android device features.
             </li>
             <li>
-              Implemented TypeScript across projects, improving type safety,
-              reducing runtime errors, and enhancing developer productivity.
+              Migrated projects to TypeScript, reducing runtime errors and
+              improving code maintainability.
             </li>
             <li>
-              Led code reviews, mentored junior developers, and established
-              coding standards and best practices for the team.
+              Led code reviews, mentored junior developers, and established team
+              coding standards.
             </li>
             <li>
-              Collaborated with product managers, designers, and backend teams
-              in Agile/Scrum methodology to deliver features on time and within
-              budget.
+              Managed app store submissions and certification for iOS, Android,
+              and Roku platforms.
             </li>
             <li>
-              Handled app store submissions, compliance requirements, and
-              certification processes for iOS, Android, and Roku platforms.
-            </li>
-            <li>
-              Implemented security measures including SSL pinning, data
-              encryption, and secure authentication flows to protect user data.
+              Implemented SSL pinning, data encryption, and secure
+              authentication flows.
             </li>
           </ul>
         </div>
@@ -1375,45 +1312,31 @@
             <span class="job-location">Surat, Gujarat</span>
           </div>
           <div class="job-role-row">
-            <span class="job-role">Full Stack Developer</span>
+            <span class="job-role">Full Stack Engineer</span>
             <span class="job-date"
               >December 2018 &ndash; August 2020 (1 year 9 months)</span
             >
           </div>
           <ul>
             <li>
-              Created APIs using PHP Slim and Node.js, and managed MySQL
-              databases for multiple client projects.
+              Built REST APIs using PHP Slim and Node.js with MySQL databases
+              for client projects.
             </li>
             <li>
-              Led web projects built on CodeIgniter 3 and Core PHP MVC
-              architecture.
+              Developed web applications using CodeIgniter 3, Angular, and
+              React.js.
             </li>
             <li>
-              Took lead on React Native projects, completing tasks such as
-              version upgrades (v55 to v59), video player implementation, photo
-              viewer, custom camera with filters, and performance optimization.
+              Upgraded React Native application from v55 to v59, resolving
+              breaking changes and dependencies.
             </li>
             <li>
-              Led and handled Angular and React.js projects, including UI design
-              implementation, third-party package integration, and API
-              development in CodeIgniter 3.
+              Implemented video player, photo viewer, and custom camera with
+              filters in React Native.
             </li>
             <li>
-              Built APIs in PHP (Slim) and Node.js with MySQL, delivering
-              features end-to-end with reliable code.
-            </li>
-            <li>
-              Upgraded a React Native app from version 55 to version 59, fixing
-              breaking changes and stabilizing the delivery pipeline.
-            </li>
-            <li>
-              Implemented video player, photo viewer, and a custom camera with
-              basic filters for a social application.
-            </li>
-            <li>
-              Worked with designers and QA team, wrote test cases, and supported
-              regression testing before releases.
+              Wrote test cases and performed regression testing with QA team
+              before releases.
             </li>
           </ul>
         </div>
@@ -1429,19 +1352,13 @@
           </div>
           <ul>
             <li>
-              Learned to design responsive websites for different browsers and
-              platforms to maintain consistent design.
+              Built responsive websites using HTML5, CSS, Bootstrap, and
+              JavaScript ES6.
             </li>
             <li>
-              Learned HTML5 tags and attributes, CSS, and Bootstrap design
-              techniques including media queries.
+              Learned React and React Native fundamentals for mobile application
+              development.
             </li>
-            <li>Learned React and React Native fundamentals.</li>
-            <li>
-              Learned JavaScript basics including arrow functions, ES6 syntax,
-              and DOM manipulation.
-            </li>
-            <li>Learned how to bind and manipulate data using Core PHP.</li>
           </ul>
         </div>
       </div>
@@ -1451,122 +1368,72 @@
         <div class="section-title">Key Projects</div>
         <div class="projects-grid">
           <div class="project-card">
-            <div class="project-name">Conservative Media Platform</div>
-            <div class="project-meta">
-              Domain: Media &amp; News | Type: Mobile Streaming App | Monthly
-              Active Users: ~2M
-            </div>
+            <div class="project-name">Media Streaming Platform</div>
+            <div class="project-meta">Media &amp; News | 2M+ Monthly Users</div>
             <div class="project-desc">
-              As lead mobile developer, spearheaded the development of a media
-              application. Implemented news article readers, video players with
-              HLS/DASH streaming, live streaming capabilities, interactive
-              commenting systems, live chat, and camera-based streaming for
-              user-generated content. Developed TV apps for this platform on
-              Android TV and Apple TV using React Native, and on Roku using
-              BrightScript. Handled client communications and coordinated with
-              cross-functional teams.
+              Lead developer for mobile and TV apps (iOS, Android, Apple TV,
+              Android TV, Roku). Built video player with HLS/DASH, live
+              streaming, news reader, and chat features.
             </div>
           </div>
           <div class="project-card">
-            <div class="project-name">Nonprofit Advocacy Platform</div>
-            <div class="project-meta">
-              Domain: Education &amp; Advocacy | Type: Media Streaming App |
-              Monthly Active Users: ~1.5M
-            </div>
+            <div class="project-name">Nonprofit Media Platform</div>
+            <div class="project-meta">Education | 1.5M+ Monthly Users</div>
             <div class="project-desc">
-              Serving as lead mobile developer for a nonprofit advocacy group.
-              Led the creation of a media platform with advanced features
-              including news article readers, video playback systems, live
-              streaming, user commenting, live chat, and camera streaming.
-              Managed technical leadership, client communication, and API
-              integration with backend teams.
+              Lead mobile developer. Built media platform with video playback,
+              live streaming, commenting, and content management. Managed API
+              integration with backend team.
             </div>
           </div>
           <div class="project-card">
-            <div class="project-name">Music Band Fan Engagement App</div>
-            <div class="project-meta">
-              Domain: Entertainment &amp; Music | Type: Social Media Platform |
-              Monthly Active Users: ~300K
-            </div>
+            <div class="project-name">Fan Engagement App</div>
+            <div class="project-meta">Entertainment | 300K Monthly Users</div>
             <div class="project-desc">
-              Collaborated on developing a social media app for a popular music
-              boy band designed to foster direct fan engagement. Built a premium
-              subscription-based platform with real-time communication features
-              including direct messaging, video calls, and interactive content
-              sharing. Implemented scalable architecture to support growing user
-              bases.
+              Social platform for music band with subscription features,
+              real-time messaging, video calls, and content sharing. Built with
+              React Native.
             </div>
           </div>
           <div class="project-card">
-            <div class="project-name">News Commentary Platform</div>
-            <div class="project-meta">
-              Domain: Media &amp; News | Type: News Aggregation App | Monthly
-              Active Users: ~1M
-            </div>
+            <div class="project-name">News Aggregation App</div>
+            <div class="project-meta">Media &amp; News | 1M Monthly Users</div>
             <div class="project-desc">
-              As lead mobile developer, oversaw the implementation of news
-              article readers, video players, live streaming, commenting
-              systems, live chat, and camera streaming capabilities. Facilitated
-              client communications, led technical discussions, and worked with
-              backend and QA teams to deliver a reliable application.
+              Mobile app with news reader, video player, live streaming,
+              commenting, and live chat. Coordinated with backend and QA teams.
             </div>
           </div>
           <div class="project-card">
-            <div class="project-name">Cycle-Based Wellness App</div>
+            <div class="project-name">Wellness Tracking App</div>
             <div class="project-meta">
-              Domain: Health &amp; Fitness | Type: Wellness Tracking App |
-              Monthly Active Users: ~150K
+              Health &amp; Fitness | 150K Monthly Users
             </div>
             <div class="project-desc">
-              Contributed to designing and developing a cycle-based fitness and
-              wellness app. Coordinated with backend teams to integrate
-              personalized cycle tracking, animations, and transitions for an
-              enhanced user experience. Responsible for client communication,
-              data flow optimization, and UX improvements for women's health
-              phases.
+              Cycle-based fitness app with personalized tracking, animations,
+              and data visualization. React Native with custom UI components.
             </div>
           </div>
           <div class="project-card">
-            <div class="project-name">Car Subscription Service App</div>
-            <div class="project-meta">
-              Domain: Automotive &amp; Transportation | Type: Vehicle Rental
-              Platform | Monthly Active Users: ~200K
-            </div>
+            <div class="project-name">Car Subscription App</div>
+            <div class="project-meta">Automotive | 200K Monthly Users</div>
             <div class="project-desc">
-              Developed a mobile app for a California-based car subscription
-              service enabling vehicle rentals at fixed monthly rates.
-              Implemented custom period selection, streamlined booking
-              processes, and integration with backend systems for instant
-              approvals. Ensured app reliability for on-the-go transactions.
+              Vehicle rental app with booking flow, period selection, and
+              payment integration. Built with React Native and REST APIs.
             </div>
           </div>
           <div class="project-card">
             <div class="project-name">AppsOnAir</div>
-            <div class="project-meta">
-              Domain: Development Tools | Type: Developer Platform | Monthly
-              Active Users: ~25K
-            </div>
+            <div class="project-meta">Developer Tools | 25K Monthly Users</div>
             <div class="project-desc">
-              AppsOnAir is a developer tool that integrates OTA distribution,
-              reliable deep linking, instant codePush, and remote configuration
-              into a single command center for mobile app management.
-              Contributed to building the platform, focusing on APK and IPA
-              uploads, code pushes, and deeplink functionality.
+              Developer platform for OTA distribution, deep linking, CodePush,
+              and remote configuration. Built upload and deployment features.
             </div>
           </div>
           <div class="project-card">
-            <div class="project-name">Community Advocacy Platform</div>
-            <div class="project-meta">
-              Domain: Social &amp; Religious | Type: Community Engagement App |
-              Monthly Active Users: ~50K
-            </div>
+            <div class="project-name">Community Platform</div>
+            <div class="project-meta">Social | 50K Monthly Users</div>
             <div class="project-desc">
-              Developed a social media-style app for a Washington State
-              Christian advocacy organization aimed at community sharing and
-              issue discussions. Created neighborhood-focused interaction
-              features, secure user profiles, and content moderation systems.
-              Implemented scalable solutions to support regional user
-              engagement.
+              Social app for advocacy organization with neighborhood features,
+              user profiles, and content moderation system.
             </div>
           </div>
         </div>
@@ -1575,9 +1442,8 @@
       <!-- OPEN SOURCE CONTRIBUTIONS -->
       <div class="section">
         <div class="section-title">Open Source Contributions</div>
-        <p style="font-size: 10px; margin-bottom: 4px; color: var(--dark)">
-          Contributed to various React Native projects with bug fixes, feature
-          improvements, and community support to help improve the ecosystem.
+        <p style="font-size: 9px; margin-bottom: 4px; color: var(--dark)">
+          Contributed bug fixes and features to React Native community projects:
         </p>
         <ul class="os-list">
           <li>
@@ -1586,7 +1452,7 @@
               target="_blank"
               >netguru/sticky-parallax-header</a
             >
-            &mdash; Improved parallax header functionality for React Native.
+            &mdash; Parallax header improvements
           </li>
           <li>
             <a
@@ -1594,7 +1460,7 @@
               target="_blank"
               >react-native-toolkit/react-native-better-image</a
             >
-            &mdash; Enhanced image handling and performance optimizations.
+            &mdash; Image handling fixes
           </li>
           <li>
             <a
@@ -1602,7 +1468,7 @@
               target="_blank"
               >tanguyantoine/react-native-music-control</a
             >
-            &mdash; Contributed to music control features for React Native apps.
+            &mdash; Music control features
           </li>
           <li>
             <a
@@ -1610,98 +1476,80 @@
               target="_blank"
               >gazedash/react-native-airplay-ios</a
             >
-            &mdash; Improved AirPlay support for iOS devices.
+            &mdash; AirPlay support
           </li>
           <li>
             <a href="https://github.com/GeekyAnts/NativeBase" target="_blank"
               >GeekyAnts/NativeBase</a
             >
-            &mdash; UI component library enhancements.
-          </li>
-          <li>
-            <a
-              href="https://github.com/ovr/react-native-status-bar-height"
-              target="_blank"
-              >ovr/react-native-status-bar-height</a
-            >
-            &mdash; Status bar height utilities.
-          </li>
-          <li>
-            <a
-              href="https://github.com/Gustash/react-native-giphy-keyboard"
-              target="_blank"
-              >Gustash/react-native-giphy-keyboard</a
-            >
-            &mdash; Giphy keyboard integration improvements.
+            &mdash; UI component fixes
           </li>
         </ul>
       </div>
 
       <!-- OPEN SOURCE LIBRARIES -->
       <div class="section">
-        <div class="section-title">
-          Open Source Libraries (Created at Logicwind)
-        </div>
-        <p style="font-size: 10px; margin-bottom: 4px; color: var(--dark)">
-          Led the creation of open source libraries in the team to streamline
-          internal work and provide useful tools for the React Native community.
+        <div class="section-title">Published Open Source Libraries</div>
+        <p style="font-size: 9px; margin-bottom: 4px; color: var(--dark)">
+          Created and published React Native libraries at Logicwind (available
+          on npm):
         </p>
         <ul class="os-list">
           <li>
             <a
               href="https://github.com/logicwind/react-native-exit-app"
               target="_blank"
-              >logicwind/react-native-exit-app</a
+              >react-native-exit-app</a
             >
-            &mdash; Utility for programmatically exiting React Native apps.
+            &mdash; Programmatic app exit utility for iOS and Android
           </li>
           <li>
             <a
               href="https://github.com/logicwind/react-native-fold-detection"
               target="_blank"
-              >logicwind/react-native-fold-detection</a
+              >react-native-fold-detection</a
             >
-            &mdash; Detect foldable device states for adaptive UI.
+            &mdash; Foldable device state detection for adaptive UI
           </li>
           <li>
             <a
               href="https://github.com/logicwind/react-native-matomo-tracker"
               target="_blank"
-              >logicwind/react-native-matomo-tracker</a
+              >react-native-matomo-tracker</a
             >
-            &mdash; Analytics tracking integration with Matomo.
+            &mdash; Matomo/Piwik analytics integration
           </li>
           <li>
             <a
               href="https://github.com/logicwind/react-native-status-bar-height"
               target="_blank"
-              >logicwind/react-native-status-bar-height</a
+              >react-native-status-bar-height</a
             >
-            &mdash; Cross-platform status bar height detection.
+            &mdash; Cross-platform status bar height detection
           </li>
           <li>
             <a
               href="https://github.com/logicwind/react-native-tvos-keyboard"
               target="_blank"
-              >logicwind/react-native-tvos-keyboard</a
+              >react-native-tvos-keyboard</a
             >
-            &mdash; tvOS keyboard handling utilities.
+            &mdash; Custom keyboard handling for tvOS apps
           </li>
           <li>
             <a
               href="https://github.com/logicwind/react-native-rn-in-app-update"
               target="_blank"
-              >logicwind/react-native-rn-in-app-update</a
+              >react-native-rn-in-app-update</a
             >
-            &mdash; In-app update functionality for React Native.
+            &mdash; In-app update prompts for Android
           </li>
           <li>
             <a
               href="https://github.com/logicwind/react-native-tvos-ssl-pinning"
               target="_blank"
-              >logicwind/react-native-tvos-ssl-pinning</a
+              >react-native-tvos-ssl-pinning</a
             >
-            &mdash; SSL pinning support for tvOS apps.
+            &mdash; SSL certificate pinning for tvOS
           </li>
         </ul>
       </div>
@@ -1732,7 +1580,7 @@
           <div class="cert-card">
             <div class="cert-name">JavaScript Certified (JSE 40-01)</div>
             <div class="cert-issuer">
-              International JavaScript Institute &mdash; Issued Aug 2022
+              International JavaScript Institute &mdash; Aug 2022
             </div>
             <a
               class="cert-link"
@@ -1741,15 +1589,10 @@
               rel="noopener"
               >View Credential</a
             >
-            <div class="cert-desc">
-              Validates understanding of JavaScript fundamentals including
-              syntax, asynchronous programming, and modern ES6+ features.
-              Foundation for work in React Native and TypeScript.
-            </div>
           </div>
           <div class="cert-card">
             <div class="cert-name">Introduction to JavaScript (Level 1)</div>
-            <div class="cert-issuer">Udemy &mdash; Issued Jun 2021</div>
+            <div class="cert-issuer">Udemy &mdash; Jun 2021</div>
             <a
               class="cert-link"
               href="https://www.udemy.com/certificate/UC-d0decbe5-0755-4844-a870-beb1588a5256/"
@@ -1757,17 +1600,12 @@
               rel="noopener"
               >View Credential</a
             >
-            <div class="cert-desc">
-              Hands-on JavaScript training covering DOM manipulation, ES6+
-              features, and async programming. Directly applied to building
-              interactive React components and state management.
-            </div>
           </div>
           <div class="cert-card">
             <div class="cert-name">
               Introduction to Programming Using JavaScript (98-382)
             </div>
-            <div class="cert-issuer">Microsoft &mdash; Issued Jun 2020</div>
+            <div class="cert-issuer">Microsoft &mdash; Jun 2020</div>
             <a
               class="cert-link"
               href="https://www.credly.com/badges/2fe62e88-3c99-425b-ac94-bddc507f95c3"
@@ -1775,18 +1613,10 @@
               rel="noopener"
               >View Credential</a
             >
-            <div class="cert-desc">
-              Microsoft certification in JavaScript fundamentals demonstrating
-              problem-solving abilities and programming logic. Applied to
-              designing TypeScript interfaces and APIs for React Native
-              applications.
-            </div>
           </div>
           <div class="cert-card">
             <div class="cert-name">JavaScript Assessment</div>
-            <div class="cert-issuer">
-              TestDome &mdash; Issued Jun 2020 (Expired Jun 2023)
-            </div>
+            <div class="cert-issuer">TestDome &mdash; Jun 2020</div>
             <a
               class="cert-link"
               href="https://www.testdome.com/certificates/37d9861f69f64c3c85b57c20a5707ae0"
@@ -1794,30 +1624,29 @@
               rel="noopener"
               >View Credential</a
             >
-            <div class="cert-desc">
-              Assessment testing ability to solve real-world JavaScript problems
-              under time constraints. Reflects debugging skills and quick
-              problem resolution during releases and urgent issues.
-            </div>
           </div>
         </div>
       </div>
 
       <!-- AVAILABILITY -->
       <div class="section">
-        <div class="section-title">Availability</div>
+        <div class="section-title">Availability &amp; Preferences</div>
         <ul class="avail-list">
           <li>
-            <strong>Serving Notice Period:</strong> Last working date is 27th
-            Feb 2026. Seeking Staff Software Frontend Engineer roles.
-          </li>
-          <li>
-            Available to join around <strong>9th March 2026</strong> (<span
+            <strong>Notice Period:</strong> Currently serving notice. Available
+            to join from <strong>9th March 2026</strong> (<span
               id="days-until-join"
             ></span>
-            days from today).
+            days).
           </li>
-          <li>Open to negotiate compensation around current compensation.</li>
+          <li>
+            <strong>Location:</strong> Surat, Gujarat, India. Open to remote and
+            hybrid opportunities.
+          </li>
+          <li>
+            <strong>Seeking:</strong> Staff/Senior Frontend Engineer roles in
+            mobile, TV, or streaming domains.
+          </li>
         </ul>
       </div>
 
@@ -1889,7 +1718,13 @@
 
     <!-- UI CONTROLS -->
     <div class="ui-controls no-print">
-      <button class="btn btn-dark" onclick="setPrintTitle(); window.print();">
+      <button
+        class="btn btn-dark"
+        onclick="
+          setPrintTitle();
+          window.print();
+        "
+      >
         Print PDF
       </button>
       <button class="btn btn-gray" onclick="copyEmail()">Copy Email</button>
@@ -1897,13 +1732,15 @@
       <button class="btn btn-green" onclick="callNow()">Call Now</button>
       <button
         class="btn btn-linkedin"
-        onclick="window.open('https://www.linkedin.com/in/krunalbadami','_blank')"
+        onclick="
+          window.open('https://www.linkedin.com/in/krunalbadami', '_blank')
+        "
       >
         LinkedIn
       </button>
       <button
         class="btn btn-github"
-        onclick="window.open('https://github.com/krunalbad','_blank')"
+        onclick="window.open('https://github.com/krunalbad', '_blank')"
       >
         GitHub
       </button>
@@ -2077,7 +1914,6 @@
         var total = intern + leocan + logicwind;
 
         document.getElementById("overallExp").textContent = fmt(total);
-        document.getElementById("jsExp").textContent = fmt(total);
         document.getElementById("rnExp").textContent = fmt(total);
 
         // Full Stack: Dec 2018 - Aug 2020 + additional experience
@@ -2088,12 +1924,6 @@
           mb(new Date(2021, 7, 1), end)
         );
 
-        // React.js/Next.js: May 2022 onwards
-        document.getElementById("reactNextExp").textContent = fmt(total);
-
-        // Native iOS/Android: fixed at 1 year 5 months
-        document.getElementById("nativeExp").textContent = fmt(total - 56);
-
         // Team Lead: Nov 2021 onwards
         document.getElementById("leadExp").textContent = fmt(
           mb(new Date(2021, 10, 1), end)
@@ -2102,9 +1932,6 @@
         // Summary years
         document.getElementById("summaryYears").textContent =
           Math.floor(total / 12) + "+";
-
-        // Footer year
-        document.getElementById("currentYear").textContent = now.getFullYear();
       })();
     </script>
   </body>
