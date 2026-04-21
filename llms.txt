@@ -30,8 +30,13 @@ Krunal Badami is a senior technical leader with 8+ years of experience architect
 - [Portfolio](https://krunalbad.github.io/)
 - [Resume](https://krunalbad.github.io/resume/)
 - [LinkedIn](https://www.linkedin.com/in/krunalbadami/)
+- [CloudyMate LinkedIn](https://www.linkedin.com/company/cloudymate)
 - [GitHub](https://github.com/krunalbad)
 - [YouTube Media](https://www.youtube.com/@rekhabadamivlog/shorts) (Embedded portfolio reels/shorts)
+
+## Branded Assets
+- [CloudyMate Banner](https://krunalbad.github.io/images/cloudymate_banner.png)
+- [CloudyMate Logo](https://krunalbad.github.io/images/cloudymate_logo.png)
 
 ## Contact
 - Email: krunalbadami@outlook.com

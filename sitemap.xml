@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://krunalbad.github.io/</loc>
     <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://krunalbad.github.io/images/cloudymate_banner.png</image:loc>
+      <meta name="keywords" content="Software Architect Resume, CloudyMate, Engineering Manager CV, Tech Lead Portfolio, Hire React Native Architect, Roku Developer London, Engineering Manager San Francisco, React Native Developer Berlin, Software Architect New York, Remote Engineering Leadership, Fintech Architect India, OTT Streaming Expert, Krunal Badami" />Professional Business Profile</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krunalbad.github.io/images/krunal_logicwind_ai_generated.png</image:loc>
+      <image:title>Krunal Badami Professional Business Profile</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://krunalbad.github.io/resume/</loc>
