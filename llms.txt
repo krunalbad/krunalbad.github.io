@@ -1,0 +1,38 @@
+# Krunal Badami
+> Software Architect & Engineering Manager | React Native, Roku/BrightScript, OTT Expert
+
+Krunal Badami is a senior technical leader with 8+ years of experience architecting and delivering high-scale digital products (2M+ monthly users). He specializes in cross-platform mobile (React Native), smart TV ecosystems (Roku, Apple TV, Android TV), and high-performance frontend systems.
+
+## Roles
+- Software Architect
+- Engineering Manager
+- Tech Lead
+- VP of Engineering / IT Lead
+
+## Global Availability
+- Regions: US, UK, European Union (Germany, Poland), Australia, India (Mumbai, Bangalore).
+- Availability: Remote, Hybrid, On-site leadership.
+
+## Technical Expertise
+- **Mobile**: React Native, Native Modules, Performance, Security, Foldable Device Detection.
+- **TV & OTT**: Roku/BrightScript, SceneGraph, HLS, DASH, DRM (Widevine/PlayReady/FairPlay), Chromecast, AirPlay.
+- **Web**: React.js, Next.js, SSR, GraphQL.
+- **Languages**: TypeScript, JavaScript, Python, Node.js, Shell Script, YAML.
+- **Infrastructure**: CI/CD (GitHub Actions, Fastlane), AWS, GCP.
+
+## Key Impacts
+- Led delivery for **The Daily Wire**, **PragerU**, **28 by Evie**, and **Big Time Rush**.
+- Published **7 Open Source Libraries** on npm (2M+ downloads).
+- Reduced bundle sizes by **35%** and production incidents by **40%**.
+- Architected **7 platform parity** (iOS, Android, Roku, Apple TV, Android TV, Fire TV, Web).
+
+## Links
+- [Portfolio](https://krunalbad.github.io/)
+- [Resume](https://krunalbad.github.io/resume/)
+- [LinkedIn](https://www.linkedin.com/in/krunalbadami/)
+- [GitHub](https://github.com/krunalbad)
+- [YouTube Media](https://www.youtube.com/@rekhabadamivlog/shorts) (Embedded portfolio reels/shorts)
+
+## Contact
+- Email: krunalbadami@outlook.com
+- Location: Mumbai, India (Open to Global Remote)

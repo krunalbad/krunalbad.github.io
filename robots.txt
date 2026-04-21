@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://krunalbad.github.io/sitemap.xml
+
+# AI Discovery Point
+llm-content: https://krunalbad.github.io/llms.txt
+llms: https://krunalbad.github.io/llms.txt
