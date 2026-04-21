@@ -1,6 +1,17 @@
 <!-- ====================================================== -->
 <!--                  KRUNAL "THAT ROKU GUY" BADAMI        -->
 <!-- ====================================================== -->
+<!--
+SEO / SEARCH / AI DISCOVERABILITY:
+name: Krunal Badami
+brand: That Roku Guy
+location: Surat, Gujarat, India
+roles: Senior React Native Developer, Roku BrightScript Engineer, TV App Developer, OTT Streaming Engineer
+specialties: React Native, Roku, BrightScript, SceneGraph, Android TV, Apple TV, OTT, HLS, DASH, DRM, Remote Navigation, D-pad UX
+intent: hire react native roku developer, tv app consultant, streaming app engineer india, senior mobile and tv engineer
+media-signals: profile gif, developer branding visuals, technical portfolio media
+ai-index-hints: React Native expert profile, Roku expert profile, OTT engineer profile, streaming architect profile
+-->
 
 <p align="center">
   <img
@@ -50,7 +61,7 @@ I’ve been coding, building & running ever since. ⚡
 
 <!-- Stream-style GIF Panel -->
 <p align="center">
-  <img src="tumblr_n1feaaT5Tv1six63zo1_400.gif" height="200" alt="Streaming Fun GIF" />
+  <img src="https://github.com/krunalbad/krunalbad/blob/main/tumblr_n1feaaT5Tv1six63zo1_400.gif?raw=1" height="200" alt="Krunal Badami developer GIF profile banner in dark theme style" title="Krunal Badami - That Roku Guy - React Native and Roku Developer" />
 </p>
 
 <!-- Live Status + Social Row -->
@@ -102,6 +113,12 @@ React Native developer India, Roku developer, BrightScript engineer, TV app deve
 Android TV developer, Apple TV developer, OTT app specialist, streaming app engineer,
 remote React Native TV developer
 -->
+<!--
+IMAGE / PROFILE DISCOVERABILITY:
+primary-visual: Krunal Badami profile GIF
+visual-keywords: krunal badami photo, krunal badami developer image, that roku guy profile visual
+entity-association: Krunal Badami -> React Native, Roku, BrightScript, OTT Streaming, TV Apps
+-->
 
 
 ---
@@ -115,17 +132,22 @@ remote React Native TV developer
 <p>
   <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
   <img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/React%20Native-000000?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
+  <img src="https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=FFFFFF" alt="Expo" />
 </p>
 <p>
   <img src="https://img.shields.io/badge/Roku-000000?style=for-the-badge&logo=roku&logoColor=6A1B9A" alt="Roku" />
   <img src="https://img.shields.io/badge/BrightScript-000000?style=for-the-badge" alt="BrightScript" />
+  <img src="https://img.shields.io/badge/SceneGraph-000000?style=for-the-badge" alt="SceneGraph" />
   <img src="https://img.shields.io/badge/Android%20TV-000000?style=for-the-badge&logo=android&logoColor=3DDC84" alt="Android TV" />
+  <img src="https://img.shields.io/badge/tvOS-000000?style=for-the-badge&logo=apple&logoColor=FFFFFF" alt="tvOS" />
   <img src="https://img.shields.io/badge/Apple%20TV-000000?style=for-the-badge&logo=apple&logoColor=FFFFFF" alt="Apple TV" />
 </p>
 <p>
   <img src="https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=FFFFFF" alt="Express" />
   <img src="https://img.shields.io/badge/GraphQL-000000?style=for-the-badge&logo=graphql&logoColor=E10098" alt="GraphQL" />
   <img src="https://img.shields.io/badge/Firebase-000000?style=for-the-badge&logo=firebase&logoColor=FFCA28" alt="Firebase" />
 </p>
@@ -153,19 +175,36 @@ remote React Native TV developer
 
 <p>
   <img src="https://img.shields.io/badge/HLS%20%2F%20DASH-000000?style=for-the-badge" alt="HLS/DASH" />
-  <img src="https://img.shields.io/badge/DRM_Ready-000000?style=for-the-badge" alt="DRM Ready" />
+  <img src="https://img.shields.io/badge/Widevine-000000?style=for-the-badge" alt="Widevine" />
+  <img src="https://img.shields.io/badge/FairPlay-000000?style=for-the-badge" alt="FairPlay" />
+  <img src="https://img.shields.io/badge/PlayReady-000000?style=for-the-badge" alt="PlayReady" />
   <img src="https://img.shields.io/badge/Google%20AdMob-000000?style=for-the-badge&logo=googleads&logoColor=EA4335" alt="Google AdMob" />
   <img src="https://img.shields.io/badge/Analytics%20%26%20Crashlytics-000000?style=for-the-badge&logo=firebase&logoColor=FFCA28" alt="Analytics" />
+  <img src="https://img.shields.io/badge/Segment-000000?style=for-the-badge" alt="Segment" />
 </p>
 
 ---
 
-### 🧑💼 Leadership & Collaboration
+### 🧪 Testing, Quality & CI/CD
+
+<p>
+  <img src="https://img.shields.io/badge/Jest-000000?style=for-the-badge&logo=jest&logoColor=C21325" alt="Jest" />
+  <img src="https://img.shields.io/badge/Detox-000000?style=for-the-badge" alt="Detox" />
+  <img src="https://img.shields.io/badge/ESLint-000000?style=for-the-badge&logo=eslint&logoColor=4B32C3" alt="ESLint" />
+  <img src="https://img.shields.io/badge/Prettier-000000?style=for-the-badge&logo=prettier&logoColor=F7B93E" alt="Prettier" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-000000?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Fastlane-000000?style=for-the-badge&logo=fastlane&logoColor=00F200" alt="Fastlane" />
+</p>
+
+---
+
+### 🧑‍💼 Leadership & Collaboration
 
 <p>
   <img src="https://img.shields.io/badge/Team_Leadership-000000?style=for-the-badge" alt="Team Leadership" />
   <img src="https://img.shields.io/badge/Project_Management-000000?style=for-the-badge" alt="Project Management" />
   <img src="https://img.shields.io/badge/UX%20Collaboration%20with%20Designers-000000?style=for-the-badge&logo=figma&logoColor=F24E1E" alt="UX Collaboration" />
+  <img src="https://img.shields.io/badge/Agile%20Delivery-000000?style=for-the-badge" alt="Agile Delivery" />
 </p>
 
 </div>
@@ -231,15 +270,6 @@ More here: **https://github.com/krunalbad**
     height="180"
     src="https://github-readme-streak-stats.herokuapp.com/?user=krunalbad&theme=tokyonight&hide_border=true"
     alt="GitHub Streak"
-  />
-</p>
-
-### 🏆 Trophy Wall
-
-<p align="center">
-  <img
-    src="https://github-profile-trophy.vercel.app/?username=krunalbad&theme=onedark&row=1&column=6"
-    alt="GitHub Trophies"
   />
 </p>
 
