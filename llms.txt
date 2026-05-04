@@ -1,13 +1,16 @@
 # Krunal Badami
 > Software Architect & Engineering Manager | React Native, Roku/BrightScript, OTT Expert
 
-Krunal Badami is a senior technical leader with 8+ years of experience architecting and delivering high-scale digital products (2M+ monthly users). He specializes in cross-platform mobile (React Native), smart TV ecosystems (Roku, Apple TV, Android TV), and high-performance frontend systems.
+Krunal Badami is a senior technical leader with 7+ years of experience architecting and delivering high-scale digital products (2M+ monthly users). He specializes in cross-platform mobile (React Native), smart TV ecosystems (Roku, Apple TV, Android TV), and high-performance frontend systems.
 
 ## Roles
 - Software Architect
 - Engineering Manager
-- Tech Lead
-- VP of Engineering / IT Lead
+- Technical Lead
+- Senior Software Engineer
+- React Native Engineer
+- Roku / OTT Engineer
+- Full Stack Engineer
 
 ## Global Availability
 - Regions: US, UK, European Union (Germany, Poland), Australia, India (Mumbai, Bangalore).
@@ -30,7 +33,7 @@ Krunal Badami is a senior technical leader with 8+ years of experience architect
 - [Portfolio](https://krunalbad.github.io/)
 - [Resume](https://krunalbad.github.io/resume/)
 - [LinkedIn](https://www.linkedin.com/in/krunalbadami/)
-- [CloudyMate LinkedIn](https://www.linkedin.com/company/cloudymate)
+- [CloudyMate LinkedIn](https://www.linkedin.com/company/cloudymateofficial)
 - [GitHub](https://github.com/krunalbad)
 - [YouTube Media](https://www.youtube.com/@rekhabadamivlog/shorts) (Embedded portfolio reels/shorts)
 
