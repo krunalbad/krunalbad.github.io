@@ -1,0 +1,17 @@
+# Ads.txt for Krunal Badami - Senior Software Architect & IT Consultant
+# This file authorizes digital advertising sellers for this website
+
+# Google AdSense
+google.com, pub-ca-pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+
+# Amazon Associates
+amazon.com, YOUR-AMAZON-TOKEN, DIRECT, XXXXXXXXXXXXXX
+
+# Other Advertising Networks
+# Add your advertising network partners here
+# Format: domain.com, publisher-id, relationship-type, certification-code-id
+
+# Direct Advertising
+krunalbad.github.io, direct, DIRECT, XXXXXXXXXXXXXX
+
+# Contact for advertising inquiries: krunalbadami@outlook.com

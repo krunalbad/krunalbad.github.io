@@ -1,0 +1,56 @@
+/* HUMANS.TXT - Krunal Badami - Senior Software Architect & IT Consultant */
+
+/* TEAM */
+    Senior Software Architect & Engineering Consultant: Krunal Badami
+    Contact: krunalbadami@outlook.com
+    LinkedIn: https://www.linkedin.com/in/krunalbadami/
+    GitHub: https://github.com/krunalbad
+    Location: Mumbai, India (Global Remote Available)
+
+/* THANKS */
+    Open Source Community: React Native, Python, Django, Node.js ecosystems
+    Clients: The Daily Wire, PragerU, 28 by Evie, Big Time Rush
+    Mentors: Senior engineers and architects who guided my journey
+    Family: For supporting my passion for technology
+
+/* SITE */
+    Standards: HTML5, CSS3, JavaScript ES6+, Schema.org
+    Components: React, Next.js, TypeScript, Tailwind CSS
+    Software: VS Code, Git, GitHub Pages
+    Platform: GitHub Pages Hosting
+
+/* TECHNOLOGY */
+    Frontend: React, Next.js, TypeScript, HTML5, CSS3, Tailwind CSS
+    Backend: Python, Django, Node.js, Express, PostgreSQL, MongoDB
+    Mobile: React Native, iOS Native, Android Native
+    TV Platforms: Roku, BrightScript, Apple TV, Fire TV, Android TV
+    Cloud: AWS, Google Cloud, Docker, Kubernetes
+    Tools: Git, GitHub Actions, Jest, Cypress, Webpack
+
+/* SERVICES */
+    IT Consulting: System architecture, technology strategy, team leadership
+    Software Development: Web, mobile, TV, backend, full-stack solutions
+    Project Management: Agile methodologies, delivery coordination, quality assurance
+    Technical Training: Team mentoring, code reviews, best practices
+
+/* EXPERTISE */
+    8+ Years Experience: Software architecture and development
+    2M+ Users: Platforms delivered with 99.9% reliability
+    7 Libraries: Open source contributions with 2M+ downloads
+    Multi-Platform: iOS, Android, Roku, Apple TV, Android TV, Fire TV, Web
+
+/* BUSINESS */
+    Services: IT consulting, software development, technical leadership
+    Pricing: Transparent, competitive rates for all services
+    Availability: Immediate for new projects and consulting
+    Coverage: Global remote delivery with on-site options
+
+/* CONTACT */
+    Email: krunalbadami@outlook.com
+    Phone: +91 81413 79017
+    Website: https://krunalbad.github.io/
+    LinkedIn: https://www.linkedin.com/in/krunalbadami/
+    GitHub: https://github.com/krunalbad
+
+/* LAST UPDATED */
+    2026-05-04

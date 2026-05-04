@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square70x70logo src="/images/krunal_badami_bg.png"/>
+            <square150x150logo src="/images/krunal_badami_bg.png"/>
+            <square310x310logo src="/images/krunal_badami_bg.png"/>
+            <wide310x150logo src="/images/cloudymate_banner.png"/>
+            <TileColor>#4285f4</TileColor>
+        </tile>
+        <notification>
+            <polling-uri src="/notifications.xml"/>
+            <frequency>30</frequency>
+        </notification>
+    </msapplication>
+</browserconfig>

@@ -1,46 +1,80 @@
 # Krunal Badami
-> Software Architect & Engineering Manager | React Native, Roku/BrightScript, OTT Expert
+> Senior Software Architect & Engineering Consultant | React Native, Python, Roku/OTT, IT Consulting Expert
 
-Krunal Badami is a senior technical leader with 7+ years of experience architecting and delivering high-scale digital products (2M+ monthly users). He specializes in cross-platform mobile (React Native), smart TV ecosystems (Roku, Apple TV, Android TV), and high-performance frontend systems.
+Krunal Badami is a senior technical leader with 8+ years of experience architecting and delivering high-scale digital products (2M+ monthly users with 99.9% reliability). He specializes in React Native development, Python backend, Roku/OTT platforms, web development, and IT consulting services for startups, SMEs, and enterprises worldwide.
 
-## Roles
-- Software Architect
-- Engineering Manager
-- Technical Lead
-- Senior Software Engineer
-- React Native Engineer
-- Roku / OTT Engineer
-- Full Stack Engineer
+## Professional Services
+- **IT Consulting**: Technical architecture, system design, team leadership, engineering strategy
+- **Software Development**: React Native, Python/Django, Node.js, React/Next.js, full-stack solutions
+- **Mobile Development**: Cross-platform iOS/Android apps with React Native, native modules, performance optimization
+- **TV & OTT Development**: Roku/BrightScript, Apple TV, Android TV, Fire TV, streaming platforms, HLS/DASH, DRM
+- **Web Development**: Modern React/Next.js applications, TypeScript, responsive design, SEO optimization
+- **Backend Development**: Python/Django, Node.js/Express, PostgreSQL, MongoDB, REST/GraphQL APIs
+- **Cloud & DevOps**: AWS, Google Cloud, Docker, Kubernetes, CI/CD pipelines
+- **Quality Assurance**: Testing strategies, automation, performance testing, security auditing
 
-## Global Availability
-- Regions: US, UK, European Union (Germany, Poland), Australia, India (Mumbai, Bangalore).
-- Availability: Remote, Hybrid, On-site leadership.
+## Business Focus
+- **Target Clients**: Startups, SMEs, enterprises, technology companies, digital agencies
+- **Service Models**: Project-based, hourly consulting, dedicated engineer, team augmentation
+- **Industries**: Fintech, healthcare, e-commerce, education, media streaming, SaaS
+- **Geographic Coverage**: Mumbai (India), USA, UK, Canada, Australia, Europe - Remote & On-site
 
 ## Technical Expertise
-- **Mobile**: React Native, Native Modules, Performance, Security, Foldable Device Detection.
-- **TV & OTT**: Roku/BrightScript, SceneGraph, HLS, DASH, DRM (Widevine/PlayReady/FairPlay), Chromecast, AirPlay.
-- **Web**: React.js, Next.js, SSR, GraphQL.
-- **Languages**: TypeScript, JavaScript, Python, Node.js, Shell Script, YAML.
-- **Infrastructure**: CI/CD (GitHub Actions, Fastlane), AWS, GCP.
+- **Mobile Development**: React Native, TypeScript, iOS Native, Android Native, Redux, React Query, Navigation, Expo, Firebase, Push Notifications, App Store Deployment
+- **Backend Development**: Python, Django, Flask, Node.js, Express.js, PostgreSQL, MongoDB, Redis, REST APIs, GraphQL, Microservices
+- **Web Development**: React, Next.js, TypeScript, JavaScript ES6+, HTML5/CSS3, SASS/SCSS, Tailwind CSS, Progressive Web Apps, SEO Optimization
+- **TV & OTT Platforms**: Roku, BrightScript, SceneGraph, Apple TV, Fire TV, Android TV, Chromecast, AirPlay, HLS Streaming, DASH Protocol, DRM Integration
+- **Cloud & DevOps**: AWS, Google Cloud, Azure, Docker, Kubernetes, CI/CD Pipelines, GitHub Actions, Jenkins, Terraform, Monitoring, Logging
+- **Database & Storage**: PostgreSQL, MySQL, MongoDB, Redis, AWS S3, Cloud Storage
+- **Testing & QA**: Unit Testing, Integration Testing, E2E Testing, Jest, React Testing Library, Cypress, Performance Testing, Security Testing
+- **Architecture & Design**: System Architecture, Microservices, API Design, Database Design, Performance, Security, Scalability, Cloud Architecture
 
-## Key Impacts
-- Led delivery for **The Daily Wire**, **PragerU**, **28 by Evie**, and **Big Time Rush**.
-- Published **7 Open Source Libraries** on npm (2M+ downloads).
-- Reduced bundle sizes by **35%** and production incidents by **40%**.
-- Architected **7 platform parity** (iOS, Android, Roku, Apple TV, Android TV, Fire TV, Web).
+## Business Capabilities
+- **Consulting Services**: System architecture design, technology stack selection, performance optimization, security architecture, scalability planning
+- **Team Leadership**: Team mentoring, code reviews, technical roadmapping, agile implementation, quality assurance, technical writing
+- **Project Management**: Project estimation, timeline planning, resource allocation, risk management, delivery coordination
+- **Client Engagement**: Requirements analysis, solution design, stakeholder communication, progress reporting, post-launch support
 
-## Links
-- [Portfolio](https://krunalbad.github.io/)
-- [Resume](https://krunalbad.github.io/resume/)
-- [LinkedIn](https://www.linkedin.com/in/krunalbadami/)
-- [CloudyMate LinkedIn](https://www.linkedin.com/company/cloudymateofficial)
-- [GitHub](https://github.com/krunalbad)
-- [YouTube Media](https://www.youtube.com/@rekhabadamivlog/shorts) (Embedded portfolio reels/shorts)
+## Key Achievements & Impact
+- **Scale & Reliability**: Led teams delivering platforms serving 2M+ monthly active users with 99.9% uptime
+- **Open Source Contributions**: Published 7 React Native libraries with 2M+ downloads on npm
+- **Performance Optimization**: Reduced production crashes by 50% and bundle sizes by 35%
+- **Multi-Platform Expertise**: Architected solutions for 7+ platforms (iOS, Android, Roku, Apple TV, Android TV, Fire TV, Web)
+- **Leadership Success**: Mentored development teams, implemented best practices, improved code quality and delivery processes
+- **Client Success**: Delivered projects for major brands including The Daily Wire, PragerU, 28 by Evie, and Big Time Rush
 
-## Branded Assets
-- [CloudyMate Banner](https://krunalbad.github.io/images/cloudymate_banner.png)
-- [CloudyMate Logo](https://krunalbad.github.io/images/cloudymate_logo.png)
+## Pricing & Availability
+- **Consulting Rate**: ₹2,500/hour for technical consulting and architecture design
+- **Project Rates**: Starting from ₹25,000 for basic web presence to ₹3,50,000 for enterprise solutions
+- **Dedicated Engineer**: ₹85,000/month for full-time commitment (160 hours/month)
+- **Response Time**: 24 hours for initial consultation, flexible scheduling for ongoing projects
+- **Engagement Models**: Fixed-price projects, hourly consulting, monthly retainers, team augmentation
 
-## Contact
-- Email: krunalbadami@outlook.com
-- Location: Mumbai, India (Open to Global Remote)
+## Professional Links
+- **Portfolio**: https://krunalbad.github.io/ - Complete service offerings and case studies
+- **Resume**: https://krunalbad.github.io/resume/ - Detailed professional experience and achievements
+- **LinkedIn**: https://www.linkedin.com/in/krunalbadami/ - Professional network and recommendations
+- **GitHub**: https://github.com/krunalbad - Open source contributions and technical projects
+- **Contact**: https://krunalbad.github.io/#contact - Project inquiries and consultation requests
+
+## Service Pages
+- **Web Development**: https://krunalbad.github.io/#services - React, Next.js, TypeScript solutions
+- **Mobile Development**: https://krunalbad.github.io/#services - React Native, iOS/Android applications
+- **Backend Development**: https://krunalbad.github.io/#services - Python, Node.js, database solutions
+- **IT Consulting**: https://krunalbad.github.io/#services - Architecture design and technical leadership
+- **Pricing**: https://krunalbad.github.io/#pricing - Transparent pricing for all services
+
+## Contact Information
+- **Email**: krunalbadami@outlook.com - Primary contact for project inquiries
+- **Phone**: +91 81413 79017 - Direct consultation calls
+- **Location**: Mumbai, India - Serving clients globally with remote delivery
+- **Availability**: Immediate availability for new projects and consulting engagements
+- **Languages**: English, Hindi - Fluent communication capabilities
+
+## Why Choose Krunal Badami?
+- **8+ Years Experience**: Proven track record in software architecture and development
+- **Full-Stack Expertise**: End-to-end development from frontend to backend to deployment
+- **Enterprise Scale**: Experience with 2M+ user platforms and enterprise-grade solutions
+- **Technical Leadership**: Mentor teams, implement best practices, drive technical excellence
+- **Client-Focused**: Understands business requirements and delivers practical solutions
+- **Reliable Delivery**: Consistent track record of on-time, high-quality project delivery

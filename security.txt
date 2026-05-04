@@ -1,0 +1,26 @@
+# Security.txt for Krunal Badami - Senior Software Architect & IT Consultant
+# Security policy and contact information
+
+# Contact Information
+Contact: mailto:krunalbadami@outlook.com
+Contact: tel:+918141379017
+Contact: https://www.linkedin.com/in/krunalbadami/
+
+# Security Policy
+Policy: https://krunalbad.github.io/security-policy
+
+# Encryption
+Encryption: https://krunalbad.github.io/pgp-key.txt
+
+# Acknowledgments
+Acknowledgments: https://krunalbad.github.io/security-acknowledgments
+
+# Preferred Languages
+Preferred-Languages: en, hi
+
+# Canonical URL
+Canonical: https://krunalbad.github.io/.well-known/security.txt
+
+# Hiring / Security Consulting
+Hiring: mailto:krunalbadami@outlook.com
+Security: mailto:krunalbadami@outlook.com

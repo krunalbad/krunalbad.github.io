@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Main Portfolio Images -->
+  <url>
+    <loc>https://krunalbad.github.io/</loc>
+    <image:image>
+      <image:loc>https://krunalbad.github.io/images/krunal_badami_bg.png</image:loc>
+      <image:title>Krunal Badami - Senior Software Architect & IT Consultant</image:title>
+      <image:caption>Professional software architect and IT consultant with 8+ years experience in React Native, Python, and Roku development</image:caption>
+      <image:geo_location>Mumbai, India</image:geo_location>
+      <image:license>https://krunalbad.github.io/</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://krunalbad.github.io/images/cloudymate_banner.png</image:loc>
+      <image:title>Professional Software Development Services</image:title>
+      <image:caption>Comprehensive software development and IT consulting services for businesses worldwide</image:caption>
+      <image:license>https://krunalbad.github.io/</image:license>
+    </image:image>
+  </url>
+  
+  <!-- CloudyMate Banner -->
+  <url>
+    <loc>https://krunalbad.github.io/images/cloudymate_banner.png</loc>
+    <image:image>
+      <image:loc>https://krunalbad.github.io/images/cloudymate_banner.png</image:loc>
+      <image:title>CloudyMate Professional Banner</image:title>
+      <image:caption>Professional software development and IT consulting services banner featuring React Native, Python, and Roku development expertise</image:caption>
+      <image:license>https://krunalbad.github.io/</image:license>
+    </image:image>
+  </url>
+  
+  <!-- Professional Profile -->
+  <url>
+    <loc>https://krunalbad.github.io/images/krunal_badami_bg.png</loc>
+    <image:image>
+      <image:loc>https://krunalbad.github.io/images/krunal_badami_bg.png</image:loc>
+      <image:title>Krunal Badami Professional Profile</image:title>
+      <image:caption>Senior software architect and IT consultant professional profile picture - Expert in React Native, Python, Roku development with 8+ years experience</image:caption>
+      <image:geo_location>Mumbai, India</image:geo_location>
+      <image:license>https://krunalbad.github.io/</image:license>
+    </image:image>
+  </url>
+  
+  <!-- Logo -->
+  <url>
+    <loc>https://krunalbad.github.io/images/cloudymate_logo.png</loc>
+    <image:image>
+      <image:loc>https://krunalbad.github.io/images/cloudymate_logo.png</image:loc>
+      <image:title>CloudyMate Logo</image:title>
+      <image:caption>Professional software development and IT consulting services logo</image:caption>
+      <image:license>https://krunalbad.github.io/</image:license>
+    </image:image>
+  </url>
+  
+  <!-- AI Generated Profile -->
+  <url>
+    <loc>https://krunalbad.github.io/images/krunal_logicwind_ai_generated.png</loc>
+    <image:image>
+      <image:loc>https://krunalbad.github.io/images/krunal_logicwind_ai_generated.png</image:loc>
+      <image:title>Krunal Badami AI Generated Profile</image:title>
+      <image:caption>AI generated professional profile showcasing software architecture and IT consulting expertise</image:caption>
+      <image:license>https://krunalbad.github.io/</image:license>
+    </image:image>
+  </url>
+  
+</urlset>
