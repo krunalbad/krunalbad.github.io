@@ -5,7 +5,7 @@
   <Description>Search for IT consulting, software development services, React Native, Python, and Roku development by Krunal Badami</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <Image width="16" height="16" type="image/x-icon">https://krunalbad.github.io/favicon.ico</Image>
-  <Image width="64" height="64" type="image/png">https://krunalbad.github.io/images/krunal_badami_bg.png</Image>
+  <Image width="64" height="64" type="image/jpeg">https://krunalbad.github.io/images/krunal_badami_main_logo.jpg</Image>
   <Url type="text/html" method="get" template="https://krunalbad.github.io/?q={searchTerms}"/>
   <Url type="application/opensearchdescription+xml" rel="self" template="https://krunalbad.github.io/opensearch.xml"/>
   <moz:SearchForm>https://krunalbad.github.io/</moz:SearchForm>

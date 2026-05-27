@@ -13,21 +13,21 @@
   "categories": ["business", "productivity", "technology", "professional"],
   "icons": [
     {
-      "src": "/images/krunal_badami_bg.png",
+      "src": "/images/krunal_badami_main_logo.jpg",
       "sizes": "192x192",
-      "type": "image/png",
+      "type": "image/jpeg",
       "purpose": "any maskable"
     },
     {
-      "src": "/images/krunal_badami_bg.png",
+      "src": "/images/krunal_badami_main_logo.jpg",
       "sizes": "512x512",
-      "type": "image/png",
+      "type": "image/jpeg",
       "purpose": "any maskable"
     }
   ],
   "screenshots": [
     {
-      "src": "/images/cloudymate_banner.png",
+      "src": "/images/krunal_logicwind_ai_generated.png",
       "sizes": "1280x720",
       "type": "image/png",
       "form_factor": "wide",
@@ -42,7 +42,7 @@
       "url": "/#contact",
       "icons": [
         {
-          "src": "/images/krunal_badami_bg.png",
+          "src": "/images/krunal_badami_main_logo.jpg",
           "sizes": "96x96"
         }
       ]
@@ -54,7 +54,7 @@
       "url": "/#services",
       "icons": [
         {
-          "src": "/images/krunal_badami_bg.png",
+          "src": "/images/krunal_badami_main_logo.jpg",
           "sizes": "96x96"
         }
       ]
@@ -66,7 +66,7 @@
       "url": "/#pricing",
       "icons": [
         {
-          "src": "/images/krunal_badami_bg.png",
+          "src": "/images/krunal_badami_main_logo.jpg",
           "sizes": "96x96"
         }
       ]
