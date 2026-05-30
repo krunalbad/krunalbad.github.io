@@ -6,27 +6,9 @@
   <url>
     <loc>https://krunalbad.github.io/</loc>
     <image:image>
-      <image:loc>https://krunalbad.github.io/images/krunal_badami_mumbai.jpeg</image:loc>
+      <image:loc>https://krunalbad.github.io/images/krunal_badami_main_logo.jpg</image:loc>
       <image:title>Krunal Badami - Senior Software Architect & IT Consultant</image:title>
       <image:caption>Professional software architect and IT consultant with 8+ years experience in React Native, Python, and Roku development</image:caption>
-      <image:geo_location>Mumbai, India</image:geo_location>
-      <image:license>https://krunalbad.github.io/</image:license>
-    </image:image>
-    <image:image>
-      <image:loc>https://krunalbad.github.io/images/krunal_logicwind_ai_generated.png</image:loc>
-      <image:title>Professional Software Development Services</image:title>
-      <image:caption>Comprehensive software development and IT consulting services for businesses worldwide</image:caption>
-      <image:license>https://krunalbad.github.io/</image:license>
-    </image:image>
-  </url>
-  
-  <!-- Professional Profile -->
-  <url>
-    <loc>https://krunalbad.github.io/images/krunal_badami_mumbai.jpeg</loc>
-    <image:image>
-      <image:loc>https://krunalbad.github.io/images/krunal_badami_mumbai.jpeg</image:loc>
-      <image:title>Krunal Badami Professional Profile</image:title>
-      <image:caption>Senior software architect and IT consultant professional profile picture - Expert in React Native, Python, Roku development with 8+ years experience</image:caption>
       <image:geo_location>Mumbai, India</image:geo_location>
       <image:license>https://krunalbad.github.io/</image:license>
     </image:image>
@@ -39,17 +21,6 @@
       <image:loc>https://krunalbad.github.io/images/krunal_badami_main_logo.jpg</image:loc>
       <image:title>Krunal Badami Logo</image:title>
       <image:caption>Professional software development and IT consulting services logo</image:caption>
-      <image:license>https://krunalbad.github.io/</image:license>
-    </image:image>
-  </url>
-  
-  <!-- AI Generated Profile -->
-  <url>
-    <loc>https://krunalbad.github.io/images/krunal_logicwind_ai_generated.png</loc>
-    <image:image>
-      <image:loc>https://krunalbad.github.io/images/krunal_logicwind_ai_generated.png</image:loc>
-      <image:title>Krunal Badami AI Generated Profile</image:title>
-      <image:caption>AI generated professional profile showcasing software architecture and IT consulting expertise</image:caption>
       <image:license>https://krunalbad.github.io/</image:license>
     </image:image>
   </url>

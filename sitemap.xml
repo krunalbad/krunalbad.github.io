@@ -11,16 +11,11 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://krunalbad.github.io/images/krunal_badami_mumbai.jpeg</image:loc>
+      <image:loc>https://krunalbad.github.io/images/krunal_badami_main_logo.jpg</image:loc>
       <image:title>Krunal Badami - Senior Software Architect & IT Consultant</image:title>
       <image:caption>Professional software architect and IT consultant specializing in React Native, Python, and Roku development with 8+ years experience</image:caption>
       <image:geo_location>Mumbai, India</image:geo_location>
       <image:license>https://krunalbad.github.io/</image:license>
-    </image:image>
-    <image:image>
-      <image:loc>https://krunalbad.github.io/images/krunal_logicwind_ai_generated.png</image:loc>
-      <image:title>Professional Software Development Services</image:title>
-      <image:caption>Professional software development and IT consulting services</image:caption>
     </image:image>
   </url>
   
@@ -119,29 +114,15 @@
   
   <!-- Individual Image Files -->
   <url>
-    <loc>https://krunalbad.github.io/images/krunal_badami_mumbai.jpeg</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>https://krunalbad.github.io/images/krunal_badami_mumbai.jpeg</image:loc>
-      <image:title>Krunal Badami Professional Profile</image:title>
-      <image:caption>Senior software architect and IT consultant professional profile picture</image:caption>
-    </image:image>
-  </url>
-  
-  <url>
     <loc>https://krunalbad.github.io/images/krunal_badami_main_logo.jpg</loc>
     <lastmod>2026-05-04</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://krunalbad.github.io/images/krunal_logicwind_ai_generated.png</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://krunalbad.github.io/images/krunal_badami_main_logo.jpg</image:loc>
+      <image:title>Krunal Badami Professional Profile Logo</image:title>
+      <image:caption>Senior software architect and IT consultant professional profile logo</image:caption>
+    </image:image>
   </url>
   
   <!-- SEO and Discovery Files -->
