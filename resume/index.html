@@ -767,12 +767,14 @@
       }
       function callNow() { window.location.href = "tel:+918141379017"; }
 
+      var d = new Date();
+      var months = ["JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTEMBER","OCTOBER","NOVEMBER","DECEMBER"];
+      var day = String(d.getDate()).padStart(2, "0");
+      var dateStamp = day + "_" + months[d.getMonth()] + "_" + d.getFullYear();
+      document.title = "Krunal Badami | Senior Software Engineer | Web, Mobile, and TV | " + day + " " + months[d.getMonth()] + " " + d.getFullYear();
       var pageTitle = document.title;
       function downloadTitle() {
-        var d = new Date();
-        var months = ["JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTEMBER","OCTOBER","NOVEMBER","DECEMBER"];
-        var day = String(d.getDate()).padStart(2, "0");
-        document.title = "KRUNAL_BADAMI_FRONTEND_EM_" + day + "_" + months[d.getMonth()] + "_" + d.getFullYear();
+        document.title = "KRUNAL_BADAMI_FRONTEND_EM_" + dateStamp;
       }
       window.addEventListener("beforeprint", downloadTitle);
       window.addEventListener("afterprint", function () { document.title = pageTitle; });
