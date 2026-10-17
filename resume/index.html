@@ -745,7 +745,7 @@
 
     <!-- UI CONTROLS -->
     <div class="ui-controls no-print" role="complementary" aria-label="Quick actions">
-      <button class="btn btn-primary" onclick="setPrintTitle(); window.print();" id="print-pdf-btn">⬇ Download PDF</button>
+      <button class="btn btn-primary" onclick="window.print();" id="print-pdf-btn">⬇ Download PDF</button>
       <button class="btn btn-gray" onclick="copyEmail();" id="copy-email-btn">Copy Email</button>
       <button class="btn btn-blue" onclick="writeEmail();" id="write-email-btn">Write Email</button>
       <button class="btn btn-green" onclick="callNow();" id="call-now-btn">Call Now</button>
@@ -767,9 +767,15 @@
       }
       function callNow() { window.location.href = "tel:+918141379017"; }
 
-      function setPrintTitle() {
-        document.title = "Krunal Badami";
+      var pageTitle = document.title;
+      function downloadTitle() {
+        var d = new Date();
+        var months = ["JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTEMBER","OCTOBER","NOVEMBER","DECEMBER"];
+        var day = String(d.getDate()).padStart(2, "0");
+        document.title = "KRUNAL_BADAMI_FRONTEND_EM_" + day + "_" + months[d.getMonth()] + "_" + d.getFullYear();
       }
+      window.addEventListener("beforeprint", downloadTitle);
+      window.addEventListener("afterprint", function () { document.title = pageTitle; });
 
       /* === Notice Period & Availability === */
       var servingNoticePeriod = false;
