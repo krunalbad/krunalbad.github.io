@@ -1,80 +1,34 @@
 # Krunal Badami
-> Senior Software Architect & Engineering Consultant | React Native, Python, Roku/OTT, IT Consulting Expert
+> Senior Software Engineer | Web, Mobile, and TV | React.js, Next.js, React Native, Roku
 
-Krunal Badami is a senior technical leader with 8+ years of experience architecting and delivering high-scale digital products (2M+ monthly users with 99.9% reliability). He specializes in React Native development, Python backend, Roku/OTT platforms, web development, and IT consulting services for startups, SMEs, and enterprises worldwide.
+Krunal Badami is a senior software engineer with 8+ years on web, mobile, and TV. He builds React.js and Next.js websites, React Native apps, and TV apps on Roku, Apple TV, Android TV, and Fire TV. He writes and reviews the code himself, and uses AI tools when they save time.
 
-## Professional Services
-- **IT Consulting**: Technical architecture, system design, team leadership, engineering strategy
-- **Software Development**: React Native, Python/Django, Node.js, React/Next.js, full-stack solutions
-- **Mobile Development**: Cross-platform iOS/Android apps with React Native, native modules, performance optimization
-- **TV & OTT Development**: Roku/BrightScript, Apple TV, Android TV, Fire TV, streaming platforms, HLS/DASH, DRM
-- **Web Development**: Modern React/Next.js applications, TypeScript, responsive design, SEO optimization
-- **Backend Development**: Python/Django, Node.js/Express, PostgreSQL, MongoDB, REST/GraphQL APIs
-- **Cloud & DevOps**: AWS, Google Cloud, Docker, Kubernetes, CI/CD pipelines
-- **Quality Assurance**: Testing strategies, automation, performance testing, security auditing
+Open to senior software engineer and tech lead roles. Based in Mumbai, India. Open to remote work.
 
-## Business Focus
-- **Target Clients**: Startups, SMEs, enterprises, technology companies, digital agencies
-- **Service Models**: Project-based, hourly consulting, dedicated engineer, team augmentation
-- **Industries**: Fintech, healthcare, e-commerce, education, media streaming, SaaS
-- **Geographic Coverage**: Mumbai (India), USA, UK, Canada, Australia, Europe - Remote & On-site
+## Current work
+- Mobile Tech Lead at FatakPay Digital Pvt Ltd (March 2026 to present).
+- Leads a team of 10 on a new React Native app: lending, UPI (Mindgate), and mobile security.
+- FatakPay company figures: 3 crore downloads and about 25 lakh monthly active users (MAU).
+- Store releases: Google Play, Apple App Store, Indus, Xiaomi, Oppo, Vivo, Samsung Galaxy Store, and Amazon Appstore.
 
-## Technical Expertise
-- **Mobile Development**: React Native, TypeScript, iOS Native, Android Native, Redux, React Query, Navigation, Expo, Firebase, Push Notifications, App Store Deployment
-- **Backend Development**: Python, Django, Flask, Node.js, Express.js, PostgreSQL, MongoDB, Redis, REST APIs, GraphQL, Microservices
-- **Web Development**: React, Next.js, TypeScript, JavaScript ES6+, HTML5/CSS3, SASS/SCSS, Tailwind CSS, Progressive Web Apps, SEO Optimization
-- **TV & OTT Platforms**: Roku, BrightScript, SceneGraph, Apple TV, Fire TV, Android TV, Chromecast, AirPlay, HLS Streaming, DASH Protocol, DRM Integration
-- **Cloud & DevOps**: AWS, Google Cloud, Azure, Docker, Kubernetes, CI/CD Pipelines, GitHub Actions, Jenkins, Terraform, Monitoring, Logging
-- **Database & Storage**: PostgreSQL, MySQL, MongoDB, Redis, AWS S3, Cloud Storage
-- **Testing & QA**: Unit Testing, Integration Testing, E2E Testing, Jest, React Testing Library, Cypress, Performance Testing, Security Testing
-- **Architecture & Design**: System Architecture, Microservices, API Design, Database Design, Performance, Security, Scalability, Cloud Architecture
+## Earlier work
+- Senior Software Engineer at Logicwind Technologies LLP and Cappital, LLC (Irvine, CA), August 2020 to February 2026.
+- Products include The Daily Wire, PragerU, THINQ Media, Big Time Rush, 28, SimpleCar, AppsOnAir, Stand Firm, Washington Defender, FlickPost, Every Man Ministries, and Pocket Testament League.
+- Released 7 React Native libraries on npm, about 20,000 downloads a week.
 
-## Business Capabilities
-- **Consulting Services**: System architecture design, technology stack selection, performance optimization, security architecture, scalability planning
-- **Team Leadership**: Team mentoring, code reviews, technical roadmapping, agile implementation, quality assurance, technical writing
-- **Project Management**: Project estimation, timeline planning, resource allocation, risk management, delivery coordination
-- **Client Engagement**: Requirements analysis, solution design, stakeholder communication, progress reporting, post-launch support
+## Skills
+- Web: React.js, Next.js, TypeScript, HTML, CSS, GraphQL, REST.
+- Mobile: React Native, Hermes, Metro, iOS, Android.
+- TV: Roku, BrightScript, SceneGraph, Apple TV, Android TV, Fire TV, HLS, DASH, Widevine, PlayReady.
+- Fintech: UPI, UPI Lite, Autopay, UDIR, lending, credit cards.
 
-## Key Achievements & Impact
-- **Scale & Reliability**: Led teams delivering platforms serving 2M+ monthly active users with 99.9% uptime
-- **Open Source Contributions**: Published 7 React Native libraries with 2M+ downloads on npm
-- **Performance Optimization**: Reduced production crashes by 50% and bundle sizes by 35%
-- **Multi-Platform Expertise**: Architected solutions for 7+ platforms (iOS, Android, Roku, Apple TV, Android TV, Fire TV, Web)
-- **Leadership Success**: Mentored development teams, implemented best practices, improved code quality and delivery processes
-- **Client Success**: Delivered projects for major brands including The Daily Wire, PragerU, 28 by Evie, and Big Time Rush
+## Links
+- [Portfolio](https://krunalbad.github.io/)
+- [Resume](https://krunalbad.github.io/resume/)
+- [LinkedIn](https://www.linkedin.com/in/krunalbadami/)
+- [GitHub](https://github.com/krunalbad)
 
-## Pricing & Availability
-- **Consulting Rate**: ₹2,500/hour for technical consulting and architecture design
-- **Project Rates**: Starting from ₹25,000 for basic web presence to ₹3,50,000 for enterprise solutions
-- **Dedicated Engineer**: ₹85,000/month for full-time commitment (160 hours/month)
-- **Response Time**: 24 hours for initial consultation, flexible scheduling for ongoing projects
-- **Engagement Models**: Fixed-price projects, hourly consulting, monthly retainers, team augmentation
-
-## Professional Links
-- **Portfolio**: https://krunalbad.github.io/ - Complete service offerings and case studies
-- **Resume**: https://krunalbad.github.io/resume/ - Detailed professional experience and achievements
-- **LinkedIn**: https://www.linkedin.com/in/krunalbadami/ - Professional network and recommendations
-- **GitHub**: https://github.com/krunalbad - Open source contributions and technical projects
-- **Contact**: https://krunalbad.github.io/#contact - Project inquiries and consultation requests
-
-## Service Pages
-- **Web Development**: https://krunalbad.github.io/#services - React, Next.js, TypeScript solutions
-- **Mobile Development**: https://krunalbad.github.io/#services - React Native, iOS/Android applications
-- **Backend Development**: https://krunalbad.github.io/#services - Python, Node.js, database solutions
-- **IT Consulting**: https://krunalbad.github.io/#services - Architecture design and technical leadership
-- **Pricing**: https://krunalbad.github.io/#pricing - Transparent pricing for all services
-
-## Contact Information
-- **Email**: krunalbadami@outlook.com - Primary contact for project inquiries
-- **Phone**: +91 81413 79017 - Direct consultation calls
-- **Location**: Mumbai, India - Serving clients globally with remote delivery
-- **Availability**: Immediate availability for new projects and consulting engagements
-- **Languages**: English, Hindi - Fluent communication capabilities
-
-## Why Choose Krunal Badami?
-- **8+ Years Experience**: Proven track record in software architecture and development
-- **Full-Stack Expertise**: End-to-end development from frontend to backend to deployment
-- **Enterprise Scale**: Experience with 2M+ user platforms and enterprise-grade solutions
-- **Technical Leadership**: Mentor teams, implement best practices, drive technical excellence
-- **Client-Focused**: Understands business requirements and delivers practical solutions
-- **Reliable Delivery**: Consistent track record of on-time, high-quality project delivery
+## Contact
+- Email: krunalbadami@outlook.com
+- Phone: +91 81413 79017
+- Location: Mumbai, India
